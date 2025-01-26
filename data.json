@@ -9,21 +9,43 @@
     "resources": [
       {
         "id": 11,
-        "category": "Beginner Friendly",
+        "category": "Most Popular",
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU",
+
+        "title": "Chai aur HTML in हिन्दी",
         "thumbnail": "https://i.ytimg.com/vi/XmLOwJHFHf0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDg4-ygFHtTNeYzB8jWskJfblhMvQ",
-        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU"
+        "author": "Chai aur Code",
+        "author_image": "https://yt3.googleusercontent.com/6tLBV-DRVemxhmanuezR5HkHshX2g7Y46Rq8cysyO1V-nd2SaQ2Fi8cdgVM-n6v_8XZ5BEimxXI=s160-c-k-c0x00ffffff-no-rj"
       },
       {
         "id": 12,
-        "category": "Beginner Friendly",
+        "category": "Quick",
+        "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y",
+
+        "title": "HTML Tutorials | Course in hindi",
         "thumbnail": "https://i.ytimg.com/vi/e1e16-2cHTg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEho6G0wfnaZXkvDfBcZCDIe_rlQ",
-        "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y"
+        "author": "Technical Sikh",
+        "author_image": "https://yt3.googleusercontent.com/ytc/AIdro_ldgca7Pn0aBVfg7JUKoLi2PQIMlEXIP-dMKi9T_D_BBQ=s160-c-k-c0x00ffffff-no-rj"
       },
       {
         "id": 13,
         "category": "Beginner Friendly",
+        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP",
+
+        "title": "HTML5 Tutorials in Hindi/Urdu",
         "thumbnail": "https://i.ytimg.com/vi/GpcMasRWUhI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAsswjzG6ajcdVS2o0iHqttI8vikA",
-        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP"
+        "author": "Yahoo Baba",
+        "author_image": "https://yt3.googleusercontent.com/ytc/AIdro_kVVinqETxyU4zI2D5hsgxdB_DEaVQE1n04VPj-6Ql7PT4=s160-c-k-c0x00ffffff-no-rj"
+      },
+      {
+        "id": 14,
+        "category": "Beginner Friendly",
+        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb6KogQMHqAfXk_y0tgJSzI3",
+
+        "title": "HTML Tutorial For Beginners in Hindi / Urdu",
+        "thumbnail": "https://i.ytimg.com/vi/hlaGDS0PpLQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBlPXtsjMvEc8AqEjkz2yW-RWRnCQ",
+        "author": "Husain Sir",
+        "author_image": "https://yt3.googleusercontent.com/ytc/AIdro_kB2NMxg5mh_ddhpx1b2SSV13GrarIH1lgsFbegRg9aUko=s160-c-k-c0x00ffffff-no-rj"
       }
     ]
   },
