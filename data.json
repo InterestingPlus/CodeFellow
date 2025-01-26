@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "image": "html.png",
+    "color": "orange",
+    "description": "Markup language for creating web pages.",
+
+    "resources": [
+      {
+        "id": 11,
+        "category": "Beginner Friendly",
+        "thumbnail": "https://i.ytimg.com/vi/XmLOwJHFHf0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDg4-ygFHtTNeYzB8jWskJfblhMvQ",
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU"
+      },
+      {
+        "id": 12,
+        "category": "Beginner Friendly",
+        "thumbnail": "https://i.ytimg.com/vi/e1e16-2cHTg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEho6G0wfnaZXkvDfBcZCDIe_rlQ",
+        "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y"
+      },
+      {
+        "id": 13,
+        "category": "Beginner Friendly",
+        "thumbnail": "https://i.ytimg.com/vi/GpcMasRWUhI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAsswjzG6ajcdVS2o0iHqttI8vikA",
+        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "image": "css.png",
+    "description": "Style sheet language for designing web pages."
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "image": "javascript.png",
+    "description": "Programming language for web development."
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "image": "react.png",
+    "description": "JavaScript library for building user interfaces."
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "image": "nodejs.png",
+    "description": "JavaScript runtime for building server-side applications."
+  },
+  {
+    "id": 6,
+    "name": "Python",
+    "image": "python.png",
+    "description": "General-purpose programming language."
+  }
+]
