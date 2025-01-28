@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Playlist from "./FetchThumbnail";
 
 const ResourcePage = () => {
   const { techName } = useParams();
   const [resources, setResources] = useState([]);
   const [name, setName] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("/data.json")
@@ -33,9 +34,16 @@ const ResourcePage = () => {
     <>
       <section id="resources">
         <h1>
-          <Link to="/">
-            <i className="fa-solid fa-circle-left"></i>
-          </Link>
+          <i
+            className="fa-solid fa-circle-left"
+            onClick={() => {
+              if (window.history.length > 2) {
+                navigate(-1);
+              } else {
+                navigate("/");
+              }
+            }}
+          ></i>
           Resources to Learn {name}
         </h1>
 

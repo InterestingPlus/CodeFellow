@@ -58,6 +58,12 @@ main {
         h1 {
             display: flex;
             gap: .5rem;
+            align-items: center;
+
+            i {
+                cursor: pointer;
+                font-size: 2rem;
+            }
         }
 
 

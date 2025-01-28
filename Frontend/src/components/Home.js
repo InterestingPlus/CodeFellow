@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import MainLogo from "../images/Logo_Raw.jpg";
 import Boxes from "./Boxes";
 import "./Main.scss";
 
 const Home = () => {
   const [technologies, setTechnologies] = useState([]);
-  const [isLoading, setLoading] = useState(true);
   const [bgImage, setBgImage] = useState(null);
 
   useEffect(() => {
@@ -39,20 +37,8 @@ const Home = () => {
     };
   }, []);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
-
   return (
     <>
-      {isLoading ? (
-        <div id="custom-loader">
-          <img src={MainLogo} alt="logo" />
-        </div>
-      ) : null}
-
       {/* Hero Section */}
       <section className="hero">
         <div className="container">

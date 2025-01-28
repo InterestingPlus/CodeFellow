@@ -55,6 +55,31 @@
     "description": "Programming language for web development.",
     "resources": [
       {
+        "category": "Beginner Friendly",
+        "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW",
+        "type": "playlist"
+      },
+      {
+        "category": "Recommended",
+        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37",
+        "type": "playlist"
+      },
+      {
+        "category": "One by One",
+        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb5YB2TqrboVoSBkCKaOsvE_",
+        "type": "playlist"
+      },
+      {
+        "category": "Step by Step",
+        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbx-BZTaWu_AF7hsKo_Fvsnf&si=3B0Op1_IsnbVD1-v",
+        "type": "playlist"
+      },
+      {
+        "category": "Recommended",
+        "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
+        "type": "playlist"
+      },
+      {
         "category": "Comprehensive",
         "link": "https://youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI&si=1p89fTdyqLCk-5Rw",
         "type": "playlist"
@@ -63,39 +88,26 @@
         "category": "in English",
         "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
         "type": "playlist"
-      },
-      {
-        "category": "Beginner Friendly",
-        "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW",
-        "type": "playlist"
-      },
-      {
-        "category": "Advance",
-        "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
-        "type": "playlist"
       }
     ]
   },
   {
-    "name": "TypeScript",
-    "image": "typescript.png"
-  },
-  {
-    "name": "React",
-    "image": "react.png",
-    "description": "JavaScript library for building user interfaces."
-  },
-  {
-    "name": "Angular",
-    "image": "angular.png"
-  },
-  {
-    "name": "Vue",
-    "image": "vue.png"
-  },
-  {
-    "name": "PHP",
-    "image": "php.png"
+    "name": "Python",
+    "image": "python.png",
+    "description": "General-purpose programming language.",
+
+    "resources": [
+      {
+        "category": "Basic",
+        "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
+        "type": "playlist"
+      },
+      {
+        "category": "Advance",
+        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s",
+        "type": "playlist"
+      }
+    ]
   },
   {
     "name": "SQL",
@@ -109,6 +121,41 @@
     ]
   },
   {
+    "name": "C",
+    "image": "c.png",
+
+    "resources": [
+      {
+        "category": "Harvard University",
+        "link": "https://www.youtube.com/watch?v=cwtpLIWylAw",
+        "type": "video"
+      },
+      {
+        "category": "Advance",
+        "link": "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=1429s",
+        "type": "video"
+      },
+      {
+        "category": "Step by Step",
+        "link": "https://youtube.com/playlist?list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt&si=9W5D4Nzj-E5F97tP",
+        "type": "playlist"
+      }
+    ]
+  },
+  {
+    "name": "C++",
+    "image": "cpp.png",
+
+    "resources": [
+      {
+        "category": "in English",
+        "link": "https://www.youtube.com/watch?v=1v_4dL8l8pQ",
+        "type": "video"
+      }
+    ]
+  },
+
+  {
     "name": "Java",
     "image": "java.png",
 
@@ -120,6 +167,45 @@
       }
     ]
   },
+  {
+    "name": "TypeScript",
+    "image": "typescript.png"
+  },
+  {
+    "name": "React",
+    "image": "react.png",
+    "description": "JavaScript library for building user interfaces.",
+    "resources": [
+      {
+        "category": "Learn by Projects",
+        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige",
+        "type": "playlist"
+      },
+      {
+        "category": "Recommended",
+        "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47BCAjiCtuV_liN9IwAl8pM",
+        "type": "playlist"
+      },
+      {
+        "category": "in English",
+        "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46469T9uxQ2ORe4AOzsqLb9",
+        "type": "playlist"
+      }
+    ]
+  },
+
+  {
+    "name": "Angular",
+    "image": "angular.png"
+  },
+  {
+    "name": "Vue",
+    "image": "vue.png"
+  },
+  {
+    "name": "PHP",
+    "image": "php.png"
+  },
 
   {
     "name": "Next.js",
@@ -127,8 +213,23 @@
 
     "resources": [
       {
+        "category": "for Beginners",
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDWGIwaEwhTUR40AbH8qsTo&si=Z3W4Ev61a7Ux2cFW",
+        "type": "playlist"
+      },
+      {
+        "category": "Next Auth",
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCXO80Z4miZHTL5GxfFbz7A&si=zoy9o0d-o_jO7U5m",
+        "type": "playlist"
+      },
+      {
         "category": "Advance Auth",
         "link": "https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE&si=PavKFh9Ay8JQJ1r_",
+        "type": "playlist"
+      },
+      {
+        "category": "Recommended",
+        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBAaWGtn9GA2PTw0HO0tXzq",
         "type": "playlist"
       }
     ]
@@ -137,11 +238,19 @@
   {
     "name": "Node.js",
     "image": "nodejs.png",
-    "description": "JavaScript runtime for building server-side applications."
-  },
-  {
-    "name": "Python",
-    "image": "python.png",
-    "description": "General-purpose programming language."
+    "description": "JavaScript runtime for building server-side applications.",
+
+    "resources": [
+      {
+        "category": "Complete Backend",
+        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW",
+        "type": "playlist"
+      },
+      {
+        "category": "Step by Step",
+        "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At",
+        "type": "playlist"
+      }
+    ]
   }
 ]
