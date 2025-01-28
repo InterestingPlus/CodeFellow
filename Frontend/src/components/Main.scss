@@ -209,12 +209,38 @@ li.loading {
     flex-direction: column;
     padding: 1rem;
     gap: 1rem;
-    padding-bottom: 1.5rem !important; 
+    padding-bottom: 1.5rem !important;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        background: linear-gradient(to bottom, #00000000, rgba(149, 149, 149, 0.368), #00000000);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 70%;
+
+        rotate: -40deg;
+        animation: skeleton-loading 1s cubic-bezier(0.11, 0.84, 0.89, 0.11) infinite;
+    }
+
+    @keyframes skeleton-loading {
+        0% {
+            transform: translate(-25%, -250%);
+        }
+
+        100% {
+            transform: translate(-25%, 200%);
+        }
+
+    }
 
     .h3 {
         width: 100%;
         min-width: 100%;
-        background: rgb(198, 198, 198) !important;
+        background: rgb(217, 217, 217) !important;
         height: 25px;
         border-radius: 5px;
     }
@@ -222,7 +248,7 @@ li.loading {
     .img {
         width: 100%;
         min-width: 100%;
-        background: rgb(198, 198, 198) !important;
+        background: rgb(181, 180, 180) !important;
         border-radius: 10px;
         aspect-ratio: 16 / 9;
     }
@@ -242,7 +268,7 @@ li.loading {
         justify-content: start;
 
         .img {
-            min-width: fit-content;
+            min-width: 30px;
             width: 30px !important;
             max-width: 30px !important;
             background: rgb(162, 162, 162) !important;
@@ -251,9 +277,9 @@ li.loading {
         }
 
         .p {
-            min-width: calc(100% - 30px - 2rem);
-            max-width: calc(100% - 30px - 2rem);
-            background: rgb(162, 162, 162) !important;
+            min-width: calc(100% - 30px - 0.5rem);
+            max-width: calc(100% - 30px - .5rem);
+            background: rgba(200, 200, 200, 0.75) !important;
             height: 30px;
             border-radius: 10px;
         }
