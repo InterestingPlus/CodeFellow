@@ -1,0 +1,72 @@
+[
+  {
+    "name": "HTML",
+    "image": "html.png",
+    "color": "orange",
+    "description": "Markup language for creating web pages.",
+
+    "resources": [
+      {
+        "category": "Recommended",
+        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP"
+      },
+      {
+        "category": "Most Popular",
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU"
+      },
+      {
+        "category": "Beginner Friendly",
+        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb6KogQMHqAfXk_y0tgJSzI3"
+      },
+      {
+        "category": "Quick",
+        "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y"
+      }
+    ]
+  },
+  {
+    "name": "CSS",
+    "image": "css.png",
+    "description": "Style sheet language for designing web pages."
+  },
+  {
+    "name": "JavaScript",
+    "image": "javascript.png",
+    "description": "Programming language for web development."
+  },
+  {
+    "name": "TypeScript",
+    "image": "typescript.png"
+  },
+  {
+    "name": "React",
+    "image": "react.png",
+    "description": "JavaScript library for building user interfaces."
+  },
+  {
+    "name": "Angular",
+    "image": "angular.png"
+  },
+  {
+    "name": "Vue",
+    "image": "vue.png"
+  },
+  {
+    "name": "PHP",
+    "image": "php.png"
+  },
+  {
+    "name": "SQL",
+    "image": "sql.png"
+  },
+  {
+    "name": "Node.js",
+    "image": "nodejs.png",
+    "description": "JavaScript runtime for building server-side applications."
+  },
+  {
+    "name": "Python",
+    "image": "python.png",
+    "description": "General-purpose programming language."
+  }
+]
