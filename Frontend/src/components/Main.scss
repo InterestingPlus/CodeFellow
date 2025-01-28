@@ -171,6 +171,10 @@ section.hero {
             margin-bottom: 10px;
 
             filter: drop-shadow(2px 2px 2px #00000055);
+
+            span {
+                color: #00f2b6;
+            }
         }
 
         p {
@@ -203,9 +207,6 @@ section.hero {
 
 
 li.loading {
-
-
-
     display: flex;
     flex-direction: column;
     padding: 1rem;

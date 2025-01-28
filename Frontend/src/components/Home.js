@@ -54,7 +54,13 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="container">
-          <h1>Welcome to CodeFellow</h1>
+          <h1>
+            Welcome to Code<span>Fellow</span>
+          </h1>
+          {/* <h1>
+            Welcome to <span className="a">C</span>ode
+            <span className="a">F</span>ellow
+          </h1> */}
           <p>Your ultimate destination to explore and learn technologies!</p>
           <Link to="/learn/HTML" className="cta-button">
             Get Started
