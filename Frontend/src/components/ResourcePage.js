@@ -43,9 +43,10 @@ const ResourcePage = () => {
           <ul>
             {resources.map((resource, index) => (
               <Playlist
-                playlistUrl={resource.link}
                 index={index}
                 category={resource.category}
+                url={resource.link}
+                type={resource.type}
               />
             ))}
           </ul>

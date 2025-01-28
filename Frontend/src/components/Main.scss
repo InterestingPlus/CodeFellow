@@ -93,8 +93,14 @@ main {
 
                     h3 {
                         margin: 0;
-                        color: #8f8f8f;
+                        color: #ffffff;
+                        background: rgba(145, 53, 98, 0.826);
                         font-size: 1rem;
+                        max-width: fit-content;
+
+                        padding: .3rem .6rem;
+                        border-radius: 10px;
+
                     }
 
                     img.thumbnail {
@@ -371,8 +377,8 @@ li.loading {
                     }
 
                     img.thumbnail {
-                        width: 100%;
-                        max-width: 250px;
+                        width: 95% !important;
+                        // max-width: 250px;
 
                         position: relative;
                         left: 50%;

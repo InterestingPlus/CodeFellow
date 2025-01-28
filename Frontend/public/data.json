@@ -8,31 +8,61 @@
     "resources": [
       {
         "category": "Recommended",
-        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP"
+        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP",
+        "type": "playlist"
       },
       {
         "category": "Most Popular",
-        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU"
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU",
+        "type": "playlist"
       },
       {
         "category": "Beginner Friendly",
-        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb6KogQMHqAfXk_y0tgJSzI3"
+        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb6KogQMHqAfXk_y0tgJSzI3",
+        "type": "playlist"
       },
       {
         "category": "Quick",
-        "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y"
+        "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y",
+        "type": "playlist"
       }
     ]
   },
   {
     "name": "CSS",
     "image": "css.png",
-    "description": "Style sheet language for designing web pages."
+    "description": "Style sheet language for designing web pages.",
+
+    "resources": [
+      {
+        "category": "Recommended",
+        "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw",
+        "type": "playlist"
+      },
+      {
+        "category": "One by One",
+        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb4OtAt8aDKqklEJDqZHYXBm",
+        "type": "playlist"
+      },
+      {
+        "category": "Quick",
+        "link": "https://www.youtube.com/playlist?list=PL3-GABDDV5RR4Xxp-mk1DcafU_UJE3lHf",
+        "type": "playlist"
+      }
+    ]
   },
   {
     "name": "JavaScript",
     "image": "javascript.png",
-    "description": "Programming language for web development."
+    "description": "Programming language for web development.",
+
+    "resources": [
+      {
+        "category": "Advance",
+        "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
+        "type": "playlist"
+      }
+    ]
   },
   {
     "name": "TypeScript",
@@ -57,7 +87,15 @@
   },
   {
     "name": "SQL",
-    "image": "sql.png"
+    "image": "sql.png",
+
+    "resources": [
+      {
+        "category": "Basic",
+        "link": "https://www.youtube.com/watch?v=hlGoQC332VM&t=8586s",
+        "type": "video"
+      }
+    ]
   },
   {
     "name": "Node.js",
