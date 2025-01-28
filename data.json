@@ -112,6 +112,7 @@
   {
     "name": "SQL",
     "image": "sql.png",
+    "description": "Language for managing and querying databases",
     "resources": [
       {
         "category": "Basic",
@@ -123,6 +124,7 @@
   {
     "name": "C",
     "image": "c.png",
+    "description": "General-purpose programming language.",
 
     "resources": [
       {
@@ -145,6 +147,7 @@
   {
     "name": "C++",
     "image": "cpp.png",
+    "description": "Object-oriented programming language.",
 
     "resources": [
       {
@@ -158,6 +161,7 @@
   {
     "name": "Java",
     "image": "java.png",
+    "description": "Platform-independent programming language.",
 
     "resources": [
       {
@@ -169,12 +173,14 @@
   },
   {
     "name": "TypeScript",
-    "image": "typescript.png"
+    "image": "typescript.png",
+    "description": "Typed superset of JavaScript."
   },
   {
     "name": "React",
     "image": "react.png",
     "description": "JavaScript library for building user interfaces.",
+
     "resources": [
       {
         "category": "Learn by Projects",
@@ -196,20 +202,24 @@
 
   {
     "name": "Angular",
-    "image": "angular.png"
+    "image": "angular.png",
+    "description": "Framework for building dynamic web applications."
   },
   {
     "name": "Vue",
-    "image": "vue.png"
+    "image": "vue.png",
+    "description": "Progressive framework for building user interfaces."
   },
   {
     "name": "PHP",
-    "image": "php.png"
+    "image": "php.png",
+    "description": "Scripting language for server-side web development."
   },
 
   {
     "name": "Next.js",
     "image": "nextjs.png",
+    "description": "React framework for server-side rendering and static sites.",
 
     "resources": [
       {
@@ -252,5 +262,137 @@
         "type": "playlist"
       }
     ]
+  },
+
+  {
+    "name": "Kotlin",
+    "description": "Modern programming language for Android development."
+  },
+  {
+    "name": "Swift",
+    "description": "Programming language for iOS and macOS applications."
+  },
+  {
+    "name": "Flutter",
+    "description": "UI toolkit for building natively compiled applications."
+  },
+  {
+    "name": "Dart",
+    "description": "Programming language for Flutter applications."
+  },
+  {
+    "name": "Ruby",
+    "description": "Dynamic programming language for web development."
+  },
+  {
+    "name": "Ruby on Rails",
+    "description": "Framework for building web applications in Ruby."
+  },
+  {
+    "name": "Laravel",
+    "description": "PHP framework for web application development."
+  },
+  {
+    "name": "Spring Boot",
+    "description": "Framework for building Java-based applications."
+  },
+  { "name": "Express.js", "description": "Minimal web framework for Node.js." },
+  {
+    "name": "MongoDB",
+    "description": "NoSQL database for storing JSON-like documents."
+  },
+  {
+    "name": "PostgreSQL",
+    "description": "Advanced open-source relational database."
+  },
+  {
+    "name": "MySQL",
+    "description": "Popular open-source relational database."
+  },
+  {
+    "name": "Docker",
+    "description": "Platform for containerizing applications."
+  },
+  {
+    "name": "Kubernetes",
+    "description": "System for managing containerized applications."
+  },
+  { "name": "GraphQL", "description": "Query language for APIs." },
+  {
+    "name": "REST API",
+    "description": "Architectural style for designing networked applications."
+  },
+  {
+    "name": "Webpack",
+    "description": "Module bundler for JavaScript applications."
+  },
+  {
+    "name": "Babel",
+    "description": "JavaScript compiler for next-generation JavaScript."
+  },
+  {
+    "name": "Tailwind CSS",
+    "description": "Utility-first CSS framework for styling web pages."
+  },
+  {
+    "name": "Bootstrap",
+    "description": "CSS framework for responsive web design."
+  },
+  {
+    "name": "SASS",
+    "description": "CSS preprocessor for writing maintainable styles."
+  },
+  {
+    "name": "Three.js",
+    "description": "JavaScript library for creating 3D graphics."
+  },
+  {
+    "name": "Redux",
+    "description": "State management library for JavaScript apps."
+  },
+  {
+    "name": "Firebase",
+    "description": "Platform for building and hosting web and mobile apps."
+  },
+  {
+    "name": "Jest",
+    "description": "Testing framework for JavaScript applications."
+  },
+  {
+    "name": "Cypress",
+    "description": "End-to-end testing framework for web applications."
+  },
+  {
+    "name": "Git",
+    "description": "Version control system for tracking code changes."
+  },
+  {
+    "name": "GitHub",
+    "description": "Platform for hosting and sharing code repositories."
+  },
+  {
+    "name": "Figma",
+    "description": "Design tool for creating user interfaces."
+  },
+  {
+    "name": "Adobe XD",
+    "description": "Design and prototyping tool for UI/UX."
+  },
+  {
+    "name": "Matplotlib",
+    "description": "Library for creating static visualizations in Python."
+  },
+  {
+    "name": "Pandas",
+    "description": "Python library for data analysis and manipulation."
+  },
+  {
+    "name": "TensorFlow",
+    "description": "Library for machine learning and AI."
+  },
+  { "name": "PyTorch", "description": "Deep learning framework for Python." },
+  {
+    "name": "Numpy",
+    "description": "Python library for numerical computations."
   }
 ]
