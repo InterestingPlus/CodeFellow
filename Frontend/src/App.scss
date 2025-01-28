@@ -7,9 +7,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select: none;
   transition: 0.2s all ease-in-out;
+
   font-family: "Unbounded", serif;
+
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
 }
 
 

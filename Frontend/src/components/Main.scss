@@ -2,6 +2,7 @@ main {
 
     section {
         min-height: 100dvh;
+        padding: 1rem;
     }
 
     section#technologies {
@@ -10,8 +11,8 @@ main {
         max-width: 100vw;
 
         .tech {
-            padding: 1rem;
-
+            padding: .3rem;
+            padding-top: 1rem;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 2rem;
@@ -301,5 +302,36 @@ li.loading {
             }
         }
     }
+
+
+    section#technologies {
+
+        h1 {
+            font-size: 1.3rem;
+        }
+
+        .tech {
+            padding: 1rem;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr !important;
+
+
+            .language-box {
+                img {
+                    width: 70px !important;
+                }
+
+                h3 {
+                    font-size: 1rem !important;
+                }
+
+                p {
+                    font-size: .8rem !important;
+                }
+            }
+        }
+    }
+
 
 }

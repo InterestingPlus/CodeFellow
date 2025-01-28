@@ -101,6 +101,8 @@ const Home = () => {
       </section> */}
 
       <section id="technologies">
+        <h1>Technologies :</h1>
+
         <div className="tech">
           {technologies?.map((technology) => {
             return <Boxes data={technology} />;
