@@ -27,7 +27,22 @@
   {
     "name": "CSS",
     "image": "css.png",
-    "description": "Style sheet language for designing web pages."
+    "description": "Style sheet language for designing web pages.",
+
+    "resources": [
+      {
+        "category": "Recommended",
+        "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw"
+      },
+      {
+        "category": "One by One",
+        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb4OtAt8aDKqklEJDqZHYXBm"
+      },
+      {
+        "category": "Quick",
+        "link": "https://www.youtube.com/playlist?list=PL3-GABDDV5RR4Xxp-mk1DcafU_UJE3lHf"
+      }
+    ]
   },
   {
     "name": "JavaScript",
