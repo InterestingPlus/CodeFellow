@@ -315,23 +315,76 @@ li.loading {
 
             display: grid;
             grid-template-columns: 1fr 1fr !important;
+            gap: .7rem !important;
 
 
             .language-box {
+                padding: .6rem !important;
+                padding-block: 1.5rem !important;
+
                 img {
                     width: 70px !important;
                 }
 
                 h3 {
-                    font-size: 1rem !important;
+                    font-size: .8rem !important;
+                    margin-top: 0rem !important;
                 }
 
                 p {
-                    font-size: .8rem !important;
+                    margin-top: .3rem;
+                    font-size: .6rem !important;
                 }
             }
         }
     }
 
 
+
+    section#resources {
+        padding: 2rem !important;
+
+        h1 {
+            font-size: 1.2rem;
+
+            i {
+                font-size: 1.8rem;
+            }
+        }
+
+        ul {
+            margin-top: 3rem !important;
+            gap: 2rem !important;
+
+            li {
+
+                a {
+                    display: flex;
+                    flex-direction: column;
+
+
+                    h3 {
+                        margin: 0;
+                        color: #8f8f8f;
+                        font-size: 1rem;
+                    }
+
+                    img.thumbnail {
+                        width: 100%;
+                        max-width: 250px;
+
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+
+
+                    .author_info {
+                        img {}
+                    }
+                }
+
+            }
+        }
+    }
 }
