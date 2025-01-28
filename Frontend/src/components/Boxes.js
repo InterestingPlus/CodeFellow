@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Boxes = ({ data }) => {
   console.log(data);
 
   return (
-    <a
+    <Link
       className="language-box"
       style={{ background: `${data?.color || "#fff"}` }}
-      href={`/learn/${data?.name || ""}`}
+      to={`learn/${data?.name || ""}`}
     >
       <img src={`../images/${data?.image || ""}`} alt={data?.name || ""} />
       <h3>{data?.name || ""}</h3>
       <p>{data?.description || ""}</p>
-    </a>
+    </Link>
   );
 };
 

@@ -39,19 +39,23 @@ const ResourcePage = () => {
           Resources to Learn {name}
         </h1>
 
-        {resources.length > 0 ? (
-          <ul>
-            {resources.map((resource, index) => (
-              <Playlist
-                index={index}
-                category={resource.category}
-                url={resource.link}
-                type={resource.type}
-              />
-            ))}
-          </ul>
+        {resources ? (
+          resources?.length > 0 ? (
+            <ul>
+              {resources.map((resource, index) => (
+                <Playlist
+                  index={index}
+                  category={resource.category}
+                  url={resource.link}
+                  type={resource.type}
+                />
+              ))}
+            </ul>
+          ) : (
+            <p>No resources available for {techName}.</p>
+          )
         ) : (
-          <p>No resources available for {techName}.</p>
+          <p>Loading Resources for {techName}</p>
         )}
       </section>
     </>

@@ -4,7 +4,6 @@
     "image": "html.png",
     "color": "orange",
     "description": "Markup language for creating web pages.",
-
     "resources": [
       {
         "category": "Recommended",
@@ -32,7 +31,6 @@
     "name": "CSS",
     "image": "css.png",
     "description": "Style sheet language for designing web pages.",
-
     "resources": [
       {
         "category": "Recommended",
@@ -55,8 +53,22 @@
     "name": "JavaScript",
     "image": "javascript.png",
     "description": "Programming language for web development.",
-
     "resources": [
+      {
+        "category": "Comprehensive",
+        "link": "https://youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI&si=1p89fTdyqLCk-5Rw",
+        "type": "playlist"
+      },
+      {
+        "category": "in English",
+        "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
+        "type": "playlist"
+      },
+      {
+        "category": "Beginner Friendly",
+        "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW",
+        "type": "playlist"
+      },
       {
         "category": "Advance",
         "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
@@ -88,7 +100,6 @@
   {
     "name": "SQL",
     "image": "sql.png",
-
     "resources": [
       {
         "category": "Basic",
@@ -97,6 +108,32 @@
       }
     ]
   },
+  {
+    "name": "Java",
+    "image": "java.png",
+
+    "resources": [
+      {
+        "category": "with DSA",
+        "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+        "type": "playlist"
+      }
+    ]
+  },
+
+  {
+    "name": "Next.js",
+    "image": "nextjs.png",
+
+    "resources": [
+      {
+        "category": "Advance Auth",
+        "link": "https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE&si=PavKFh9Ay8JQJ1r_",
+        "type": "playlist"
+      }
+    ]
+  },
+
   {
     "name": "Node.js",
     "image": "nodejs.png",

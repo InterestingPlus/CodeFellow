@@ -69,10 +69,13 @@ main {
             padding: 0;
             gap: 1.5rem;
             margin-top: 1.2rem;
+            width: fit-content;
+            max-width: 100%;
 
             li {
                 background: rgb(233, 237, 237);
                 padding: 1rem;
+                max-width: 400px !important;
                 border-radius: 10px;
                 transition: .2s all;
 
@@ -80,7 +83,7 @@ main {
 
 
                 &:hover {
-                    scale: 1.05;
+                    scale: 1.01;
                     background: rgb(193, 229, 255);
                 }
 
@@ -165,6 +168,7 @@ section.hero {
 
         // background: radial-gradient(#2574fc8d, #5b23f4ce, #2641c8);
         background: radial-gradient(#25d8fc8d, #35265fce, #29325b);
+        backdrop-filter: blur(2px);
         // background: radial-gradient(#fbff1e5c, #a27131ce, #c8266c);
 
         width: 100%;

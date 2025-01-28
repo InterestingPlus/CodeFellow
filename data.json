@@ -55,6 +55,11 @@
     "description": "Programming language for web development.",
     "resources": [
       {
+        "category": "Comprehensive",
+        "link": "https://youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI&si=1p89fTdyqLCk-5Rw",
+        "type": "playlist"
+      },
+      {
         "category": "in English",
         "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
         "type": "playlist"
@@ -115,6 +120,20 @@
       }
     ]
   },
+
+  {
+    "name": "Next.js",
+    "image": "nextjs.png",
+
+    "resources": [
+      {
+        "category": "Advance Auth",
+        "link": "https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE&si=PavKFh9Ay8JQJ1r_",
+        "type": "playlist"
+      }
+    ]
+  },
+
   {
     "name": "Node.js",
     "image": "nodejs.png",
