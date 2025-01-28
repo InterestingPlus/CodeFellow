@@ -127,6 +127,16 @@
 
     "resources": [
       {
+        "category": "for Beginners",
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDWGIwaEwhTUR40AbH8qsTo&si=Z3W4Ev61a7Ux2cFW",
+        "type": "playlist"
+      },
+      {
+        "category": "Next Auth",
+        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCXO80Z4miZHTL5GxfFbz7A&si=zoy9o0d-o_jO7U5m",
+        "type": "playlist"
+      },
+      {
         "category": "Advance Auth",
         "link": "https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE&si=PavKFh9Ay8JQJ1r_",
         "type": "playlist"
