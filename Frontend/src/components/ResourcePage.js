@@ -12,7 +12,7 @@ const ResourcePage = () => {
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
-        const tech = data.find(
+        const tech = data[0].technologies.find(
           (item) => item.name.toLowerCase() === techName.toLowerCase()
         );
 
@@ -33,37 +33,55 @@ const ResourcePage = () => {
   return (
     <>
       <section id="resources">
-        <h1>
-          <i
-            className="fa-solid fa-circle-left"
-            onClick={() => {
-              if (window.history.length > 2) {
-                navigate(-1);
-              } else {
-                navigate("/");
-              }
-            }}
-          ></i>
-          Resources to Learn {name}
-        </h1>
+        {name ? (
+          <>
+            <h1>
+              <i
+                className="fa-solid fa-circle-left"
+                onClick={() => {
+                  if (window.history.length > 2) {
+                    navigate(-1);
+                  } else {
+                    navigate("/");
+                  }
+                }}
+              ></i>
+              Resources to Learn {name}
+            </h1>
 
-        {resources ? (
-          resources?.length > 0 ? (
-            <ul>
-              {resources.map((resource, index) => (
-                <Playlist
-                  index={index}
-                  category={resource.category}
-                  url={resource.link}
-                  type={resource.type}
-                />
-              ))}
-            </ul>
-          ) : (
-            <p>No resources available for {techName}.</p>
-          )
+            {resources ? (
+              resources?.length > 0 ? (
+                <ul>
+                  {resources.map((resource, index) => (
+                    <Playlist
+                      index={index}
+                      category={resource.category}
+                      url={resource.link}
+                      type={resource.type}
+                    />
+                  ))}
+                </ul>
+              ) : (
+                <p>No resources available for {techName}.</p>
+              )
+            ) : (
+              <p>Loading Resources for {techName}</p>
+            )}
+          </>
         ) : (
-          <p>Loading Resources for {techName}</p>
+          <h1>
+            <i
+              className="fa-solid fa-circle-left"
+              onClick={() => {
+                if (window.history.length > 2) {
+                  navigate(-1);
+                } else {
+                  navigate("/");
+                }
+              }}
+            ></i>
+            {techName} not Found!
+          </h1>
         )}
       </section>
     </>

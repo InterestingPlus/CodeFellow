@@ -97,13 +97,15 @@ const Playlist = ({ url, index, category, type }) => {
   if (!details) {
     return (
       <li key={index} className="loading">
-        <span className="h3"></span>
-        <span className="img"></span>
-        <span className="h1"></span>
-        <div className="author_info">
-          <div className="img"></div>
-          <div className="p"></div>
-        </div>
+        <Link to={url} target="_blank" rel="noopener noreferrer">
+          <span className="h3"></span>
+          <span className="img"></span>
+          <span className="h1"></span>
+          <div className="author_info">
+            <div className="img"></div>
+            <div className="p"></div>
+          </div>
+        </Link>
       </li>
     );
   }

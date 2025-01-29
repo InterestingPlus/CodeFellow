@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Boxes = ({ data }) => {
-  console.log(data);
-
   return (
     <Link
       className="language-box"

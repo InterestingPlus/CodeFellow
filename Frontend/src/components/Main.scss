@@ -136,6 +136,31 @@ main {
             }
         }
     }
+
+
+    section#roadmaps {
+
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+
+        .roadmap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+
+            a {
+                background: #00f2ff;
+                padding: 1rem;
+                border-radius: 10px;
+
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+            }
+        }
+    }
 }
 
 
@@ -157,7 +182,7 @@ section.hero {
     background-size: 125%;
     // background-position: center;
 
-    transition: 0s;
+    transition: .15s linear;
 
     color: #fff;
     padding: 0;
@@ -230,6 +255,7 @@ li.loading {
     padding-bottom: 1.5rem !important;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 
     &:after {
         content: '';
@@ -239,6 +265,7 @@ li.loading {
         left: 0;
         width: 200%;
         height: 70%;
+        cursor: pointer;
 
         rotate: -40deg;
         animation: skeleton-loading 1s cubic-bezier(0.11, 0.84, 0.89, 0.11) infinite;
@@ -404,4 +431,29 @@ li.loading {
             }
         }
     }
+
+
+
+
+    section#roadmaps {
+
+
+        .roadmap {
+            display: grid;
+            grid-template-columns: 1fr !important;
+            gap: 1rem;
+
+            a {
+
+                padding: 1rem;
+                border-radius: 10px;
+
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+            }
+        }
+    }
+
+
 }

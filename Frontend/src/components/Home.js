@@ -1,16 +1,22 @@
 import React, { useEffect, useState } from "react";
 import Boxes from "./Boxes";
 import "./Main.scss";
+import Roadmap from "./Roadmap";
 
 const Home = () => {
   const [technologies, setTechnologies] = useState([]);
+  const [roadmaps, setRoadmaps] = useState([]);
   const [bgImage, setBgImage] = useState(null);
 
   useEffect(() => {
     // Fetch technologies data
     fetch("/data.json")
       .then((response) => response.json())
-      .then((data) => setTechnologies(data))
+      .then((data) => {
+        console.log(data);
+        setTechnologies(data[0]?.technologies);
+        setRoadmaps(data[1]?.roadmaps);
+      })
       .catch((error) => console.error("Error fetching JSON:", error));
   }, []);
 
@@ -60,6 +66,12 @@ const Home = () => {
             <Boxes key={index} data={technology} />
           ))}
         </div>
+      </section>
+
+      <section id="roadmaps">
+        <h1>Roadmaps :</h1>
+
+        <Roadmap roadmaps={roadmaps} />
       </section>
     </>
   );
