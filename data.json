@@ -1,403 +1,551 @@
 [
   {
-    "name": "HTML",
-    "image": "html.png",
-    "color": "orange",
-    "description": "Markup language for creating web pages.",
-    "resources": [
+    "technologies": [
       {
-        "category": "Recommended",
-        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP",
-        "type": "playlist"
+        "name": "HTML",
+        "image": "html.png",
+        "color": "orange",
+        "description": "Markup language for creating web pages.",
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP",
+            "type": "playlist"
+          },
+          {
+            "category": "Most Popular",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU",
+            "type": "playlist"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb6KogQMHqAfXk_y0tgJSzI3",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y",
+            "type": "playlist"
+          }
+        ]
       },
       {
-        "category": "Most Popular",
-        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU",
-        "type": "playlist"
+        "name": "CSS",
+        "image": "css.png",
+        "description": "Style sheet language for designing web pages.",
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw",
+            "type": "playlist"
+          },
+          {
+            "category": "One by One",
+            "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb4OtAt8aDKqklEJDqZHYXBm",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/playlist?list=PL3-GABDDV5RR4Xxp-mk1DcafU_UJE3lHf",
+            "type": "playlist"
+          }
+        ]
       },
       {
-        "category": "Beginner Friendly",
-        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb6KogQMHqAfXk_y0tgJSzI3",
-        "type": "playlist"
+        "name": "JavaScript",
+        "image": "javascript.png",
+        "description": "Programming language for web development.",
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37",
+            "type": "playlist"
+          },
+          {
+            "category": "One by One",
+            "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb5YB2TqrboVoSBkCKaOsvE_",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbx-BZTaWu_AF7hsKo_Fvsnf&si=3B0Op1_IsnbVD1-v",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
+            "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI&si=1p89fTdyqLCk-5Rw",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
+            "type": "playlist"
+          }
+        ]
       },
       {
-        "category": "Quick",
-        "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y",
-        "type": "playlist"
+        "name": "Python",
+        "image": "python.png",
+        "description": "General-purpose programming language.",
+
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
+            "type": "playlist"
+          },
+          {
+            "category": "Advance",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "SQL",
+        "image": "sql.png",
+        "description": "Language for managing and querying databases",
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/watch?v=hlGoQC332VM&t=8586s",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "image": "mondodb.png",
+        "description": "NoSQL database for storing JSON-like documents.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbysebQ-yBd7ZHYGPMuFvvyD",
+            "type": "playlist"
+          },
+          {
+            "category": "Advance",
+            "link": "https://www.youtube.com/watch?v=vx1C8EyTa7Y",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "C",
+        "image": "c.png",
+        "description": "General-purpose programming language.",
+
+        "resources": [
+          {
+            "category": "Harvard University",
+            "link": "https://www.youtube.com/watch?v=cwtpLIWylAw",
+            "type": "video"
+          },
+          {
+            "category": "Advance",
+            "link": "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=1429s",
+            "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt&si=9W5D4Nzj-E5F97tP",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "C++",
+        "image": "cpp.png",
+        "description": "Object-oriented programming language.",
+
+        "resources": [
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=1v_4dL8l8pQ",
+            "type": "video"
+          }
+        ]
+      },
+
+      {
+        "name": "Java",
+        "image": "java.png",
+        "description": "Platform-independent programming language.",
+
+        "resources": [
+          {
+            "category": "with DSA",
+            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "image": "typescript.png",
+        "description": "Typed superset of JavaScript."
+      },
+
+      {
+        "name": "SASS",
+        "image": "sass.png",
+        "description": "CSS preprocessor for writing maintainable styles.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbwX4_pV5V2E8q0_RAZqOOMv",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=jfMHA8SqUL4",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "React",
+        "image": "react.png",
+        "description": "JavaScript library for building user interfaces.",
+
+        "resources": [
+          {
+            "category": "Learn by Projects",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47BCAjiCtuV_liN9IwAl8pM",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46469T9uxQ2ORe4AOzsqLb9",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "Node.js",
+        "image": "nodejs.png",
+        "description": "JavaScript runtime for building server-side applications.",
+
+        "resources": [
+          {
+            "category": "Complete Backend",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "Next.js",
+        "image": "nextjs.png",
+        "description": "React framework for server-side rendering and static sites.",
+
+        "resources": [
+          {
+            "category": "for Beginners",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDWGIwaEwhTUR40AbH8qsTo&si=Z3W4Ev61a7Ux2cFW",
+            "type": "playlist"
+          },
+          {
+            "category": "Next Auth",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCXO80Z4miZHTL5GxfFbz7A&si=zoy9o0d-o_jO7U5m",
+            "type": "playlist"
+          },
+          {
+            "category": "Advance Auth",
+            "link": "https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE&si=PavKFh9Ay8JQJ1r_",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBAaWGtn9GA2PTw0HO0tXzq",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "Angular",
+        "image": "angular.png",
+        "description": "Framework for building dynamic web applications."
+      },
+      {
+        "name": "Vue",
+        "image": "vue.png",
+        "description": "Progressive framework for building user interfaces."
+      },
+      {
+        "name": "PHP",
+        "image": "php.png",
+        "description": "Scripting language for server-side web development."
+      },
+
+      {
+        "name": "Three.js",
+        "image": "threejs.png",
+        "description": "JavaScript library for creating 3D graphics.",
+        "resources": [
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLjcjAqAnHd1EIxV4FSZIiJZvsdrBc1Xho",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLTJ_bWjv6i7zjdyy3kQWY_1dADz-3n7iI",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLbu98QxRH81KkLTN00OXhD8Y-pRVgTCnM",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLWP0narTpO8n9YwsTLVO7-vbIzLELrwwS",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLpepLKamtPjiUF6PvVUbIFhx9HaS0qJs_",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLZWRFaJKWRVSgSq_yb3AQSe_KrHb2h5Eq",
+            "type": "playlist"
+          },
+
+          {
+            "category": "New",
+            "link": "https://www.youtube.com/playlist?list=PLjXsIhZZY9KJP9cFq9NqxTucfFCnVzRUn",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLTJ_bWjv6i7zjdyy3kQWY_1dADz-3n7iI",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "Git",
+        "image": "git.png",
+        "description": "Version control system for tracking code changes.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "GitHub",
+        "image": "github.png",
+        "description": "Platform for hosting and sharing code repositories.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/watch?v=q8EevlEpQ2A&t=4326s",
+            "type": "video"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=Ez8F0nW6S-w",
+            "type": "video"
+          }
+        ]
+      },
+
+      {
+        "name": "DSA",
+        "description": "",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7",
+            "type": "playlist"
+          },
+          {
+            "category": "C++",
+            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt",
+            "type": "playlist"
+          },
+          {
+            "category": "Java",
+            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+            "type": "playlist"
+          },
+          {
+            "category": "C",
+            "link": "https://www.youtube.com/playlist?list=PLHuIqV4DwPieAKJ5zTd8bGwrJPHmj4Ggd",
+            "type": "playlist"
+          },
+          {
+            "category": "JavaScript",
+            "link": "https://www.youtube.com/playlist?list=PL_HlKez9XCSOi5thYDzipbJ2pEdzop7vx",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "Kotlin",
+        "description": "Modern programming language for Android development."
+      },
+      {
+        "name": "Swift",
+        "description": "Programming language for iOS and macOS applications."
+      },
+      {
+        "name": "Flutter",
+        "description": "UI toolkit for building natively compiled applications."
+      },
+      {
+        "name": "Dart",
+        "description": "Programming language for Flutter applications."
+      },
+      {
+        "name": "Ruby",
+        "description": "Dynamic programming language for web development."
+      },
+      {
+        "name": "Ruby on Rails",
+        "description": "Framework for building web applications in Ruby."
+      },
+      {
+        "name": "Laravel",
+        "description": "PHP framework for web application development."
+      },
+      {
+        "name": "Spring Boot",
+        "description": "Framework for building Java-based applications."
+      },
+      {
+        "name": "Express.js",
+        "description": "Minimal web framework for Node.js."
+      },
+
+      {
+        "name": "PostgreSQL",
+        "description": "Advanced open-source relational database."
+      },
+      {
+        "name": "MySQL",
+        "description": "Popular open-source relational database."
+      },
+      {
+        "name": "Docker",
+        "description": "Platform for containerizing applications."
+      },
+      {
+        "name": "Kubernetes",
+        "description": "System for managing containerized applications."
+      },
+      { "name": "GraphQL", "description": "Query language for APIs." },
+      {
+        "name": "REST API",
+        "description": "Architectural style for designing networked applications."
+      },
+      {
+        "name": "Webpack",
+        "description": "Module bundler for JavaScript applications."
+      },
+      {
+        "name": "Babel",
+        "description": "JavaScript compiler for next-generation JavaScript."
+      },
+      {
+        "name": "Tailwind CSS",
+        "description": "Utility-first CSS framework for styling web pages."
+      },
+      {
+        "name": "Bootstrap",
+        "description": "CSS framework for responsive web design."
+      },
+
+      {
+        "name": "Redux",
+        "description": "State management library for JavaScript apps."
+      },
+      {
+        "name": "Firebase",
+        "description": "Platform for building and hosting web and mobile apps."
+      },
+      {
+        "name": "Jest",
+        "description": "Testing framework for JavaScript applications."
+      },
+      {
+        "name": "Cypress",
+        "description": "End-to-end testing framework for web applications."
+      },
+
+      {
+        "name": "Figma",
+        "description": "Design tool for creating user interfaces."
+      },
+      {
+        "name": "Adobe XD",
+        "description": "Design and prototyping tool for UI/UX."
+      },
+      {
+        "name": "Matplotlib",
+        "description": "Library for creating static visualizations in Python."
+      },
+      {
+        "name": "Pandas",
+        "description": "Python library for data analysis and manipulation."
+      },
+      {
+        "name": "TensorFlow",
+        "description": "Library for machine learning and AI."
+      },
+      {
+        "name": "PyTorch",
+        "description": "Deep learning framework for Python."
+      },
+      {
+        "name": "Numpy",
+        "description": "Python library for numerical computations."
       }
     ]
   },
   {
-    "name": "CSS",
-    "image": "css.png",
-    "description": "Style sheet language for designing web pages.",
-    "resources": [
+    "roadmaps": [
       {
-        "category": "For Beginners",
-        "link": "https://m.youtube.com/watch?v=ESnrn1kAD4E",
-        "type": "video"
-      },
-      {
-        "category": "Recommended",
-        "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw",
-        "type": "playlist"
-      },
-      {
-        "category": "One by One",
-        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb4OtAt8aDKqklEJDqZHYXBm",
-        "type": "playlist"
-      },
-      {
-        "category": "Quick",
-        "link": "https://www.youtube.com/playlist?list=PL3-GABDDV5RR4Xxp-mk1DcafU_UJE3lHf",
-        "type": "playlist"
+        "name": "Frontend",
+        "description": "UI/UX"
       }
     ]
-  },
-  {
-    "name": "JavaScript",
-    "image": "javascript.png",
-    "description": "Programming language for web development.",
-    "resources": [
-      {
-        "category": "Beginner Friendly",
-        "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW",
-        "type": "playlist"
-      },
-      {
-        "category": "Recommended",
-        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37",
-        "type": "playlist"
-      },
-      {
-        "category": "One by One",
-        "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb5YB2TqrboVoSBkCKaOsvE_",
-        "type": "playlist"
-      },
-      {
-        "category": "Step by Step",
-        "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbx-BZTaWu_AF7hsKo_Fvsnf&si=3B0Op1_IsnbVD1-v",
-        "type": "playlist"
-      },
-      {
-        "category": "Recommended",
-        "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
-        "type": "playlist"
-      },
-      {
-        "category": "Comprehensive",
-        "link": "https://youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI&si=1p89fTdyqLCk-5Rw",
-        "type": "playlist"
-      },
-      {
-        "category": "in English",
-        "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
-        "type": "playlist"
-      }
-    ]
-  },
-  {
-    "name": "Python",
-    "image": "python.png",
-    "description": "General-purpose programming language.",
-
-    "resources": [
-      {
-        "category": "Basic",
-        "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
-        "type": "playlist"
-      },
-      {
-        "category": "Advance",
-        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s",
-        "type": "playlist"
-      }
-    ]
-  },
-  {
-    "name": "SQL",
-    "image": "sql.png",
-    "description": "Language for managing and querying databases",
-    "resources": [
-      {
-        "category": "Basic",
-        "link": "https://www.youtube.com/watch?v=hlGoQC332VM&t=8586s",
-        "type": "video"
-      }
-    ]
-  },
-  {
-    "name": "C",
-    "image": "c.png",
-    "description": "General-purpose programming language.",
-
-    "resources": [
-      {
-        "category": "Harvard University",
-        "link": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "type": "video"
-      },
-      {
-        "category": "Advance",
-        "link": "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=1429s",
-        "type": "video"
-      },
-      {
-        "category": "Step by Step",
-        "link": "https://youtube.com/playlist?list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt&si=9W5D4Nzj-E5F97tP",
-        "type": "playlist"
-      }
-    ]
-  },
-  {
-    "name": "C++",
-    "image": "cpp.png",
-    "description": "Object-oriented programming language.",
-
-    "resources": [
-      {
-        "category": "in English",
-        "link": "https://www.youtube.com/watch?v=1v_4dL8l8pQ",
-        "type": "video"
-      }
-    ]
-  },
-
-  {
-    "name": "Java",
-    "image": "java.png",
-    "description": "Platform-independent programming language.",
-
-    "resources": [
-      {
-        "category": "with DSA",
-        "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
-        "type": "playlist"
-      }
-    ]
-  },
-  {
-    "name": "TypeScript",
-    "image": "typescript.png",
-    "description": "Typed superset of JavaScript."
-  },
-  {
-    "name": "React",
-    "image": "react.png",
-    "description": "JavaScript library for building user interfaces.",
-
-    "resources": [
-      {
-        "category": "Learn by Projects",
-        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige",
-        "type": "playlist"
-      },
-      {
-        "category": "Recommended",
-        "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47BCAjiCtuV_liN9IwAl8pM",
-        "type": "playlist"
-      },
-      {
-        "category": "in English",
-        "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46469T9uxQ2ORe4AOzsqLb9",
-        "type": "playlist"
-      }
-    ]
-  },
-
-  {
-    "name": "Angular",
-    "image": "angular.png",
-    "description": "Framework for building dynamic web applications."
-  },
-  {
-    "name": "Vue",
-    "image": "vue.png",
-    "description": "Progressive framework for building user interfaces."
-  },
-  {
-    "name": "PHP",
-    "image": "php.png",
-    "description": "Scripting language for server-side web development."
-  },
-
-  {
-    "name": "Next.js",
-    "image": "nextjs.png",
-    "description": "React framework for server-side rendering and static sites.",
-
-    "resources": [
-      {
-        "category": "for Beginners",
-        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDWGIwaEwhTUR40AbH8qsTo&si=Z3W4Ev61a7Ux2cFW",
-        "type": "playlist"
-      },
-      {
-        "category": "Next Auth",
-        "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCXO80Z4miZHTL5GxfFbz7A&si=zoy9o0d-o_jO7U5m",
-        "type": "playlist"
-      },
-      {
-        "category": "Advance Auth",
-        "link": "https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE&si=PavKFh9Ay8JQJ1r_",
-        "type": "playlist"
-      },
-      {
-        "category": "Recommended",
-        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBAaWGtn9GA2PTw0HO0tXzq",
-        "type": "playlist"
-      }
-    ]
-  },
-
-  {
-    "name": "Node.js",
-    "image": "nodejs.png",
-    "description": "JavaScript runtime for building server-side applications.",
-
-    "resources": [
-      {
-        "category": "Complete Backend",
-        "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW",
-        "type": "playlist"
-      },
-      {
-        "category": "Step by Step",
-        "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At",
-        "type": "playlist"
-      }
-    ]
-  },
-
-  {
-    "name": "Kotlin",
-    "description": "Modern programming language for Android development."
-  },
-  {
-    "name": "Swift",
-    "description": "Programming language for iOS and macOS applications."
-  },
-  {
-    "name": "Flutter",
-    "description": "UI toolkit for building natively compiled applications."
-  },
-  {
-    "name": "Dart",
-    "description": "Programming language for Flutter applications."
-  },
-  {
-    "name": "Ruby",
-    "description": "Dynamic programming language for web development."
-  },
-  {
-    "name": "Ruby on Rails",
-    "description": "Framework for building web applications in Ruby."
-  },
-  {
-    "name": "Laravel",
-    "description": "PHP framework for web application development."
-  },
-  {
-    "name": "Spring Boot",
-    "description": "Framework for building Java-based applications."
-  },
-  { "name": "Express.js", "description": "Minimal web framework for Node.js." },
-  {
-    "name": "MongoDB",
-    "description": "NoSQL database for storing JSON-like documents."
-  },
-  {
-    "name": "PostgreSQL",
-    "description": "Advanced open-source relational database."
-  },
-  {
-    "name": "MySQL",
-    "description": "Popular open-source relational database."
-  },
-  {
-    "name": "Docker",
-    "description": "Platform for containerizing applications."
-  },
-  {
-    "name": "Kubernetes",
-    "description": "System for managing containerized applications."
-  },
-  { "name": "GraphQL", "description": "Query language for APIs." },
-  {
-    "name": "REST API",
-    "description": "Architectural style for designing networked applications."
-  },
-  {
-    "name": "Webpack",
-    "description": "Module bundler for JavaScript applications."
-  },
-  {
-    "name": "Babel",
-    "description": "JavaScript compiler for next-generation JavaScript."
-  },
-  {
-    "name": "Tailwind CSS",
-    "description": "Utility-first CSS framework for styling web pages."
-  },
-  {
-    "name": "Bootstrap",
-    "description": "CSS framework for responsive web design."
-  },
-  {
-    "name": "SASS",
-    "description": "CSS preprocessor for writing maintainable styles."
-  },
-  {
-    "name": "Three.js",
-    "description": "JavaScript library for creating 3D graphics."
-  },
-  {
-    "name": "Redux",
-    "description": "State management library for JavaScript apps."
-  },
-  {
-    "name": "Firebase",
-    "description": "Platform for building and hosting web and mobile apps."
-  },
-  {
-    "name": "Jest",
-    "description": "Testing framework for JavaScript applications."
-  },
-  {
-    "name": "Cypress",
-    "description": "End-to-end testing framework for web applications."
-  },
-  {
-    "name": "Git",
-    "description": "Version control system for tracking code changes."
-  },
-  {
-    "name": "GitHub",
-    "description": "Platform for hosting and sharing code repositories."
-  },
-  {
-    "name": "Figma",
-    "description": "Design tool for creating user interfaces."
-  },
-  {
-    "name": "Adobe XD",
-    "description": "Design and prototyping tool for UI/UX."
-  },
-  {
-    "name": "Matplotlib",
-    "description": "Library for creating static visualizations in Python."
-  },
-  {
-    "name": "Pandas",
-    "description": "Python library for data analysis and manipulation."
-  },
-  {
-    "name": "TensorFlow",
-    "description": "Library for machine learning and AI."
-  },
-  { "name": "PyTorch", "description": "Deep learning framework for Python." },
-  {
-    "name": "Numpy",
-    "description": "Python library for numerical computations."
   }
 ]
