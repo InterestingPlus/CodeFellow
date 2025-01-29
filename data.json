@@ -33,6 +33,11 @@
     "description": "Style sheet language for designing web pages.",
     "resources": [
       {
+        "category": "For Beginners",
+        "link": "https://m.youtube.com/watch?v=ESnrn1kAD4E",
+        "type": "video"
+      },
+      {
         "category": "Recommended",
         "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw",
         "type": "playlist"
