@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import Boxes from "./Boxes";
 import "./Main.scss";
 import Roadmap from "./Roadmap";
@@ -6,42 +6,29 @@ import Roadmap from "./Roadmap";
 const Home = () => {
   const [technologies, setTechnologies] = useState([]);
   const [roadmaps, setRoadmaps] = useState([]);
-  const [bgImage, setBgImage] = useState(null);
+
+  // Memoize the technologies and roadmaps data
+  const memoizedData = useMemo(() => ({ technologies, roadmaps }), [technologies, roadmaps]);
 
   useEffect(() => {
-    // Fetch technologies data
+    // Fetch and update data if it doesn't match memoized data
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-        setTechnologies(data[0]?.technologies);
-        setRoadmaps(data[1]?.roadmaps);
+        const fetchedTechnologies = data[0]?.technologies || [];
+        const fetchedRoadmaps = data[1]?.roadmaps || [];
+
+        // Compare fetched data with memoized data
+        if (
+          JSON.stringify(fetchedTechnologies) !== JSON.stringify(memoizedData.technologies) ||
+          JSON.stringify(fetchedRoadmaps) !== JSON.stringify(memoizedData.roadmaps)
+        ) {
+          setTechnologies(fetchedTechnologies);
+          setRoadmaps(fetchedRoadmaps);
+        }
       })
       .catch((error) => console.error("Error fetching JSON:", error));
-  }, []);
-
-  useEffect(() => {
-    // Select the hero section
-    const heroElement = document.querySelector("section.hero");
-    setBgImage(heroElement);
-
-    const handleMouseMove = (e) => {
-      if (!heroElement) return;
-
-      // Calculate background position based on mouse movement
-      let x = (e.clientX / window.innerWidth) * 30;
-      let y = (e.clientY / window.innerHeight) * 30;
-
-      heroElement.style.backgroundPosition = `${x}% ${y}%`;
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-
-    return () => {
-      // Cleanup event listener on component unmount
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
+  }, [memoizedData]);
 
   return (
     <>
@@ -60,7 +47,6 @@ const Home = () => {
 
       <section id="technologies">
         <h1>Technologies :</h1>
-
         <div className="tech">
           {technologies?.map((technology, index) => (
             <Boxes key={index} data={technology} />
@@ -70,7 +56,6 @@ const Home = () => {
 
       <section id="roadmaps">
         <h1>Roadmaps :</h1>
-
         <Roadmap roadmaps={roadmaps} />
       </section>
     </>
