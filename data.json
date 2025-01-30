@@ -386,6 +386,20 @@
       },
 
       {
+"name": ".NET",
+"image": "dotnet.png",
+"description": "From Microsoft",
+
+"resources": [
+   {
+"category": "C#",
+"link": "https://youtube.com/playlist?list=PLDSXZnDE8NYWFIZWIZ1H_qZLoSfDiNRxE&si=KSaQL97zH6l5-hFh",
+"type": "playlist"
+}
+]
+      },
+
+      {
         "name": "DSA",
         "description": "",
 
