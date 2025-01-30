@@ -1,4 +1,5 @@
-import React, { useEffect, useState, useMemo } from "react";
+import { openDB } from "idb";
+import React, { useEffect, useState } from "react";
 import Boxes from "./Boxes";
 import "./Main.scss";
 import Roadmap from "./Roadmap";
@@ -6,29 +7,82 @@ import Roadmap from "./Roadmap";
 const Home = () => {
   const [technologies, setTechnologies] = useState([]);
   const [roadmaps, setRoadmaps] = useState([]);
+  const [bgImage, setBgImage] = useState(null);
 
-  // Memoize the technologies and roadmaps data
-  const memoizedData = useMemo(() => ({ technologies, roadmaps }), [technologies, roadmaps]);
+  // Initialize IndexedDB
+  const initDB = async () => {
+    return openDB("CodeFellowDB", 1, {
+      upgrade(db) {
+        if (!db.objectStoreNames.contains("data")) {
+          db.createObjectStore("data", { keyPath: "key" });
+        }
+      },
+    });
+  };
 
   useEffect(() => {
-    // Fetch and update data if it doesn't match memoized data
-    fetch("/data.json")
-      .then((response) => response.json())
-      .then((data) => {
-        const fetchedTechnologies = data[0]?.technologies || [];
-        const fetchedRoadmaps = data[1]?.roadmaps || [];
+    const fetchData = async () => {
+      const db = await initDB();
 
-        // Compare fetched data with memoized data
-        if (
-          JSON.stringify(fetchedTechnologies) !== JSON.stringify(memoizedData.technologies) ||
-          JSON.stringify(fetchedRoadmaps) !== JSON.stringify(memoizedData.roadmaps)
-        ) {
-          setTechnologies(fetchedTechnologies);
-          setRoadmaps(fetchedRoadmaps);
-        }
-      })
-      .catch((error) => console.error("Error fetching JSON:", error));
-  }, [memoizedData]);
+      // Check if cached data exists
+      const cachedData = await db.get("data", "homePageData");
+
+      if (cachedData) {
+        console.log("Data retrieved from IndexedDB:", cachedData);
+        setTechnologies(cachedData.technologies);
+        setRoadmaps(cachedData.roadmaps);
+        return;
+      }
+
+      console.log("Fetching data from JSON...");
+      // Fetch data from the JSON file
+      fetch("/data.json")
+        .then((response) => response.json())
+        .then(async (data) => {
+          const technologiesData = data[0]?.technologies || [];
+          const roadmapsData = data[1]?.roadmaps || [];
+
+          // Update state
+          setTechnologies(technologiesData);
+          setRoadmaps(roadmapsData);
+
+          // Cache data in IndexedDB
+          await db.put("data", {
+            key: "homePageData",
+            technologies: technologiesData,
+            roadmaps: roadmapsData,
+          });
+
+          console.log("Data cached in IndexedDB.");
+        })
+        .catch((error) => console.error("Error fetching JSON:", error));
+    };
+
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    // Select the hero section
+    const heroElement = document.querySelector("section.hero");
+    setBgImage(heroElement);
+
+    const handleMouseMove = (e) => {
+      if (!heroElement) return;
+
+      // Calculate background position based on mouse movement
+      let x = (e.clientX / window.innerWidth) * 30;
+      let y = (e.clientY / window.innerHeight) * 30;
+
+      heroElement.style.backgroundPosition = `${x}% ${y}%`;
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+
+    return () => {
+      // Cleanup event listener on component unmount
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
 
   return (
     <>
@@ -47,6 +101,7 @@ const Home = () => {
 
       <section id="technologies">
         <h1>Technologies :</h1>
+
         <div className="tech">
           {technologies?.map((technology, index) => (
             <Boxes key={index} data={technology} />
@@ -56,6 +111,7 @@ const Home = () => {
 
       <section id="roadmaps">
         <h1>Roadmaps :</h1>
+
         <Roadmap roadmaps={roadmaps} />
       </section>
     </>

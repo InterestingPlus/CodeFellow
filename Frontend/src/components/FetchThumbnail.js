@@ -1,19 +1,30 @@
 import axios from "axios";
+import { openDB } from "idb";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Playlist = ({ url, index, category, type }) => {
   const [details, setDetails] = useState(null);
 
+  // Function to initialize IndexedDB
+  const initDB = async () => {
+    return openDB("PlaylistDB", 1, {
+      upgrade(db) {
+        if (!db.objectStoreNames.contains("playlists")) {
+          db.createObjectStore("playlists", { keyPath: "id" });
+        }
+      },
+    });
+  };
+
   // Function to extract the ID (playlist or video)
   const getId = () => {
-    console.log("hello::", url);
     try {
       const urlObj = new URL(url);
 
-      if (type == "playlist") {
+      if (type === "playlist") {
         return urlObj.searchParams.get("list");
-      } else if (type == "video") {
+      } else if (type === "video") {
         return urlObj.searchParams.get("v");
       }
       return null;
@@ -24,16 +35,27 @@ const Playlist = ({ url, index, category, type }) => {
   };
 
   useEffect(() => {
-    const id = getId();
+    const fetchDetails = async () => {
+      const id = getId();
+      if (!id) {
+        console.error("No valid ID found. Skipping fetch.");
+        return;
+      }
 
-    if (!id) {
-      console.error("No valid ID found. Skipping fetch.");
-      return;
-    }
+      const db = await initDB();
+      const cachedData = await db.get("playlists", id);
 
-    const fetchData = async () => {
+      if (cachedData) {
+        console.log("Data retrieved from IndexedDB:", cachedData);
+        setDetails(cachedData.details);
+        return;
+      }
+
+      console.log("Fetching data from API...");
       try {
         const API_KEY = "AIzaSyBC5nU71xu5wuYUjOuBJW1CuLmwaMaZ2cc";
+
+        let fetchedDetails = null;
 
         if (type === "playlist") {
           // Fetch Playlist Details
@@ -51,14 +73,12 @@ const Playlist = ({ url, index, category, type }) => {
             const channelLogo =
               channelResponse.data.items[0].snippet.thumbnails.high.url;
 
-            setDetails({
+            fetchedDetails = {
               title: detailsData.title,
               thumbnail: detailsData.thumbnails.maxres.url,
               channelName: detailsData.channelTitle,
               channelLogo: channelLogo,
-            });
-          } else {
-            console.warn("No playlist details found for ID:", id);
+            };
           }
         } else if (type === "video") {
           // Fetch Video Details
@@ -76,22 +96,26 @@ const Playlist = ({ url, index, category, type }) => {
             const channelLogo =
               channelResponse.data.items[0].snippet.thumbnails.high.url;
 
-            setDetails({
+            fetchedDetails = {
               title: videoData.title,
               thumbnail: videoData.thumbnails.maxres.url,
               channelName: videoData.channelTitle,
               channelLogo: channelLogo,
-            });
-          } else {
-            console.warn("No video details found for ID:", id);
+            };
           }
+        }
+
+        if (fetchedDetails) {
+          // Save fetched data to IndexedDB
+          await db.put("playlists", { id, details: fetchedDetails });
+          setDetails(fetchedDetails);
         }
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
 
-    fetchData();
+    fetchDetails();
   }, [url, type]);
 
   if (!details) {
