@@ -240,6 +240,20 @@
       },
 
       {
+        "name": "Django",
+        "image": "django.png",
+        "description": "",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDOf-6vAcKmazT92uLnWAgy&si=94Gd4xYx6mdx7cOy",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
         "name": "Node.js",
         "image": "nodejs.png",
         "description": "JavaScript runtime for building server-side applications.",
@@ -254,6 +268,30 @@
             "category": "Step by Step",
             "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At",
             "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "Laravel",
+        "image": "laravel.png",
+        "description": "",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PL8p2I9GklV45Q9ofPyixWAdb1-WLiBvNl&si=xSB7_vGclebUHloh",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbz7JK_YYrRJ1KxlGG4diZHJ&si=I8l0Iiq7e_LQcw_S",
+            "type": "playlist"
+          },
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?si=vWzlFlCbScS4qq72&v=Ea1gVO53lDY&feature=youtu.be",
+            "type": "video"
           }
         ]
       },
@@ -288,6 +326,30 @@
       },
 
       {
+        "name": "React Native",
+        "image": "react.png",
+        "description": "",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSjBBJ-egNNOd4mdblt1P4c",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46Fv-UqCwj0zk_D87cQtVEZ",
+            "type": "playlist"
+          },
+          {
+            "category": "Project",
+            "link": "https://www.youtube.com/playlist?list=PLuHGmgpyHfRx3ICsWZRjc2oEKxX6gky6U",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
         "name": "Angular",
         "image": "angular.png",
         "description": "Framework for building dynamic web applications."
@@ -300,7 +362,15 @@
       {
         "name": "PHP",
         "image": "php.png",
-        "description": "Scripting language for server-side web development."
+        "description": "Scripting language for server-side web development.",
+
+        "resources": [
+          {
+            "category": "Comprehensive",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&si=IUGe02___fUjJ9ZV",
+            "type": "playlist"
+          }
+        ]
       },
 
       {
@@ -386,7 +456,37 @@
       },
 
       {
+        "name": ".NET",
+        "image": "dotnet.png",
+        "description": "From Microsoft",
+
+        "resources": [
+          {
+            "category": "C#",
+            "link": "https://youtube.com/playlist?list=PLDSXZnDE8NYWFIZWIZ1H_qZLoSfDiNRxE&si=KSaQL97zH6l5-hFh",
+            "type": "playlist"
+          },
+          {
+            "category": "ASP.NET - Web Development",
+            "link": "https://youtube.com/playlist?list=PLIY8eNdw5tW_ZQawyxK0Dd1cZXwcNFWn8&si=HoHNWvopcPHBzD-k",
+            "type": "playlist"
+          },
+          {
+            "category": "Frontend - Blazor",
+            "link": "https://youtube.com/playlist?list=PLdo4fOcmZ0oXNZX1Q8rB-5xgTSKR8qA5k&si=-gn6tqI0v3z6O4jp",
+            "type": "playlist"
+          },
+          {
+            "category": "Backend - API",
+            "link": "https://youtube.com/playlist?list=PLdo4fOcmZ0oWunQnm3WnZxJrseIw2zSAk&si=j9pnDjLVhPC4TCh5",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
         "name": "DSA",
+        "image": "dsa.png",
         "description": "",
 
         "resources": [
@@ -441,10 +541,6 @@
       {
         "name": "Ruby on Rails",
         "description": "Framework for building web applications in Ruby."
-      },
-      {
-        "name": "Laravel",
-        "description": "PHP framework for web application development."
       },
       {
         "name": "Spring Boot",

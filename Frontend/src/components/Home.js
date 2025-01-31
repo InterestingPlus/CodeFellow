@@ -31,7 +31,6 @@ const Home = () => {
         console.log("Data retrieved from IndexedDB:", cachedData);
         setTechnologies(cachedData.technologies);
         setRoadmaps(cachedData.roadmaps);
-        return;
       }
 
       console.log("Fetching data from JSON...");
@@ -45,6 +44,8 @@ const Home = () => {
           // Update state
           setTechnologies(technologiesData);
           setRoadmaps(roadmapsData);
+
+          console.log("DATa.json", data);
 
           // Cache data in IndexedDB
           await db.put("data", {

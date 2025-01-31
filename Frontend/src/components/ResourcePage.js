@@ -8,6 +8,8 @@ const ResourcePage = () => {
   const [name, setName] = useState("");
   const navigate = useNavigate();
 
+  const [isLoading, setLoading] = useState(true);
+
   useEffect(() => {
     fetch("/data.json")
       .then((response) => response.json())
@@ -26,6 +28,8 @@ const ResourcePage = () => {
           console.log("No resources found.");
           setResources([]);
         }
+
+        setLoading(false);
       })
       .catch((error) => console.error("Error fetching resources:", error));
   }, [techName]);
@@ -33,7 +37,7 @@ const ResourcePage = () => {
   return (
     <>
       <section id="resources">
-        {name ? (
+        {!isLoading ? (
           <>
             <h1>
               <i
@@ -46,7 +50,8 @@ const ResourcePage = () => {
                   }
                 }}
               ></i>
-              Resources to Learn {name}
+
+              {name ? `Resources to Learn ${name}` : `${techName} not Found!`}
             </h1>
 
             {resources ? (
@@ -62,7 +67,7 @@ const ResourcePage = () => {
                   ))}
                 </ul>
               ) : (
-                <p>No resources available for {techName}.</p>
+                <p>No Resources available for {techName}.</p>
               )
             ) : (
               <p>Loading Resources for {techName}</p>
@@ -80,7 +85,7 @@ const ResourcePage = () => {
                 }
               }}
             ></i>
-            {techName} not Found!
+            Loading {techName}
           </h1>
         )}
       </section>
