@@ -6,7 +6,7 @@ const Boxes = ({ data }) => {
     <Link
       className="language-box"
       style={{ background: `${data?.color || "#fff"}` }}
-      to={`learn/${data?.name || ""}`}
+      to={`/learn/${data?.name || ""}`}
     >
       <img src={`../images/${data?.image || ""}`} alt={data?.name || ""} />
       <h3>{data?.name || ""}</h3>

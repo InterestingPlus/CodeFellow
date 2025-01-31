@@ -49,6 +49,33 @@ main {
             }
         }
 
+
+
+        button {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+
+            color: #00f2b6;
+            background: #29325b;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+
+            border-radius: 50px;
+            border: none;
+            outline: none;
+
+            cursor: pointer;
+
+            &:hover {
+                color: #29325b;
+                background: #00f2b6;
+            }
+        }
     }
 
     section#resources {
@@ -144,20 +171,36 @@ main {
         flex-direction: column;
         gap: 1rem;
         padding: 1rem;
+        background: #60f2fa8b;
 
         .roadmap {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1rem;
+            gap: 1.5rem;
+            padding: 1rem;
 
             a {
-                background: #00f2ff;
+                background: #fff;
                 padding: 1rem;
                 border-radius: 10px;
 
                 display: flex;
                 flex-direction: column;
                 gap: .5rem;
+
+                color: #29325b;
+                text-align: center;
+                box-shadow: 2px 2px 10px #470cb562;
+
+
+                img {
+                    width: 100%;
+                    max-width: 100px;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
             }
         }
     }
@@ -179,8 +222,8 @@ section.hero {
     // background: url("https://tse2.mm.bing.net/th?id=OIG4.gZw6M0.leGwHGq29pKo_&pid=ImgGn");
     // background: url("https://tse2.mm.bing.net/th?id=OIG1.EapVr78nRZhw2dovtg9L&pid=ImgGn");
     background: url("./../images/background.jpg");
-    background-size: 125%;
-    // background-position: center;
+    background-size: 100% cover;
+    background-position: center;
 
     transition: .15s linear;
 
@@ -190,6 +233,22 @@ section.hero {
     height: 100dvh;
     max-height: 100dvh;
     z-index: 1;
+
+
+    animation: backgroundScale .5s linear alternate;
+
+
+    @keyframes backgroundScale {
+        from {
+            background-size: 100%;
+        }
+
+        to {
+            background-size: 150%;
+            background-position: center;
+        }
+
+    }
 
     .container {
         display: flex;
@@ -436,14 +495,13 @@ li.loading {
 
 
     section#roadmaps {
-
-
         .roadmap {
             display: grid;
             grid-template-columns: 1fr !important;
             gap: 1rem;
 
             a {
+
 
                 padding: 1rem;
                 border-radius: 10px;

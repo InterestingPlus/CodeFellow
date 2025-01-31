@@ -1,5 +1,6 @@
 import { openDB } from "idb";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Boxes from "./Boxes";
 import "./Main.scss";
 import Roadmap from "./Roadmap";
@@ -8,6 +9,8 @@ const Home = () => {
   const [technologies, setTechnologies] = useState([]);
   const [roadmaps, setRoadmaps] = useState([]);
   const [bgImage, setBgImage] = useState(null);
+
+  const navigate = useNavigate();
 
   // Initialize IndexedDB
   const initDB = async () => {
@@ -28,7 +31,6 @@ const Home = () => {
       const cachedData = await db.get("data", "homePageData");
 
       if (cachedData) {
-        console.log("Data retrieved from IndexedDB:", cachedData);
         setTechnologies(cachedData.technologies);
         setRoadmaps(cachedData.roadmaps);
       }
@@ -45,16 +47,12 @@ const Home = () => {
           setTechnologies(technologiesData);
           setRoadmaps(roadmapsData);
 
-          console.log("DATa.json", data);
-
           // Cache data in IndexedDB
           await db.put("data", {
             key: "homePageData",
             technologies: technologiesData,
             roadmaps: roadmapsData,
           });
-
-          console.log("Data cached in IndexedDB.");
         })
         .catch((error) => console.error("Error fetching JSON:", error));
     };
@@ -71,23 +69,26 @@ const Home = () => {
       if (!heroElement) return;
 
       // Calculate background position based on mouse movement
-      let x = (e.clientX / window.innerWidth) * 30;
-      let y = (e.clientY / window.innerHeight) * 30;
+      let x = ((e.clientX - window.innerWidth / 2) / window.innerWidth) * 30;
+      let y = ((e.clientY - window.innerHeight / 2) / window.innerHeight) * 25;
 
-      heroElement.style.backgroundPosition = `${x}% ${y}%`;
+      heroElement.style.backgroundPosition = `${50 + x}% ${50 + y}%`;
     };
 
-    window.addEventListener("mousemove", handleMouseMove);
+    setTimeout(() => {
+      window.addEventListener("mousemove", handleMouseMove);
+      window.addEventListener("touchmove", handleMouseMove);
+    }, 600);
 
     return () => {
       // Cleanup event listener on component unmount
       window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("touchmove", handleMouseMove);
     };
   }, []);
 
   return (
     <>
-      {/* Hero Section */}
       <section className="hero">
         <div className="container">
           <h1>
@@ -104,10 +105,20 @@ const Home = () => {
         <h1>Technologies :</h1>
 
         <div className="tech">
-          {technologies?.map((technology, index) => (
+          {technologies?.slice(0, 10).map((technology, index) => (
             <Boxes key={index} data={technology} />
           ))}
         </div>
+
+        <button
+          type="button"
+          onClick={() => {
+            navigate("/learn");
+          }}
+          id="view-all-techs"
+        >
+          View All Technologies
+        </button>
       </section>
 
       <section id="roadmaps">

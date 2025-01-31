@@ -29,19 +29,22 @@
      img {
          max-height: 60px;
          width: 65px;
+
+         cursor: pointer;
      }
 
      h2 {
          font-family: "Unbounded", serif;
          font-size: 1.4rem;
-        //  color: #00faa7;
+         //  color: #00faa7;
          //  color: #098cd9 !important;
          color: rgb(0, 242, 182);
+         cursor: pointer;
 
          span {
-            //  color: #098cd9;
+             //  color: #098cd9;
              color: #fff !important;
-            //  color: #00d0ff;
+             //  color: #00d0ff;
 
 
 
