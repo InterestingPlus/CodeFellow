@@ -300,7 +300,15 @@
       {
         "name": "PHP",
         "image": "php.png",
-        "description": "Scripting language for server-side web development."
+        "description": "Scripting language for server-side web development.",
+
+"resources": [
+   {
+      "category": "Comprehensive",
+      "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&si=IUGe02___fUjJ9ZV",
+      "type": "playlist"
+   } 
+]
       },
 
       {
