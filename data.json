@@ -248,7 +248,7 @@
             {
                "category": "Recommended",
                "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDOf-6vAcKmazT92uLnWAgy&si=94Gd4xYx6mdx7cOy",
-               "type": "video"
+               "type": "playlist"
             }
          ]
       },
@@ -290,8 +290,8 @@
            },
            {
               "category": "Advanced",
-              "link": "https://youtu.be/Ea1gVO53lDY?si=vWzlFlCbScS4qq72",
-              "type": "playlist"        
+              "link": "https://www.youtube.com/watch?si=vWzlFlCbScS4qq72&v=Ea1gVO53lDY&feature=youtu.be",
+              "type": "video"        
            }
          ]
       },
