@@ -449,8 +449,7 @@
            },
            {
              "category": "Frontend - Blazor",
-             "link": "
-https://youtube.com/playlist?list=PLdo4fOcmZ0oXNZX1Q8rB-5xgTSKR8qA5k&si=-gn6tqI0v3z6O4jp",
+             "link": "https://youtube.com/playlist?list=PLdo4fOcmZ0oXNZX1Q8rB-5xgTSKR8qA5k&si=-gn6tqI0v3z6O4jp",
              "type": "playlist"
            },
           {
@@ -518,10 +517,6 @@ https://youtube.com/playlist?list=PLdo4fOcmZ0oXNZX1Q8rB-5xgTSKR8qA5k&si=-gn6tqI0
       {
         "name": "Ruby on Rails",
         "description": "Framework for building web applications in Ruby."
-      },
-      {
-        "name": "Laravel",
-        "description": "PHP framework for web application development."
       },
       {
         "name": "Spring Boot",
