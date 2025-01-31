@@ -273,6 +273,30 @@
       },
 
       {
+         "name": "Laravel",
+         "image": "laravel.png",
+         "description": "",
+
+         "resources": [
+           {
+              "category": "Step by Step",
+              "link": "https://youtube.com/playlist?list=PL8p2I9GklV45Q9ofPyixWAdb1-WLiBvNl&si=xSB7_vGclebUHloh",
+              "type": "playlist"
+           },
+           {
+              "category": "Recommended", 
+              "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbz7JK_YYrRJ1KxlGG4diZHJ&si=I8l0Iiq7e_LQcw_S",
+              "type": "playlist"
+           },
+           {
+              "category": "Advanced",
+              "link": "https://youtu.be/Ea1gVO53lDY?si=vWzlFlCbScS4qq72",
+              "type": "playlist"        
+           }
+         ]
+      },
+
+      {
         "name": "Next.js",
         "image": "nextjs.png",
         "description": "React framework for server-side rendering and static sites.",
