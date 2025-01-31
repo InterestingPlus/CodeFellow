@@ -408,6 +408,17 @@
              "category": "ASP.NET - Web Development",
              "link": "https://youtube.com/playlist?list=PLIY8eNdw5tW_ZQawyxK0Dd1cZXwcNFWn8&si=HoHNWvopcPHBzD-k",
              "type": "playlist"
+           },
+           {
+             "category": "Frontend - Blazor",
+             "link": "
+https://youtube.com/playlist?list=PLdo4fOcmZ0oXNZX1Q8rB-5xgTSKR8qA5k&si=-gn6tqI0v3z6O4jp",
+             "type": "playlist"
+           },
+          {
+             "category": "Backend - API",
+             "link": "https://youtube.com/playlist?list=PLdo4fOcmZ0oWunQnm3WnZxJrseIw2zSAk&si=j9pnDjLVhPC4TCh5",
+             "type": "playlist"
            }
         ]
       },
