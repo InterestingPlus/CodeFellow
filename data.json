@@ -533,56 +533,71 @@
 
       {
         "name": "Kotlin",
+        "image": "kotlin.png",
         "description": "Modern programming language for Android development."
       },
       {
         "name": "Swift",
+        "image": "swift.png",
         "description": "Programming language for iOS and macOS applications."
       },
       {
         "name": "Flutter",
+        "image": "flutter.png",
         "description": "UI toolkit for building natively compiled applications."
       },
       {
         "name": "Dart",
+        "image": "dart.png",
         "description": "Programming language for Flutter applications."
       },
       {
         "name": "Ruby",
+        "image": "ruby.png",
         "description": "Dynamic programming language for web development."
       },
       {
         "name": "Ruby on Rails",
+        "image": "ruby.png",
         "description": "Framework for building web applications in Ruby."
       },
       {
         "name": "Spring Boot",
+        "image": "spring-boot.png",
         "description": "Framework for building Java-based applications."
       },
       {
         "name": "Express.js",
+        "image": "express-js.png",
         "description": "Minimal web framework for Node.js."
       },
 
       {
         "name": "PostgreSQL",
+        "image": "postgreSQL.png",
         "description": "Advanced open-source relational database."
       },
       {
         "name": "MySQL",
+        "image": "mySQL.png",
         "description": "Popular open-source relational database."
       },
       {
         "name": "Docker",
+        "image": "docker.png",
         "description": "Platform for containerizing applications."
       },
       {
         "name": "Kubernetes",
         "description": "System for managing containerized applications."
       },
-      { "name": "GraphQL", "description": "Query language for APIs." },
+      { 
+        "name": "GraphQL", 
+        "image": "graphQL.png", 
+      "description": "Query language for APIs." },
       {
         "name": "REST API",
+        "image": "rest-api.png",
         "description": "Architectural style for designing networked applications."
       },
       {
