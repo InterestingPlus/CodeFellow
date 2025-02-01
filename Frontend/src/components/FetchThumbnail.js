@@ -46,12 +46,10 @@ const Playlist = ({ url, index, category, type }) => {
       const cachedData = await db.get("playlists", id);
 
       if (cachedData) {
-        console.log("Data retrieved from IndexedDB:", cachedData);
         setDetails(cachedData.details);
-        return;
+        // return;
       }
 
-      console.log("Fetching data from API...");
       try {
         const API_KEY = "AIzaSyBC5nU71xu5wuYUjOuBJW1CuLmwaMaZ2cc";
 
@@ -62,7 +60,10 @@ const Playlist = ({ url, index, category, type }) => {
           const detailsURL = `https://www.googleapis.com/youtube/v3/playlists?part=snippet&id=${id}&key=${API_KEY}`;
           const detailsResponse = await axios.get(detailsURL);
 
-          const detailsData = detailsResponse.data.items[0]?.snippet;
+          const detailsData = detailsResponse?.data?.items[0]?.snippet;
+
+          console.log(detailsData.thumbnails);
+
           if (detailsData) {
             const channelId = detailsData.channelId;
 
@@ -71,12 +72,12 @@ const Playlist = ({ url, index, category, type }) => {
             const channelResponse = await axios.get(channelURL);
 
             const channelLogo =
-              channelResponse.data.items[0].snippet.thumbnails.high.url;
+              channelResponse?.data?.items[0]?.snippet?.thumbnails?.medium?.url;
 
             fetchedDetails = {
-              title: detailsData.title,
-              thumbnail: detailsData.thumbnails.maxres.url,
-              channelName: detailsData.channelTitle,
+              title: detailsData?.title,
+              thumbnail: detailsData?.thumbnails?.medium.url,
+              channelName: detailsData?.channelTitle,
               channelLogo: channelLogo,
             };
           }
@@ -94,11 +95,11 @@ const Playlist = ({ url, index, category, type }) => {
             const channelResponse = await axios.get(channelURL);
 
             const channelLogo =
-              channelResponse.data.items[0].snippet.thumbnails.high.url;
+              channelResponse.data.items[0].snippet.thumbnails.medium.url;
 
             fetchedDetails = {
               title: videoData.title,
-              thumbnail: videoData.thumbnails.maxres.url,
+              thumbnail: videoData.thumbnails.medium.url,
               channelName: videoData.channelTitle,
               channelLogo: channelLogo,
             };

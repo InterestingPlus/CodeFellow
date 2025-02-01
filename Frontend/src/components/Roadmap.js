@@ -1,5 +1,5 @@
 import React from "react";
-import Boxes from "./Boxes";
+import { Link } from "react-router-dom";
 
 const Roadmap = ({ roadmaps }) => {
   console.log(roadmaps);
@@ -7,7 +7,21 @@ const Roadmap = ({ roadmaps }) => {
   return (
     <div className="roadmap">
       {roadmaps?.map((roadmap, index) => (
-        <Boxes key={index} data={roadmap} />
+        <Link
+          index={index}
+          className="language-box"
+          style={{ background: `${roadmap?.color || "#fff"}` }}
+          to={`/roadmap/${
+            roadmap?.name.toLowerCase().split(" ").join("-") || ""
+          }`}
+        >
+          <img
+            src={`../images/${roadmap?.image || ""}`}
+            alt={roadmap?.name || ""}
+          />
+          <h3>{roadmap?.name || ""}</h3>
+          <p>{roadmap?.description || ""}</p>
+        </Link>
       ))}
     </div>
   );

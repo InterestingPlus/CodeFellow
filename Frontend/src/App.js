@@ -6,6 +6,7 @@ import ScrollToTop from "./ScrollToTop";
 import AllTechnologies from "./components/AllTechnologies";
 import Home from "./components/Home";
 import ResourcePage from "./components/ResourcePage";
+import RoadmapPage from "./components/RoadmapPage";
 
 const App = () => {
   return (
@@ -17,8 +18,8 @@ const App = () => {
           <Route path="/learn" element={<AllTechnologies />} />
           <Route path="/learn/:techName" element={<ResourcePage />} />
 
-          {/* <Route path="/roadmap" element={<AllTechnologies />} />
-          <Route path="/roadmap/:roadmapName" element={<ResourcePage />} /> */}
+          {/* <Route path="/roadmap" element={<AllTechnologies />} /> */}
+          <Route path="/roadmap/:roadmapName" element={<RoadmapPage />} />
         </Routes>
       </Layout>
     </Router>
