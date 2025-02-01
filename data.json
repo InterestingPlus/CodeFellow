@@ -610,35 +610,43 @@
       },
       {
         "name": "Webpack",
+        "image": "webpack.png",
         "description": "Module bundler for JavaScript applications."
       },
       {
         "name": "Babel",
+        "image": "babel.png",
         "description": "JavaScript compiler for next-generation JavaScript."
       },
       {
         "name": "Tailwind CSS",
+        "image": "tailwindcss.png",
         "description": "Utility-first CSS framework for styling web pages."
       },
       {
         "name": "Bootstrap",
+        "image": "bootstrap.png",
         "description": "CSS framework for responsive web design."
       },
 
       {
         "name": "Redux",
+        "image": "redux.png",
         "description": "State management library for JavaScript apps."
       },
       {
         "name": "Firebase",
+        "image": "firebase.png",
         "description": "Platform for building and hosting web and mobile apps."
       },
       {
         "name": "Jest",
+        "image": "jest.png",
         "description": "Testing framework for JavaScript applications."
       },
       {
         "name": "Cypress",
+        "image": "cypress.png",
         "description": "End-to-end testing framework for web applications."
       },
 
@@ -654,6 +662,7 @@
       },
       {
         "name": "Matplotlib",
+        "image": "matplotlib.png",
         "description": "Library for creating static visualizations in Python."
       },
       {
@@ -673,6 +682,7 @@
       },
       {
         "name": "Numpy",
+        "image": "numPy.png",
         "description": "Python library for numerical computations."
       }
     ]
@@ -779,6 +789,42 @@
         "name": "App Development",
         "image": "appdev.png",
         "description": "Roadmap for creating mobile applications using native technologies like Kotlin and Swift, as well as cross-platform tools like Flutter and React Native."
+      },
+      {
+        "name": "Android",
+        "description": "Learn to build Android applications using Java, Kotlin, and Android Studio, covering everything from UI design to app deployment."
+      },
+      {
+        "name": "iOS",
+        "description": "Step-by-step guide to developing iOS applications using Swift, Xcode, and Apple's guidelines for app design and deployment."
+      },
+      {
+        "name": "Game Development",
+        "description": "Learn to create games using popular engines like Unity and Unreal Engine, covering game design, mechanics, and monetization."
+      },
+      {
+        "name": "Data Analyst",
+        "description": "Roadmap to becoming a data analyst, focusing on data visualization, SQL, Excel, Python, and tools like Tableau and Power BI."
+      },
+      {
+        "name": "AI",
+        "description": "Comprehensive roadmap for exploring artificial intelligence, covering machine learning, neural networks, NLP, and tools like TensorFlow and PyTorch."
+      },
+      {
+        "name": "MLOps",
+        "description": "Learn to streamline machine learning operations, including model deployment, monitoring, and scaling with tools like Kubernetes and Docker."
+      },
+      {
+        "name": "CyberSecurity",
+        "description": "Roadmap to mastering cybersecurity concepts like network security, ethical hacking, and tools like Kali Linux and Wireshark."
+      },
+      {
+        "name": "DevOps",
+        "description": "Comprehensive guide to automating and improving software development workflows with tools like Jenkins, Docker, Kubernetes, and AWS."
+      },
+      {
+        "name": "BlockChain",
+        "description": "Step-by-step guide to understanding blockchain technology, including smart contracts, cryptocurrencies, and platforms like Ethereum and Hyperledger."
       }
     ]
   }
