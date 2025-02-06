@@ -114,6 +114,7 @@
         "name": "React.js",
         "image": "react.png",
         "description": "JavaScript library for building modern, interactive UI components.",
+
         "resources": [
           {
             "category": "Learn by Projects",
@@ -131,6 +132,11 @@
             "type": "playlist"
           }
         ]
+      },
+      {
+        "name": "Redux",
+        "image": "redux.png",
+        "description": "State management library for managing application state efficiently."
       },
       {
         "name": "Next.js",
@@ -162,7 +168,7 @@
       {
         "name": "Vue",
         "image": "vue.png",
-        "description": "Progressive framework for building user interfaces."
+        "description": "Progressive framework for building user interfaces and SPAs."
       },
       {
         "name": "Angular",
@@ -172,7 +178,7 @@
       {
         "name": "Node.js",
         "image": "nodejs.png",
-        "description": "JavaScript runtime for building server-side applications.",
+        "description": "JavaScript runtime for server-side development and APIs.",
         "resources": [
           {
             "category": "Complete Backend",
@@ -189,12 +195,12 @@
       {
         "name": "Express.js",
         "image": "express-js.png",
-        "description": "Minimal web framework for Node.js."
+        "description": "Minimal web framework for building Node.js applications."
       },
       {
         "name": "PHP",
         "image": "php.png",
-        "description": "Scripting language for server-side web development.",
+        "description": "Server-side scripting language for dynamic web applications.",
         "resources": [
           {
             "category": "Comprehensive",
@@ -206,7 +212,7 @@
       {
         "name": "Laravel",
         "image": "laravel.png",
-        "description": "",
+        "description": "Elegant PHP framework for modern web applications.",
         "resources": [
           {
             "category": "Step by Step",
@@ -228,7 +234,7 @@
       {
         "name": "Python",
         "image": "python.png",
-        "description": "General-purpose programming language.",
+        "description": "General-purpose programming language for web, AI, and data science.",
         "resources": [
           {
             "category": "Basic",
@@ -245,7 +251,7 @@
       {
         "name": "Django",
         "image": "django.png",
-        "description": "",
+        "description": "High-level Python web framework for rapid development.",
         "resources": [
           {
             "category": "Recommended",
@@ -287,7 +293,7 @@
       {
         "name": "C",
         "image": "c.png",
-        "description": "General-purpose programming language.",
+        "description": "General-purpose, Powerful, low-level programming language.",
         "resources": [
           {
             "category": "Harvard University",
@@ -309,7 +315,7 @@
       {
         "name": "C++",
         "image": "cpp.png",
-        "description": "Object-oriented programming language.",
+        "description": "Object-oriented extension of C with enhanced performance.",
         "resources": [
           {
             "category": "in English",
@@ -321,7 +327,7 @@
       {
         "name": "Java",
         "image": "java.png",
-        "description": "Platform-independent programming language.",
+        "description": "Platform-independent programming language for applications.",
         "resources": [
           {
             "category": "with DSA",
@@ -333,7 +339,7 @@
       {
         "name": "Spring Boot",
         "image": "spring-boot.png",
-        "description": "Framework for building Java-based applications."
+        "description": "Framework for Java-based microservices and enterprise applications."
       },
       {
         "name": "Kotlin",
@@ -358,7 +364,8 @@
       {
         "name": "React Native",
         "image": "react.png",
-        "description": "",
+        "description": "Framework for building mobile applications using React and JavaScript.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -417,9 +424,9 @@
         "description": "Widely used open-source relational database."
       },
       {
-        "name": "DSA",
+        "name": "DSA (Data Structures & Algorithms)",
         "image": "dsa.png",
-        "description": "",
+        "description": "Foundation of programming that focuses on data organization and problem-solving techniques.",
         "resources": [
           {
             "category": "Step by Step",
@@ -584,7 +591,8 @@
       {
         "name": ".NET",
         "image": "dotnet.png",
-        "description": "From Microsoft",
+        "description": "Microsoft framework for building web, desktop, and mobile applications.",
+
         "resources": [
           {
             "category": "C#",
