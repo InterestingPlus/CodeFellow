@@ -656,6 +656,24 @@
         "name": "Adobe XD",
         "image": "adobexd.png",
         "description": "Design and prototyping tool for UI/UX."
+      },
+      {
+        "name": "Linux",
+        "image": "linux.png",
+        "description": "",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=J8odohybOIM",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Kali Linux",
+        "image": "kali-linux.png",
+        "description": ""
       }
     ]
   },
@@ -672,7 +690,29 @@
           },
           {
             "title": "2. Learn HTML",
-            "content": "Learn the structure of web pages, semantic HTML, and accessibility best practices."
+            "content": "Learn the structure of web pages, semantic HTML, and accessibility best practices.",
+
+            "roadmap": [
+              [
+                "HTML",
+                {
+                  "title": "HTML"
+                }
+              ],
+              [
+                "Advance HTML",
+                {
+                  "about": "Semantic HTML",
+                  "link": "https://www.youtube.com/watch?v=J8odohybOIM",
+                  "type": "video"
+                },
+                {
+                  "about": "SEO",
+                  "link": "",
+                  "type": "video"
+                }
+              ]
+            ]
           },
           {
             "title": "3. Learn CSS",
@@ -747,7 +787,7 @@
       },
       {
         "name": "Full Stack",
-        "image": "fullstack.png",
+        "image": "full-stack.png",
         "description": "A complete guide to mastering both frontend and backend development, including deployment, testing, and project management."
       },
       {
