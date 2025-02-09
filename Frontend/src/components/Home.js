@@ -95,9 +95,12 @@ const Home = () => {
             Welcome to Code<span>Fellow</span>
           </h1>
           <p>Your ultimate destination to explore and learn technologies!</p>
+
           <a href="#technologies" className="cta-button">
             Get Started
           </a>
+
+          <h2>Jatin Poriya</h2>
         </div>
       </section>
 

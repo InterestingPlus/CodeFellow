@@ -7,6 +7,7 @@ import AllTechnologies from "./components/AllTechnologies";
 import Home from "./components/Home";
 import ResourcePage from "./components/ResourcePage";
 import RoadmapPage from "./components/RoadmapPage";
+import Roadmap from "./components/Roadmap";
 
 const App = () => {
   return (
@@ -18,8 +19,11 @@ const App = () => {
           <Route path="/learn" element={<AllTechnologies />} />
           <Route path="/learn/:techName" element={<ResourcePage />} />
 
-          {/* <Route path="/roadmap" element={<AllTechnologies />} /> */}
           <Route path="/roadmap/:roadmapName" element={<RoadmapPage />} />
+          <Route
+            path="/roadmap/:roadmapName/:stepIndex"
+            element={<Roadmap />}
+          />
         </Routes>
       </Layout>
     </Router>

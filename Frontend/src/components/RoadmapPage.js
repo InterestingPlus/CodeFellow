@@ -60,8 +60,9 @@ const RoadmapPage = () => {
                 <ul>
                   {roadmap.map((rdmp, index) => (
                     <li>
-                      <Link to={"/"}>
-                        <p>{rdmp.title}</p>
+                      <Link to={`${index + 1}`}>
+                        <h3>{rdmp.title}</h3>
+                        <p>{rdmp.content}</p>
                       </Link>
                     </li>
                   ))}
