@@ -231,6 +231,25 @@
           }
         ]
       },
+{
+   "name": "Golang",
+"image": "go.png",
+ "description": "..",
+
+"resources": [
+ 
+
+
+{
+"category":"Begginer Friendly",
+"link": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&si=tVq6WIgnNeBKe5tI",
+"type":"playlist"
+}
+]
+
+},
+
+
       {
         "name": "Python",
         "image": "python.png",
