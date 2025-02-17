@@ -3,12 +3,11 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Boxes from "./Boxes";
 import "./Main.scss";
-import Roadmap from "./Roadmap";
+import Roadmaps from "./Roadmaps";
 
 const Home = () => {
   const [technologies, setTechnologies] = useState([]);
   const [roadmaps, setRoadmaps] = useState([]);
-  const [bgImage, setBgImage] = useState(null);
 
   const navigate = useNavigate();
 
@@ -63,14 +62,14 @@ const Home = () => {
   useEffect(() => {
     // Select the hero section
     const heroElement = document.querySelector("section.hero");
-    setBgImage(heroElement);
 
     const handleMouseMove = (e) => {
       if (!heroElement) return;
 
       // Calculate background position based on mouse movement
       let x = ((e.clientX - window.innerWidth / 2) / window.innerWidth) * 30;
-      let y = ((e.clientY - window.innerHeight / 2) / window.innerHeight) * 25;
+      let y =
+        ((e.clientY - window.innerHeight / 2) / window.innerHeight) * 30 * -1;
 
       heroElement.style.backgroundPosition = `${50 + x}% ${50 + y}%`;
     };
@@ -127,7 +126,7 @@ const Home = () => {
       <section id="roadmaps">
         <h1>Roadmaps :</h1>
 
-        <Roadmap roadmaps={roadmaps} />
+        <Roadmaps roadmaps={roadmaps} />
       </section>
     </>
   );

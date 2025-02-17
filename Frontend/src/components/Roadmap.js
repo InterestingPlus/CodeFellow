@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Playlist from "./FetchThumbnail";
+import "./Roadmap.scss";
+import Boxes from "./Boxes";
 
 const Roadmap = () => {
   const { roadmapName, stepIndex } = useParams();
@@ -38,9 +40,41 @@ const Roadmap = () => {
       .catch((error) => console.error("Error fetching resources:", error));
   }, [roadmapName, stepIndex]);
 
+  const LoadTechnology = ({ title, index }) => {
+    const [technology, setTechnology] = useState({
+      name: "",
+      description: "",
+      image: "",
+    });
+
+    useEffect(() => {
+      fetch("/data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const tech = data[0].technologies.find(
+            (item) => item.name.toLowerCase() === title.toLowerCase()
+          );
+
+          if (tech) {
+            setTechnology({
+              name: tech.name,
+              description: tech.description,
+              image: tech.image,
+              color: tech.color,
+            });
+          } else {
+            console.log("No technology found.");
+          }
+        })
+        .catch((error) => console.error("Error fetching technology:", error));
+    }, [title]);
+
+    return <Boxes key={index} data={technology} />;
+  };
+
   return (
     <>
-      <section id="resources">
+      <section id="roadmap">
         {!isLoading ? (
           <>
             <h1>
@@ -67,23 +101,16 @@ const Roadmap = () => {
 
                       <ol>
                         {rdmp.map((sources, index) => {
-                          console.log(sources);
-
                           if (typeof sources === "string") {
-                            return;
+                            return <></>;
                           } else {
                             return (
                               <li key={index * index}>
                                 {rdmp[1]?.title ? (
-                                  <Link
-                                    to={`${
-                                      rdmp[1]?.title
-                                        ? `/learn/${rdmp[1].title}`
-                                        : ""
-                                    }`}
-                                  >
-                                    {rdmp[0]}
-                                  </Link>
+                                  <LoadTechnology
+                                    title={rdmp[1]?.title}
+                                    index={index * index}
+                                  />
                                 ) : (
                                   <Playlist
                                     url={sources.link}

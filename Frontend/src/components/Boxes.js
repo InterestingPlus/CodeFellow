@@ -8,7 +8,7 @@ const Boxes = ({ data }) => {
       style={{ background: `${data?.color || "#fff"}` }}
       to={`/learn/${data?.name || ""}`}
     >
-      <img src={`../images/${data?.image || ""}`} alt={data?.name || ""} />
+      <img src={`/images/${data?.image || ""}`} alt={data?.name || ""} />
       <h3>{data?.name || ""}</h3>
       <p>{data?.description || ""}</p>
     </Link>
