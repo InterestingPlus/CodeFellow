@@ -231,24 +231,19 @@
           }
         ]
       },
-{
-   "name": "Golang",
-"image": "go.png",
- "description": "..",
+      {
+        "name": "Golang",
+        "image": "go.png",
+        "description": "Efficient, statically typed language for scalable backend and system programming",
 
-"resources": [
- 
-
-
-{
-"category":"Begginer Friendly",
-"link": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&si=tVq6WIgnNeBKe5tI",
-"type":"playlist"
-}
-]
-
-},
-
+        "resources": [
+          {
+            "category": "Begginer Friendly",
+            "link": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&si=tVq6WIgnNeBKe5tI",
+            "type": "playlist"
+          }
+        ]
+      },
 
       {
         "name": "Python",
@@ -308,6 +303,11 @@
         "name": "Numpy",
         "image": "numPy.png",
         "description": "Python library for numerical computations."
+      },
+      {
+        "name": "Rust",
+        "image": "rust.png",
+        "description": "Memory-safe, high-performance language for systems and concurrent programming."
       },
       {
         "name": "C",
@@ -679,7 +679,7 @@
       {
         "name": "Linux",
         "image": "linux.png",
-        "description": "",
+        "description": "Open-source operating system known for stability, security, and flexibility.",
 
         "resources": [
           {
@@ -692,7 +692,7 @@
       {
         "name": "Kali Linux",
         "image": "kali-linux.png",
-        "description": ""
+        "description": "Security-focused Linux distribution for penetration testing and Ethical Hacking."
       }
     ]
   },
@@ -722,12 +722,17 @@
                 "Advance HTML",
                 {
                   "about": "Semantic HTML",
-                  "link": "https://www.youtube.com/watch?v=J8odohybOIM",
+                  "link": "https://www.youtube.com/watch?v=DSRMCZwM3YE",
                   "type": "video"
                 },
                 {
-                  "about": "SEO",
-                  "link": "",
+                  "about": "META Tags",
+                  "link": "https://www.youtube.com/watch?v=9F3DYxcxa4k",
+                  "type": "video"
+                },
+                {
+                  "about": "SEO Friedly HTML Guide",
+                  "link": "https://www.youtube.com/watch?v=ORazAn-Iigg",
                   "type": "video"
                 }
               ]
@@ -811,7 +816,7 @@
       },
       {
         "name": "UX Design",
-        "image": "uxdesign.png",
+        "image": "ui-ux.png",
         "description": "Roadmap to understanding user experience design, including research, wireframing, prototyping, and tools like Figma and Adobe XD."
       },
       {
@@ -821,38 +826,47 @@
       },
       {
         "name": "Android",
+        "image": "android.png",
         "description": "Learn to build Android applications using Java, Kotlin, and Android Studio, covering everything from UI design to app deployment."
       },
       {
         "name": "iOS",
+        "image": "ios.png",
         "description": "Step-by-step guide to developing iOS applications using Swift, Xcode, and Apple's guidelines for app design and deployment."
       },
       {
         "name": "Game Development",
+        "image": "gamedev.png",
         "description": "Learn to create games using popular engines like Unity and Unreal Engine, covering game design, mechanics, and monetization."
       },
       {
         "name": "Data Analyst",
+        "image": "data-analyst.png",
         "description": "Roadmap to becoming a data analyst, focusing on data visualization, SQL, Excel, Python, and tools like Tableau and Power BI."
       },
       {
         "name": "AI",
+        "image": "ai.png",
         "description": "Comprehensive roadmap for exploring artificial intelligence, covering machine learning, neural networks, NLP, and tools like TensorFlow and PyTorch."
       },
       {
         "name": "MLOps",
+        "image": "ml-ops.png",
         "description": "Learn to streamline machine learning operations, including model deployment, monitoring, and scaling with tools like Kubernetes and Docker."
       },
       {
         "name": "CyberSecurity",
+        "image": "cybersecurity.png",
         "description": "Roadmap to mastering cybersecurity concepts like network security, ethical hacking, and tools like Kali Linux and Wireshark."
       },
       {
         "name": "DevOps",
+        "image": "dev-ops.png",
         "description": "Comprehensive guide to automating and improving software development workflows with tools like Jenkins, Docker, Kubernetes, and AWS."
       },
       {
         "name": "BlockChain",
+        "image": "blockchain.png",
         "description": "Step-by-step guide to understanding blockchain technology, including smart contracts, cryptocurrencies, and platforms like Ethereum and Hyperledger."
       }
     ]
