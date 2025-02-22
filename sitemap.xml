@@ -4,13 +4,27 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <url>
+        <loc>https://codefellow.netlify.app/</loc>
+        <lastmod>2025-02-02T06:13:16+00:00</lastmod>
+    </url>
 
+    <url>
+        <loc>https://codefellow.netlify.app/learn</loc>
+        <lastmod>2025-02-02T06:13:16+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://codefellow.netlify.app/learn/html</loc>
+        <lastmod>2025-02-02T06:13:16+00:00</lastmod>
+    </url>
 
-<url>
-  <loc>https://codefellow.netlify.app/</loc>
-  <lastmod>2025-02-02T06:13:16+00:00</lastmod>
-</url>
+    <url>
+        <loc>https://codefellow.netlify.app/learn/css</loc>
+        <lastmod>2025-02-02T06:13:16+00:00</lastmod>
+    </url>
 
-
+    <url>
+        <loc>https://codefellow.netlify.app/learn/JavaScript</loc>
+        <lastmod>2025-02-02T06:13:16+00:00</lastmod>
+    </url>
 </urlset>
