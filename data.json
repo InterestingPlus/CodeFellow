@@ -99,7 +99,7 @@
         "description": "Typed superset of JavaScript for scalable and maintainable applications.",
         "resources": [
           {
-            "category": "Advance",
+            "category": "Advanced",
             "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW",
             "type": "playlist"
           },
@@ -488,6 +488,18 @@
         "name": "Firebase",
         "image": "firebase.png",
         "description": "Platform for building and hosting web and mobile apps."
+      },
+      {
+        "name": "AWS",
+        "image": "aws.png",
+        "description": "Cloud computing platform offering scalable infrastructure, storage, and machine learning services.",
+        "resources": [
+          {
+            "category": "Advanced",
+            "link": "https://youtube.com/playlist?list=PLinedj3B30sDZ17Fpe3xGUDRBkutaGyUp&si=fIBtHad4inw5UbxX",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "Redux",
