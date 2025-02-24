@@ -99,7 +99,7 @@
         "description": "Typed superset of JavaScript for scalable and maintainable applications.",
         "resources": [
           {
-            "category": "Advance",
+            "category": "Advanced",
             "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW",
             "type": "playlist"
           },
@@ -477,8 +477,45 @@
       {
         "name": "GraphQL",
         "image": "graphql.png",
-        "description": "Query language for building efficient and flexible APIs."
+        "description": "Query language for building efficient and flexible APIs.",
+
+        "resources": [
+          {
+            "category": "Guide",
+            "link": "https://www.youtube.com/watch?v=RlQnzaN-arU&t=162s",
+            "type": "video"
+          },
+          {
+            "category": "Introduction",
+            "link": "https://www.youtube.com/watch?v=X3QM6Ap6u-4",
+            "type": "video"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=WtkKwO1viI8",
+            "type": "video"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=_Zss2Mbz4Bs",
+            "type": "video"
+          }
+        ]
       },
+      {
+        "name": "Socket.io",
+        "image": "socket-io.png",
+        "description": "JavaScript library for real-time WebSocket communication.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=favi7avxIag",
+            "type": "video"
+          }
+        ]
+      },
+
       {
         "name": "REST API",
         "image": "rest-api.png",
@@ -488,6 +525,18 @@
         "name": "Firebase",
         "image": "firebase.png",
         "description": "Platform for building and hosting web and mobile apps."
+      },
+      {
+        "name": "AWS",
+        "image": "aws.png",
+        "description": "Cloud computing platform offering scalable infrastructure, storage, and machine learning services.",
+        "resources": [
+          {
+            "category": "Advanced",
+            "link": "https://youtube.com/playlist?list=PLinedj3B30sDZ17Fpe3xGUDRBkutaGyUp&si=fIBtHad4inw5UbxX",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "Redux",
@@ -675,6 +724,12 @@
         "name": "Adobe XD",
         "image": "adobexd.png",
         "description": "Design and prototyping tool for UI/UX."
+      },
+
+      {
+        "name": "Ethereum",
+        "image": "ethereum.png",
+        "description": "Decentralized blockchain platform for smart contracts."
       },
       {
         "name": "Linux",
