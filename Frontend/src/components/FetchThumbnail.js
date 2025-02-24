@@ -62,8 +62,6 @@ const Playlist = ({ url, index, category, type }) => {
 
           const detailsData = detailsResponse?.data?.items[0]?.snippet;
 
-          console.log(detailsData.thumbnails);
-
           if (detailsData) {
             const channelId = detailsData.channelId;
 

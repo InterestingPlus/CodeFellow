@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Roadmaps = ({ roadmaps }) => {
+  console.log(roadmaps);
+
   return (
     <div className="roadmap">
       {roadmaps?.map((roadmap, index) => (

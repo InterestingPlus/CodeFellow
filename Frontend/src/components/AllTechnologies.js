@@ -5,6 +5,7 @@ import Boxes from "./Boxes";
 
 const AllTechnologies = () => {
   const [technologies, setTechnologies] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const navigate = useNavigate();
 
@@ -38,7 +39,7 @@ const AllTechnologies = () => {
           const technologiesData = data[0]?.technologies || [];
           const roadmapsData = data[1]?.roadmaps || [];
 
-          // Update state
+          // Update state 
           setTechnologies(technologiesData);
 
           // Cache data in IndexedDB
@@ -56,21 +57,41 @@ const AllTechnologies = () => {
 
   return (
     <section id="technologies" style={{ marginTop: "68px" }}>
-      <h1>
-        <i
-          className="fa-solid fa-circle-left"
-          onClick={() => {
-            navigate("/");
-          }}
-          style={{ cursor: "pointer" }}
-        ></i>{" "}
-        All Technologies :
-      </h1>
+      <div className="heading-flex">
+        <h1>
+          <i
+            className="fa-solid fa-circle-left"
+            onClick={() => {
+              navigate("/");
+            }}
+            style={{ cursor: "pointer" }}
+          ></i>
+          All Technologies :
+        </h1>
+
+        <span>
+          {/* 🔍 Search Input */}
+          <input
+            type="text"
+            placeholder="Search technology..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            id="search-box"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+      </div>
 
       <div className="tech">
-        {technologies?.map((technology, index) => (
-          <Boxes key={index} data={technology} />
-        ))}
+        {technologies
+          ?.filter(
+            (tech) =>
+              tech.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+              tech.description.toLowerCase().includes(searchQuery.toLowerCase())
+          )
+          ?.map((technology, index) => (
+            <Boxes key={index} data={technology} />
+          ))}
       </div>
     </section>
   );

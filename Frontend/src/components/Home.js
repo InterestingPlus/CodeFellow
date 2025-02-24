@@ -40,7 +40,7 @@ const Home = () => {
         .then((response) => response.json())
         .then(async (data) => {
           const technologiesData = data[0]?.technologies || [];
-          const roadmapsData = data[1]?.roadmaps || [];
+          const roadmapsData = data[1]?.roadmaps.slice(0, 6) || [];
 
           // Update state
           setTechnologies(technologiesData);
@@ -95,11 +95,58 @@ const Home = () => {
           </h1>
           <p>Your ultimate destination to explore and learn technologies!</p>
 
-          <a href="#technologies" className="cta-button">
-            Get Started
-          </a>
+          <div>
+            <a href="#technologies" className="cta-button">
+              Get Started
+            </a>
+            <a href="#roadmaps" className="cta-button roadmap-btn">
+              Roadmaps
+            </a>
+          </div>
 
-          <h2>Jatin Poriya</h2>
+          <div className="social">
+            <span>
+              <a
+                href="https://github.com/InterestingPlus"
+                target="_blank"
+                rel="noreferrer"
+                id="github"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/Jatin-Poriya"
+                target="_blank"
+                rel="noreferrer"
+                id="linkedin"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="https://wa.me/917201840095"
+                target="_blank"
+                rel="noreferrer"
+                id="whatsapp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
+                href="https://wa.me/917201840095"
+                target="_blank"
+                rel="noreferrer"
+                id="instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </span>
+            <a
+              href="https://JatinPoriya.epizy.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h2>Jatin Poriya</h2>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -127,6 +174,15 @@ const Home = () => {
         <h1>Roadmaps :</h1>
 
         <Roadmaps roadmaps={roadmaps} />
+        <button
+          type="button"
+          onClick={() => {
+            navigate("/roadmap");
+          }}
+          id="view-all-techs"
+        >
+          View All Roadmaps
+        </button>
       </section>
     </>
   );

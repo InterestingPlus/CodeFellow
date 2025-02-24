@@ -8,25 +8,30 @@ import Home from "./components/Home";
 import ResourcePage from "./components/ResourcePage";
 import RoadmapPage from "./components/RoadmapPage";
 import Roadmap from "./components/Roadmap";
+import { HelmetProvider } from "react-helmet-async";
+import AllRoadmaps from "./components/AllRoadmaps";
 
 const App = () => {
   return (
-    <Router>
-      <ScrollToTop />
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/learn" element={<AllTechnologies />} />
-          <Route path="/learn/:techName" element={<ResourcePage />} />
+    <HelmetProvider>
+      <Router>
+        <ScrollToTop />
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/learn" element={<AllTechnologies />} />
+            <Route path="/learn/:techName" element={<ResourcePage />} />
 
-          <Route path="/roadmap/:roadmapName" element={<RoadmapPage />} />
-          <Route
-            path="/roadmap/:roadmapName/:stepIndex"
-            element={<Roadmap />}
-          />
-        </Routes>
-      </Layout>
-    </Router>
+            <Route path="/roadmap" element={<AllRoadmaps />} />
+            <Route path="/roadmap/:roadmapName" element={<RoadmapPage />} />
+            <Route
+              path="/roadmap/:roadmapName/:stepIndex"
+              element={<Roadmap />}
+            />
+          </Routes>
+        </Layout>
+      </Router>
+    </HelmetProvider>
   );
 };
 

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Playlist from "./FetchThumbnail";
+import { Helmet } from "react-helmet-async";
 
 const ResourcePage = () => {
   const { techName } = useParams();
@@ -36,6 +37,26 @@ const ResourcePage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Learn {techName} - Best Resources & Tutorials</title>
+        <meta
+          name="description"
+          content={`Explore the best tutorials and resources to learn ${techName}.`}
+        />
+        <meta
+          name="keywords"
+          content={`${techName}, Learn ${techName}, ${techName} Tutorials`}
+        />
+        <meta
+          property="og:title"
+          content={`Learn ${techName} - Best Resources & Tutorials`}
+        />
+        <meta
+          property="og:description"
+          content={`Find top-rated tutorials and learning paths for ${techName}.`}
+        />
+      </Helmet>
+
       <section id="resources">
         {!isLoading ? (
           <>
