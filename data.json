@@ -6,6 +6,7 @@
         "image": "html.png",
         "color": "#e34f27",
         "description": "Markup language for creating structured web pages.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -34,6 +35,7 @@
         "image": "css.png",
         "color": "#0278bd",
         "description": "Style sheet language for designing visually engaging web pages.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -57,6 +59,7 @@
         "image": "javascript.png",
         "color": "#d4b831",
         "description": "Programming language for web development and interactive experiences.",
+
         "resources": [
           {
             "category": "Beginner Friendly",
@@ -100,6 +103,7 @@
         "image": "typescript.png",
         "color": "#007acc",
         "description": "Typed superset of JavaScript for scalable and maintainable applications.",
+
         "resources": [
           {
             "category": "Advanced",
@@ -141,13 +145,32 @@
         "name": "Redux",
         "image": "redux.png",
         "color": "#764eba",
-        "description": "State management library for managing application state efficiently."
+        "description": "State management library for managing application state efficiently.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=fxT54eRIsc4",
+            "type": "video"
+          },
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?v=1i04-A7kfFI&t=204s",
+            "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47TDYUq8RmFzeI9CgOoVgpJ",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "Next.js",
         "image": "nextjs.png",
         "color": "#000000",
         "description": "React framework for server-side rendering and static site generation.",
+
         "resources": [
           {
             "category": "for Beginners",
@@ -175,19 +198,46 @@
         "name": "Vue",
         "image": "vue.png",
         "color": "#40b882",
-        "description": "Progressive framework for building user interfaces and SPAs."
+        "description": "Progressive framework for building user interfaces and SPAs.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV45e7L_qC_mntM7FhSIV8pqa",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=VeNfHj6MhgA",
+            "type": "video"
+          }
+        ]
       },
       {
         "name": "Angular",
         "image": "angular.png",
         "color": "#c2002d",
-        "description": "Framework for building scalable and enterprise-grade web applications."
+        "description": "Framework for building scalable and enterprise-grade web applications.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=T_Fe4IaG0KU&t=44s",
+            "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV45--5t7_N4lveUI6Y31vQ6C",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "Node.js",
         "image": "nodejs.png",
         "color": "#82bd02",
         "description": "JavaScript runtime for server-side development and APIs.",
+
         "resources": [
           {
             "category": "Complete Backend",
@@ -205,13 +255,22 @@
         "name": "Express.js",
         "image": "express-js.png",
         "color": "#363636",
-        "description": "Minimal web framework for building Node.js applications."
+        "description": "Minimal web framework for building Node.js applications.",
+
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/watch?v=pKJ4GGyDgJo",
+            "type": "video"
+          }
+        ]
       },
       {
         "name": "PHP",
         "image": "php.png",
         "color": "#8a94bf",
         "description": "Server-side scripting language for dynamic web applications.",
+
         "resources": [
           {
             "category": "Comprehensive",
@@ -225,6 +284,7 @@
         "image": "laravel.png",
         "color": "#ff2919",
         "description": "Elegant PHP framework for modern web applications.",
+
         "resources": [
           {
             "category": "Step by Step",
@@ -251,7 +311,7 @@
 
         "resources": [
           {
-            "category": "Begginer Friendly",
+            "category": "Beginner Friendly",
             "link": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&si=tVq6WIgnNeBKe5tI",
             "type": "playlist"
           }
@@ -263,6 +323,7 @@
         "image": "python.png",
         "color": "#ffd24a",
         "description": "General-purpose programming language for web, AI, and data science.",
+
         "resources": [
           {
             "category": "Basic",
@@ -270,7 +331,7 @@
             "type": "playlist"
           },
           {
-            "category": "Advance",
+            "category": "Advanced",
             "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s",
             "type": "playlist"
           }
@@ -281,6 +342,7 @@
         "image": "django.png",
         "color": "#092e20",
         "description": "High-level Python web framework for rapid development.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -292,13 +354,13 @@
       {
         "name": "Flask",
         "image": "flask.png",
-        "color":"#454545",
+        "color": "#454545",
         "description": "Lightweight Python framework for web applications."
       },
       {
         "name": "Matplotlib",
         "image": "matplotlib.png",
-        "color":"#ff8330",
+        "color": "#ff8330",
         "description": "Library for creating static visualizations in Python."
       },
       {
@@ -332,6 +394,7 @@
         "name": "C",
         "image": "c.png",
         "description": "General-purpose, Powerful, low-level programming language.",
+
         "resources": [
           {
             "category": "Harvard University",
@@ -339,7 +402,7 @@
             "type": "video"
           },
           {
-            "category": "Advance",
+            "category": "Advanced",
             "link": "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=1429s",
             "type": "video"
           },
@@ -354,6 +417,7 @@
         "name": "C++",
         "image": "cpp.png",
         "description": "Object-oriented extension of C with enhanced performance.",
+
         "resources": [
           {
             "category": "in English",
@@ -366,6 +430,7 @@
         "name": "Java",
         "image": "java.png",
         "description": "Platform-independent programming language for applications.",
+
         "resources": [
           {
             "category": "with DSA",
@@ -377,8 +442,18 @@
       {
         "name": "Spring Boot",
         "image": "spring-boot.png",
-        "description": "Framework for Java-based microservices and enterprise applications."
+
+        "description": "Framework for Java-based microservices and enterprise applications.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF",
+            "type": "playlist"
+          }
+        ]
       },
+
       {
         "name": "Kotlin",
         "image": "kotlin.png",
@@ -387,7 +462,25 @@
       {
         "name": "Swift",
         "image": "swift.png",
-        "description": "Programming language for iOS and macOS development."
+        "description": "Programming language for iOS and macOS development.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLb5R4QC2DtFv3MvfG42Cd5La34Hwj4pY6",
+            "type": "playlist"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=oAPWduCv_xc",
+            "type": "video"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=8Xg7E9shq0U",
+            "type": "video"
+          }
+        ]
       },
       {
         "name": "Flutter",
@@ -444,6 +537,7 @@
         "name": "MongoDB",
         "image": "mondodb.png",
         "description": "NoSQL database for storing JSON-like documents.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -451,7 +545,7 @@
             "type": "playlist"
           },
           {
-            "category": "Advance",
+            "category": "Advanced",
             "link": "https://www.youtube.com/watch?v=vx1C8EyTa7Y",
             "type": "video"
           }
@@ -461,6 +555,7 @@
         "name": "SQL",
         "image": "sql.png",
         "description": "Language for managing and querying databases",
+
         "resources": [
           {
             "category": "Basic",
@@ -483,6 +578,7 @@
         "name": "DSA (Data Structures & Algorithms)",
         "image": "dsa.png",
         "description": "Foundation of programming that focuses on data organization and problem-solving techniques.",
+
         "resources": [
           {
             "category": "Step by Step",
@@ -508,6 +604,11 @@
             "category": "JavaScript",
             "link": "https://www.youtube.com/playlist?list=PL_HlKez9XCSOi5thYDzipbJ2pEdzop7vx",
             "type": "playlist"
+          },
+          {
+            "category": "JavaScript",
+            "link": "https://www.youtube.com/watch?v=h86FQ7vrnds",
+            "type": "video"
           }
         ]
       },
@@ -567,6 +668,7 @@
         "name": "AWS",
         "image": "aws.png",
         "description": "Cloud computing platform offering scalable infrastructure, storage, and machine learning services.",
+
         "resources": [
           {
             "category": "Advanced",
@@ -575,11 +677,7 @@
           }
         ]
       },
-      {
-        "name": "Redux",
-        "image": "redux.png",
-        "description": "State management library for JavaScript apps."
-      },
+
       {
         "name": "Tailwind CSS",
         "image": "tailwind-css.png",
@@ -594,6 +692,7 @@
         "name": "SASS",
         "image": "sass.png",
         "description": "CSS preprocessor for writing maintainable and scalable styles.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -611,6 +710,7 @@
         "name": "Three.js",
         "image": "threejs.png",
         "description": "JavaScript library for creating 3D graphics on the web.",
+
         "resources": [
           {
             "category": "",
@@ -668,6 +768,7 @@
         "name": "Git",
         "image": "git.png",
         "description": "Version control system for tracking code changes.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -680,6 +781,7 @@
         "name": "GitHub",
         "image": "github.png",
         "description": "Platform for hosting and sharing code repositories.",
+
         "resources": [
           {
             "category": "Recommended",
@@ -745,7 +847,15 @@
       {
         "name": "Jest",
         "image": "jest.png",
-        "description": "Testing framework for JavaScript applications."
+        "description": "Testing framework for JavaScript applications.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47ZpFC9sNHTXwJRgwwzdkNG",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "Cypress",
@@ -755,7 +865,20 @@
       {
         "name": "Figma",
         "image": "figma.png",
-        "description": "Collaborative UI/UX design tool."
+        "description": "Collaborative UI/UX design tool.",
+
+        "resources": [
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/playlist?list=PLuou2gyfaGEud03tcppC1ofbYIcIEwKfm",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=uQsyobT2Rv8",
+            "type": "video"
+          }
+        ]
       },
       {
         "name": "Adobe XD",
@@ -766,7 +889,15 @@
       {
         "name": "Ethereum",
         "image": "ethereum.png",
-        "description": "Decentralized blockchain platform for smart contracts."
+        "description": "Decentralized blockchain platform for smart contracts.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW9FmqNqug3M5ooNuRqP-alu",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "Linux",
