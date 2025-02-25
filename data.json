@@ -4,7 +4,7 @@
       {
         "name": "HTML",
         "image": "html.png",
-        "color": "orange",
+        "color": "#e34f27",
         "description": "Markup language for creating structured web pages.",
         "resources": [
           {
@@ -32,6 +32,7 @@
       {
         "name": "CSS",
         "image": "css.png",
+        "color": "#0278bd",
         "description": "Style sheet language for designing visually engaging web pages.",
         "resources": [
           {
@@ -54,6 +55,7 @@
       {
         "name": "JavaScript",
         "image": "javascript.png",
+        "color": "#d4b831",
         "description": "Programming language for web development and interactive experiences.",
         "resources": [
           {
@@ -96,6 +98,7 @@
       {
         "name": "TypeScript",
         "image": "typescript.png",
+        "color": "#007acc",
         "description": "Typed superset of JavaScript for scalable and maintainable applications.",
         "resources": [
           {
@@ -113,6 +116,7 @@
       {
         "name": "React.js",
         "image": "react.png",
+        "color": "#61d9fa",
         "description": "JavaScript library for building modern, interactive UI components.",
 
         "resources": [
@@ -136,11 +140,13 @@
       {
         "name": "Redux",
         "image": "redux.png",
+        "color": "#764eba",
         "description": "State management library for managing application state efficiently."
       },
       {
         "name": "Next.js",
         "image": "nextjs.png",
+        "color": "#000000",
         "description": "React framework for server-side rendering and static site generation.",
         "resources": [
           {
@@ -168,16 +174,19 @@
       {
         "name": "Vue",
         "image": "vue.png",
+        "color": "#40b882",
         "description": "Progressive framework for building user interfaces and SPAs."
       },
       {
         "name": "Angular",
         "image": "angular.png",
+        "color": "#c2002d",
         "description": "Framework for building scalable and enterprise-grade web applications."
       },
       {
         "name": "Node.js",
         "image": "nodejs.png",
+        "color": "#82bd02",
         "description": "JavaScript runtime for server-side development and APIs.",
         "resources": [
           {
@@ -195,11 +204,13 @@
       {
         "name": "Express.js",
         "image": "express-js.png",
+        "color": "#363636",
         "description": "Minimal web framework for building Node.js applications."
       },
       {
         "name": "PHP",
         "image": "php.png",
+        "color": "#8a94bf",
         "description": "Server-side scripting language for dynamic web applications.",
         "resources": [
           {
@@ -212,6 +223,7 @@
       {
         "name": "Laravel",
         "image": "laravel.png",
+        "color": "#ff2919",
         "description": "Elegant PHP framework for modern web applications.",
         "resources": [
           {
@@ -234,6 +246,7 @@
       {
         "name": "Golang",
         "image": "go.png",
+        "color": "#6ad7e6",
         "description": "Efficient, statically typed language for scalable backend and system programming",
 
         "resources": [
@@ -248,6 +261,7 @@
       {
         "name": "Python",
         "image": "python.png",
+        "color": "#ffd24a",
         "description": "General-purpose programming language for web, AI, and data science.",
         "resources": [
           {
@@ -265,6 +279,7 @@
       {
         "name": "Django",
         "image": "django.png",
+        "color": "#092e20",
         "description": "High-level Python web framework for rapid development.",
         "resources": [
           {
@@ -277,21 +292,25 @@
       {
         "name": "Flask",
         "image": "flask.png",
+        "color":"#454545",
         "description": "Lightweight Python framework for web applications."
       },
       {
         "name": "Matplotlib",
         "image": "matplotlib.png",
+        "color":"#ff8330",
         "description": "Library for creating static visualizations in Python."
       },
       {
         "name": "Pandas",
         "image": "pandas.png",
+        "color": "#130654",
         "description": "Python library for data analysis and manipulation."
       },
       {
         "name": "TensorFlow",
         "image": "tensorflow.png",
+        "color": "#e65c2e",
         "description": "Open-source library for machine learning and deep learning."
       },
       {
