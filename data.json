@@ -404,6 +404,24 @@
         ]
       },
       {
+        "name": "Electron.js",
+        "image": "electron.png",
+        "description": "A framework for building cross-platform desktop applications using web technologies",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46sT0RXw6PlMRVxJzEDUWuD",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PLkZU2rKh1mT8cML-VNcUHF3vB8qzzgxuA",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
         "name": "MongoDB",
         "image": "mondodb.png",
         "description": "NoSQL database for storing JSON-like documents.",
