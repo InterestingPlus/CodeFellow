@@ -23,31 +23,8 @@
 CodeFellow is built using modern web technologies:
 
 - **Frontend:** React.js, JavaScript, SCSS (Custom CSS)
-- **Backend:** Node.js (Planned Features)
-- **Database:** IndexedDB (for caching), MongoDB (Upcoming)
-- **APIs:** YouTube Data API, Custom API Integrations
+- **Database:** Json (Static File)
 - **Hosting:** Netlify
-
----
-
-## 🚀 Installation & Setup
-To run CodeFellow locally, follow these steps:
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/codefellow.git
-
-# Navigate to the project folder
-cd codefellow
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
-```
-
-🔗 Open `http://localhost:3000/` to view the app in the browser.
 
 ---
 
@@ -64,10 +41,9 @@ We welcome contributions! If you’d like to **improve roadmaps, add resources, 
 ---
 
 ## 🔗 Connect with Us
-💡 **Website:** [CodeFellow](https://codefellow.netlify.app)  
-🐦 **Twitter:** [@CodeFellow](https://twitter.com/yourhandle)  
-📘 **LinkedIn:** [CodeFellow](https://linkedin.com/in/yourprofile)  
-📧 **Email:** contact@codefellow.com  
+💡 **Website:** [CodeFellow](https://codefellow.netlify.app)
+📘 **LinkedIn:** [Jatin Poriya](https://linkedin.com/in/jatin-poriya)  
+📧 **Email:** [poriyajatin914@gmail.com](poriyajatin914@gmail.com)  
 
 ---
 
