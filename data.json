@@ -615,6 +615,7 @@
       {
         "name": "GraphQL",
         "image": "graphql.png",
+        "color": "#e635ab",
         "description": "Query language for building efficient and flexible APIs.",
 
         "resources": [
@@ -686,6 +687,7 @@
       {
         "name": "Bootstrap",
         "image": "bootstrap.png",
+        "color": "#8c14fc",
         "description": "Popular CSS framework for responsive and mobile-first design."
       },
       {
@@ -860,6 +862,7 @@
       {
         "name": "Cypress",
         "image": "cypress.png",
+        "color": "#59cf9d",
         "description": "End-to-end testing framework for web applications."
       },
       {
@@ -915,7 +918,25 @@
       {
         "name": "Kali Linux",
         "image": "kali-linux.png",
-        "description": "Security-focused Linux distribution for penetration testing and Ethical Hacking."
+        "description": "Security-focused Linux distribution for penetration testing and Ethical Hacking.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=B9fGYDM_TU4",
+            "type": "video"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/playlist?list=PLwO5-rumi8A4J7h4Fm92TEC00gfZUk7ls",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PLhfrWIlLOoKMe1Ue0IdeULQvEgCgQ3a1B",
+            "type": "playlist"
+          }
+        ]
       }
     ]
   },
@@ -1030,7 +1051,99 @@
       {
         "name": "Backend",
         "image": "backend.png",
-        "description": "Comprehensive roadmap for building server-side applications, focusing on databases, server frameworks, and APIs with technologies like Node.js, Python, Java, and PHP."
+        "description": "Comprehensive roadmap for building server-side applications, focusing on databases, server frameworks, and APIs with technologies like Node.js, Python, Java, and PHP. Step-by-step guide to mastering backend development, covering programming languages, databases, authentication, and cloud deployment.",
+        "steps": [
+          {
+            "title": "1. Basics of Web Development",
+            "content": "Understand how websites work, client-server architecture, and how backend handles requests and responses."
+          },
+          {
+            "title": "2. Learn a Backend Programming Language",
+            "content": "Choose a language such as JavaScript (Node.js), Python, Java, PHP, or Go for backend development."
+          },
+          {
+            "title": "3. Learn Version Control (Git & GitHub)",
+            "content": "Master Git commands, repositories, branching, and collaborating on GitHub."
+          },
+          {
+            "title": "4. Learn HTTP & APIs",
+            "content": "Understand HTTP methods, RESTful APIs, status codes, and request-response cycles."
+          },
+          {
+            "title": "5. Learn a Backend Framework",
+            "content": "Choose a framework like Express.js (Node.js), Django/Flask (Python), Spring Boot (Java), or Laravel (PHP) to speed up development."
+          },
+          {
+            "title": "6. Learn Database Management",
+            "content": "Understand SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Firebase) databases, including CRUD operations."
+          },
+          {
+            "title": "7. Learn Authentication & Authorization",
+            "content": "Implement authentication using JWT, OAuth, and sessions to secure your applications."
+          },
+          {
+            "title": "8. Learn ORM & Database Querying",
+            "content": "Use Object-Relational Mappers (ORMs) like Sequelize (Node.js), Hibernate (Java), and Prisma (TypeScript) to interact with databases."
+          },
+          {
+            "title": "9. Caching & Performance Optimization",
+            "content": "Learn how caching works using Redis, Memcached, and optimizing database queries for faster responses."
+          },
+          {
+            "title": "10. Learn WebSockets & Real-Time Communication",
+            "content": "Implement real-time features using WebSockets, Socket.io, and SignalR for chat apps and live updates."
+          },
+          {
+            "title": "11. Message Queues & Event-Driven Architecture",
+            "content": "Understand RabbitMQ, Kafka, and AWS SQS for handling asynchronous tasks efficiently."
+          },
+          {
+            "title": "12. Learn Security Best Practices",
+            "content": "Implement security measures like data validation, input sanitization, rate limiting, and secure headers."
+          },
+          {
+            "title": "13. Testing & Debugging",
+            "content": "Write unit and integration tests using Jest, Mocha, or PyTest and debug efficiently using logs and monitoring tools."
+          },
+          {
+            "title": "14. Learn Containerization & Docker",
+            "content": "Understand how to containerize applications using Docker and manage environments efficiently."
+          },
+          {
+            "title": "15. Learn Cloud & Deployment",
+            "content": "Deploy applications on AWS, Google Cloud, or DigitalOcean, and use CI/CD pipelines with GitHub Actions or Jenkins."
+          },
+          {
+            "title": "16. Microservices & Serverless Architecture",
+            "content": "Learn microservices design, API gateways, and serverless computing with AWS Lambda or Firebase Functions."
+          },
+          {
+            "title": "17. Build Real-World Projects",
+            "content": "Create portfolio projects like an authentication system, blog API, e-commerce backend, or chat application.",
+
+            "roadmap": [
+              [
+                "Projects",
+                {
+                  "about": "Backend Project Ideas",
+                  "link": "https://www.youtube.com/watch?v=3-sV2z_rouY",
+                  "type": "video"
+                }
+              ]
+            ]
+          },
+          {
+            "title": "18. Stay Updated",
+            "content": "Follow industry blogs, contribute to open-source, and learn new backend technologies."
+          }
+        ],
+        "resources": [
+          {
+            "category": "Complete Backend",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "Full Stack",
