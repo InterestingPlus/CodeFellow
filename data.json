@@ -54,13 +54,6 @@
           }
         ]
       },
-
-{
-  "name": "Chakra UI",
-  "image": false,
-  "color": "red",
-  "description": ""
-},
       {
         "name": "JavaScript",
         "image": "javascript.png",
