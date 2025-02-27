@@ -378,21 +378,25 @@
       {
         "name": "PyTorch",
         "image": "pytorch.png",
-        "description": "Deep learning framework for building AI models."
+        "color": "#f05832",
+        "description": "Deep learning python framework for building AI models."
       },
       {
         "name": "Numpy",
         "image": "numPy.png",
+        "color": "#4caacf",
         "description": "Python library for numerical computations."
       },
       {
         "name": "Rust",
         "image": "rust.png",
+        "color": "#000",
         "description": "Memory-safe, high-performance language for systems and concurrent programming."
       },
       {
         "name": "C",
         "image": "c.png",
+        "color": "#3848ab",
         "description": "General-purpose, Powerful, low-level programming language.",
 
         "resources": [
@@ -416,6 +420,7 @@
       {
         "name": "C++",
         "image": "cpp.png",
+        "color": "#007ecc",
         "description": "Object-oriented extension of C with enhanced performance.",
 
         "resources": [
@@ -429,6 +434,7 @@
       {
         "name": "Java",
         "image": "java.png",
+        "color": "#0275bd",
         "description": "Platform-independent programming language for applications.",
 
         "resources": [
@@ -442,7 +448,7 @@
       {
         "name": "Spring Boot",
         "image": "spring-boot.png",
-
+        "color": "#6db33e",
         "description": "Framework for Java-based microservices and enterprise applications.",
 
         "resources": [
@@ -457,11 +463,13 @@
       {
         "name": "Kotlin",
         "image": "kotlin.png",
+        "color": "#f58720",
         "description": "Modern programming language for Android development."
       },
       {
         "name": "Swift",
         "image": "swift.png",
+        "color": "#f05037",
         "description": "Programming language for iOS and macOS development.",
 
         "resources": [
@@ -485,16 +493,19 @@
       {
         "name": "Flutter",
         "image": "flutter.png",
+        "color": "#5ec9f7",
         "description": "UI toolkit for building cross-platform applications."
       },
       {
         "name": "Dart",
         "image": "dart.png",
+        "color": "#00b5ac",
         "description": "Programming language optimized for fast mobile development."
       },
       {
         "name": "React Native",
         "image": "react.png",
+        "color": "#61d9fa",
         "description": "Framework for building mobile applications using React and JavaScript.",
 
         "resources": [
@@ -518,6 +529,7 @@
       {
         "name": "Electron.js",
         "image": "electron.png",
+        "color": "#46858f",
         "description": "A framework for building cross-platform desktop applications using web technologies",
 
         "resources": [
@@ -536,6 +548,7 @@
       {
         "name": "MongoDB",
         "image": "mondodb.png",
+        "color": "#00ed63",
         "description": "NoSQL database for storing JSON-like documents.",
 
         "resources": [
@@ -554,6 +567,7 @@
       {
         "name": "SQL",
         "image": "sql.png",
+        "color": "#2585cf",
         "description": "Language for managing and querying databases",
 
         "resources": [
@@ -567,16 +581,19 @@
       {
         "name": "PostgreSQL",
         "image": "postgresql.png",
+        "color": "#336791",
         "description": "Powerful, open-source relational database."
       },
       {
         "name": "MySQL",
         "image": "mysql.png",
+        "color": "#e68e00",
         "description": "Widely used open-source relational database."
       },
       {
         "name": "DSA (Data Structures & Algorithms)",
         "image": "dsa.png",
+        "color": "#7dc0ff",
         "description": "Foundation of programming that focuses on data organization and problem-solving techniques.",
 
         "resources": [
@@ -644,6 +661,7 @@
       {
         "name": "Socket.io",
         "image": "socket-io.png",
+        "color": "#000",
         "description": "JavaScript library for real-time WebSocket communication.",
 
         "resources": [
@@ -658,16 +676,19 @@
       {
         "name": "REST API",
         "image": "rest-api.png",
+        "color": "#000",
         "description": "Standardized way to build scalable APIs."
       },
       {
         "name": "Firebase",
         "image": "firebase.png",
+        "color": "#fcca3f",
         "description": "Platform for building and hosting web and mobile apps."
       },
       {
         "name": "AWS",
         "image": "aws.png",
+        "color": "#ff9900",
         "description": "Cloud computing platform offering scalable infrastructure, storage, and machine learning services.",
 
         "resources": [
@@ -682,6 +703,7 @@
       {
         "name": "Tailwind CSS",
         "image": "tailwind-css.png",
+        "color": "#37bcfa",
         "description": "Utility-first CSS framework for modern web design."
       },
       {
@@ -693,6 +715,7 @@
       {
         "name": "SASS",
         "image": "sass.png",
+        "color": "#cc6699",
         "description": "CSS preprocessor for writing maintainable and scalable styles.",
 
         "resources": [
@@ -711,6 +734,7 @@
       {
         "name": "Three.js",
         "image": "threejs.png",
+        "color": "#000",
         "description": "JavaScript library for creating 3D graphics on the web.",
 
         "resources": [
@@ -759,16 +783,55 @@
       {
         "name": "Docker",
         "image": "docker.png",
-        "description": "Containerization platform for efficient application deployment."
+        "color": "#006eb8",
+        "description": "Containerization platform for efficient application deployment.",
+
+        "resources": [
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=H8Lyj2D_cWo",
+            "type": "video"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWTJLvDP4Veld5F05rJAmOcp",
+            "type": "playlist"
+          },
+          {
+            "category": "Learn by Projects",
+            "link": "https://www.youtube.com/watch?v=rr9cI4u1_88&t=423s",
+            "type": "video"
+          }
+        ]
       },
       {
         "name": "Kubernetes",
         "image": "kubernetes.png",
-        "description": "Container orchestration system for scalable applications."
+        "color": "#4769b3",
+        "description": "Container orchestration system for scalable applications.",
+
+        "resources": [
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=hJw8Sy13Vp8",
+            "type": "video"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/watch?v=a-nWPre5QYI",
+            "type": "video"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=7XDeI5fyj3w",
+            "type": "video"
+          }
+        ]
       },
       {
         "name": "Git",
         "image": "git.png",
+        "color": "#de4c35",
         "description": "Version control system for tracking code changes.",
 
         "resources": [
@@ -782,6 +845,7 @@
       {
         "name": "GitHub",
         "image": "github.png",
+        "color": "#292929",
         "description": "Platform for hosting and sharing code repositories.",
 
         "resources": [
@@ -800,6 +864,7 @@
       {
         "name": ".NET",
         "image": "dotnet.png",
+        "color": "#0079ba",
         "description": "Microsoft framework for building web, desktop, and mobile applications.",
 
         "resources": [
@@ -828,27 +893,32 @@
       {
         "name": "Ruby",
         "image": "ruby.png",
+        "color": "#ed1520",
         "description": "Dynamic programming language for web development."
       },
       {
         "name": "Ruby on Rails",
         "image": "ruby.png",
+        "color": "#ed1520",
         "description": "Framework for building web applications in Ruby."
       },
 
       {
         "name": "Webpack",
         "image": "webpack.png",
+        "color": "#8ed6fa",
         "description": "Module bundler for JavaScript applications."
       },
       {
         "name": "Babel",
         "image": "babel.png",
+        "color": "#f7db4d",
         "description": "JavaScript compiler for next-generation JavaScript."
       },
       {
         "name": "Jest",
         "image": "jest.png",
+        "color": "#99435c",
         "description": "Testing framework for JavaScript applications.",
 
         "resources": [
@@ -868,6 +938,7 @@
       {
         "name": "Figma",
         "image": "figma.png",
+        "color": "#a159ff",
         "description": "Collaborative UI/UX design tool.",
 
         "resources": [
@@ -886,12 +957,14 @@
       {
         "name": "Adobe XD",
         "image": "adobexd.png",
+        "color": "#ff26be",
         "description": "Design and prototyping tool for UI/UX."
       },
 
       {
         "name": "Ethereum",
         "image": "ethereum.png",
+        "color": "#6d7bc9",
         "description": "Decentralized blockchain platform for smart contracts.",
 
         "resources": [
@@ -905,6 +978,7 @@
       {
         "name": "Linux",
         "image": "linux.png",
+        "color": "#ffd333",
         "description": "Open-source operating system known for stability, security, and flexibility.",
 
         "resources": [
@@ -918,6 +992,7 @@
       {
         "name": "Kali Linux",
         "image": "kali-linux.png",
+        "color": "#2676ff",
         "description": "Security-focused Linux distribution for penetration testing and Ethical Hacking.",
 
         "resources": [
