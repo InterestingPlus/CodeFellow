@@ -2,14 +2,10 @@ const CACHE_NAME = "codefellow-cache-v1";
 const urlsToCache = [
   "/",
   "/index.html",
-  // "/offline.html",
+  "/offline.html",
   "/logo.png",
   "/logo.jpg",
   "/manifest.json",
-  "/static/js/bundle.js", // Main React JS file
-  "/static/js/main.js", // React main entry file
-  "/static/js/vendors~main.chunk.js", // React vendors file
-  "/static/css/main.css", // Main CSS file
 ];
 
 // Install Service Worker & Cache Files
@@ -30,7 +26,7 @@ self.addEventListener("fetch", (event) => {
         return response || fetch(event.request);
       })
       .catch(() => {
-        return caches.match("/offline.html"); // Serve an offline page if needed
+        return caches.match("/offline.html");
       })
   );
 });
