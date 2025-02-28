@@ -233,12 +233,6 @@
         ]
       },
       {
-        "name": "Solid.js",
-        "image": "solid-js.png",
-        "color": "",
-        "description": ""
-      },
-      {
         "name": "Node.js",
         "image": "nodejs.png",
         "color": "#82bd02",
@@ -753,7 +747,7 @@
       },
       {
         "name": "Chakra UI",
-        "image": "chakra-ui.png",
+        "image": "chakra.png",
         "color": "",
         "description": "",
 
@@ -767,49 +761,7 @@
       },
       {
         "name": "Material UI",
-        "image": "material-ui.png",
-        "color": "",
-        "description": "",
-
-        "resources": [
-          {
-            "category": "",
-            "link": "",
-            "type": ""
-          }
-        ]
-      },
-      {
-        "name": "Multor",
-        "image": "multor.png",
-        "color": "",
-        "description": "",
-
-        "resources": [
-          {
-            "category": "",
-            "link": "",
-            "type": ""
-          }
-        ]
-      },
-      {
-        "name": "ShadCn",
-        "image": "shadcn.png",
-        "color": "",
-        "description": "",
-
-        "resources": [
-          {
-            "category": "",
-            "link": "",
-            "type": ""
-          }
-        ]
-      },
-      {
-        "name": "Gsap",
-        "image": "gsap.png",
+        "image": "material.png",
         "color": "",
         "description": "",
 
