@@ -388,6 +388,20 @@
         "description": "Python library for numerical computations."
       },
       {
+        "name": "Langchain",
+        "image": "langchain.png",
+        "color": "",
+        "description": "A powerful framework for building applications using Large Language Models (LLMs) with ease and flexibility.",
+
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/watch?v=DcNxg61kSFc",
+            "type": "video"
+          }
+        ]
+      },
+      {
         "name": "Rust",
         "image": "rust.png",
         "color": "#000",
@@ -728,6 +742,34 @@
             "category": "in English",
             "link": "https://www.youtube.com/watch?v=jfMHA8SqUL4",
             "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Chakra UI",
+        "image": "chakra.png",
+        "color": "",
+        "description": "",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLx2Y9Sna27Xt3deeeOLqW59-mdWpUWQ0T",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Material UI",
+        "image": "material.png",
+        "color": "",
+        "description": "",
+
+        "resources": [
+          {
+            "category": "",
+            "link": "",
+            "type": ""
           }
         ]
       },
