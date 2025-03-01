@@ -235,8 +235,8 @@
       {
         "name": "Solid.js",
         "image": "solid-js.png",
-        "color": "",
-        "description": ""
+        "color": "#4f86c4",
+        "description": "A high-performance reactive UI framework with fine-grained reactivity, similar to React but without a Virtual DOM."
       },
       {
         "name": "Node.js",
@@ -396,7 +396,7 @@
       {
         "name": "Langchain",
         "image": "langchain.png",
-        "color": "",
+        "color": "#02ab45",
         "description": "A powerful framework for building applications using Large Language Models (LLMs) with ease and flexibility.",
 
         "resources": [
@@ -754,8 +754,8 @@
       {
         "name": "Chakra UI",
         "image": "chakra-ui.png",
-        "color": "",
-        "description": "",
+        "color": "#4cb5ab",
+        "description": "A modern, accessible, and customizable component library for building React applications with ease.",
 
         "resources": [
           {
@@ -768,56 +768,34 @@
       {
         "name": "Material UI",
         "image": "material-ui.png",
-        "color": "",
-        "description": "",
-
-        "resources": [
-          {
-            "category": "",
-            "link": "",
-            "type": ""
-          }
-        ]
+        "color": "#00adfc",
+        "description": "A popular React component library that follows Google’s Material Design principles for building elegant UIs."
       },
       {
-        "name": "Multor",
-        "image": "multor.png",
-        "color": "",
-        "description": "",
-
-        "resources": [
-          {
-            "category": "",
-            "link": "",
-            "type": ""
-          }
-        ]
-      },
-      {
-        "name": "ShadCn",
+        "name": "ShadCN",
         "image": "shadcn.png",
-        "color": "",
-        "description": "",
+        "color": "#a8a7a7",
+        "description": "A modern component library for React, built on top of Radix UI, offering beautiful and accessible design solutions.",
 
         "resources": [
           {
-            "category": "",
-            "link": "",
-            "type": ""
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?v=O4AjymzpIEg",
+            "type": "video"
           }
         ]
       },
       {
         "name": "Gsap",
         "image": "gsap.png",
-        "color": "",
-        "description": "",
+        "color": "#8ac740",
+        "description": "GreenSock Animation Platform - A powerful JavaScript animation library for creating smooth, high-performance animations on the web.",
 
         "resources": [
           {
-            "category": "",
-            "link": "",
-            "type": ""
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLMPgoZdlPumexxtvuPUB3TY7LExI1N_Xp",
+            "type": "playlist"
           }
         ]
       },
