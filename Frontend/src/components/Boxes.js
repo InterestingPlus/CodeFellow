@@ -1,17 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Boxes = ({ data }) => {
+  const navigate = useNavigate();
+
   return (
-    <Link
+    <div
       className="language-box"
-      style={{ background: `${data?.color || "#fff"}` }}
-      to={`/learn/${data?.name || ""}`}
+      style={{ "--tech-color": data?.color }}
+      onClick={() => {
+        setTimeout(() => {
+          navigate(`/learn/${data?.name || ""}`);
+        }, 300);
+      }}
     >
       <img src={`/images/${data?.image || ""}`} alt={data?.name || ""} />
       <h3>{data?.name || ""}</h3>
       <p>{data?.description || ""}</p>
-    </Link>
+    </div>
   );
 };
 

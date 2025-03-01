@@ -62,20 +62,44 @@ const AllRoadmaps = () => {
     setFilteredRoadmaps(
       technologies?.filter(
         (roadmap) =>
-          roadmap.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          roadmap.description.toLowerCase().includes(searchQuery.toLowerCase())
+          roadmap.name
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase().trim()) ||
+          roadmap.description
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase().trim())
       )
     );
-  }, [searchQuery]);
+  }, [searchQuery, technologies]);
+
+  useEffect(() => {
+    let localQuery = window.localStorage.getItem("roadmap-query");
+
+    window.localStorage.setItem("last-page", "/roadmap");
+
+    if (localQuery) {
+      setSearchQuery(localQuery);
+    }
+  }, []);
+
+  function handleSearch(query) {
+    setSearchQuery(query);
+
+    window.localStorage.setItem("roadmap-query", query);
+  }
 
   return (
-    <section id="technologies" style={{ marginTop: "68px" }}>
+    <section id="technologies" className="all" style={{ marginTop: "68px" }}>
       <div className="heading-flex">
         <h1>
           <i
             className="fa-solid fa-circle-left"
             onClick={() => {
-              navigate("/");
+              if (window.history.length > 2) {
+                navigate(-1);
+              } else {
+                navigate("/");
+              }
             }}
             style={{ cursor: "pointer" }}
           ></i>
@@ -88,7 +112,7 @@ const AllRoadmaps = () => {
             type="text"
             placeholder="Search Roadmap..."
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => handleSearch(e.target.value)}
             id="search-box"
           />
           <i class="fa-solid fa-magnifying-glass"></i>

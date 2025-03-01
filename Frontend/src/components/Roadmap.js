@@ -28,7 +28,6 @@ const Roadmap = () => {
 
           if (tech.steps) {
             setRoadmap(tech.steps[stepIndex - 1]);
-            console.log(tech.steps[stepIndex - 1]);
           }
         } else {
           console.log("No resources found.");
@@ -63,7 +62,7 @@ const Roadmap = () => {
               color: tech.color,
             });
           } else {
-            console.log("No technology found.");
+            console.error("No technology found.");
           }
         })
         .catch((error) => console.error("Error fetching technology:", error));

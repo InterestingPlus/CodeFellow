@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.scss";
 
 // import Logo from "../images/Logo.png";
@@ -7,6 +7,14 @@ import Logo from "../images/Logo_Backup.png";
 
 const Header = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    let lastPage = window.localStorage.getItem("last-page");
+
+    if (lastPage) {
+      navigate(lastPage);
+    }
+  }, []);
 
   return (
     <header>

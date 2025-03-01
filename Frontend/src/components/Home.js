@@ -131,7 +131,7 @@ const Home = () => {
                 <i class="fa-brands fa-whatsapp"></i>
               </a>
               <a
-                href="https://wa.me/917201840095"
+                href="https://instagram.com/Jatin_Poriya_123"
                 target="_blank"
                 rel="noreferrer"
                 id="instagram"
@@ -151,9 +151,13 @@ const Home = () => {
       </section>
 
       <section id="technologies">
-        <h1>Technologies :</h1>
+        <div className="effect">
+          <span></span>
+        </div>
 
-        <div className="tech">
+        <h1 className="heading">Technologies :</h1>
+
+        <div className="tech home">
           {technologies?.slice(0, 10).map((technology, index) => (
             <Boxes key={index} data={technology} />
           ))}

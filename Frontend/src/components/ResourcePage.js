@@ -12,6 +12,8 @@ const ResourcePage = () => {
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
+    window.localStorage.setItem("last-page", `/learn/${techName}`);
+
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {

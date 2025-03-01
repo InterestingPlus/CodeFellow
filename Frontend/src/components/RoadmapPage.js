@@ -10,6 +10,8 @@ const RoadmapPage = () => {
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
+    window.localStorage.setItem("last-page", `/roadmap/${roadmapName}`);
+
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
