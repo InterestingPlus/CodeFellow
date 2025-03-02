@@ -611,7 +611,7 @@
         "description": "Widely used open-source relational database."
       },
       {
-        "name": "DSA (Data Structures & Algorithms)",
+        "name": "DSA",
         "image": "dsa.png",
         "color": "#7dc0ff",
         "description": "Foundation of programming that focuses on data organization and problem-solving techniques.",
