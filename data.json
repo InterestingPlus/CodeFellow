@@ -392,7 +392,14 @@
         "image": "numPy.png",
         "color": "#4caacf",
         "description": "Python library for numerical computations."
-      },
+    ,
+
+"resources": [{
+  "category": "Advanced",
+  "link": "https://www.youtube.com/watch?si=P29vPxvyjH-YmsAk&v=x7ULDYs4X84&feature=youtu.be",
+"type": "video"
+
+}] },
       {
         "name": "Langchain",
         "image": "langchain.png",
