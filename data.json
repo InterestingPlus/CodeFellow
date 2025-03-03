@@ -514,7 +514,19 @@
         "name": "Flutter",
         "image": "flutter.png",
         "color": "#5ec9f7",
-        "description": "UI toolkit for building cross-platform applications."
+        "description": "UI toolkit for building cross-platform applications.",
+        "resources": [{
+"category": "",
+"link": "https://youtu.be/j-LOab_PzzU?si=A8f5MAm3zHm2sJyA",
+"type": "video"
+
+},
+
+{"category": "",
+"link": "https://youtu.be/HQ_ytw58tC4?si=1X4u5y3a-CGp0SZa",
+"type": "video"
+
+}]
       },
       {
         "name": "Dart",
