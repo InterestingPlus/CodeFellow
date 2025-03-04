@@ -117,6 +117,14 @@
           }
         ]
       },
+
+{
+   "name": "jQuery",
+"image": "jquery.png",
+"color": "lightblue",
+"description": ""
+},
+
       {
         "name": "React.js",
         "image": "react.png",
