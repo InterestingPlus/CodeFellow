@@ -505,13 +505,13 @@
 
   "name": "Android Studio",
    "image": "android-studio.png",
- "color": "loghtgreen",
+ "color": "lightgreen",
   "description":"",
 
-"resources": [
+"resources": [{
  "category": "Step by Step",
    "link": "https://youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1&si=yBLmBnFXVmH5UQGZ",
-"type": "playlist"
+"type": "playlist"}
 ]
 },
       {
