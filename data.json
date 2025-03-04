@@ -435,6 +435,13 @@
         "description": "General-purpose, Powerful, low-level programming language.",
 
         "resources": [
+
+{
+ "category": "Learn by Projects",
+"link": "https://youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp&si=Xemsn--1IslOUsKQ",
+"type": "playlist"
+},
+
           {
             "category": "Harvard University",
             "link": "https://www.youtube.com/watch?v=cwtpLIWylAw",
@@ -494,7 +501,19 @@
           }
         ]
       },
+{
 
+  "name": "Android Studio",
+   "image": "android-studio.png",
+ "color": "loghtgreen",
+  "description":"",
+
+"resources": [
+ "category": "Step by Step",
+   "link": "https://youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1&si=yBLmBnFXVmH5UQGZ",
+"type": "playlist"
+]
+},
       {
         "name": "Kotlin",
         "image": "kotlin.png",
