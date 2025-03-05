@@ -14,6 +14,11 @@
             "type": "playlist"
           },
           {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=rklidcZ-aLU&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=2",
+            "type": "video"
+          },
+          {
             "category": "Most Popular",
             "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU",
             "type": "playlist"
@@ -41,6 +46,11 @@
             "category": "Recommended",
             "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw",
             "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=OpWjt_wbV4E&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=3",
+            "type": "video"
           },
           {
             "category": "One by One",
@@ -90,6 +100,11 @@
             "category": "Comprehensive",
             "link": "https://youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI&si=1p89fTdyqLCk-5Rw",
             "type": "playlist"
+          },
+          {
+            "category": "Learn by Projects",
+            "link": "https://www.youtube.com/watch?v=cpoXLj24BDY&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=4",
+            "type": "video"
           },
           {
             "category": "in English",
@@ -154,6 +169,11 @@
             "category": "Recommended",
             "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47BCAjiCtuV_liN9IwAl8pM",
             "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=eILUmCJhl64&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=5",
+            "type": "video"
           },
           {
             "category": "in English",
@@ -269,6 +289,11 @@
           {
             "category": "Complete Backend",
             "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW",
+            "type": "playlist"
+          },
+          {
+            "category": "Complete Backend",
+            "link": "https://www.youtube.com/playlist?list=PL78RhpUUKSwfeSOOwfE9x6l5jTjn5LbY3",
             "type": "playlist"
           },
           {
@@ -453,7 +478,11 @@
             "link": "https://youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp&si=Xemsn--1IslOUsKQ",
             "type": "playlist"
           },
-
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp",
+            "type": "playlist"
+          },
           {
             "category": "Harvard University",
             "link": "https://www.youtube.com/watch?v=cwtpLIWylAw",
@@ -763,7 +792,15 @@
         "name": "Firebase",
         "image": "firebase.png",
         "color": "#fcca3f",
-        "description": "Platform for building and hosting web and mobile apps."
+        "description": "Platform for building and hosting web and mobile apps.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLinedj3B30sCw8Qjrct1DRglx4hWQx83C",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "AWS",
@@ -779,21 +816,20 @@
           }
         ]
       },
-{
-      "name": "Arcjet",
-      "image":  "arcjet.png",
-      "color":"",
-     "description": "",
-     
-     "resources": [
+      {
+        "name": "Arcjet",
+        "image": "arcjet.png",
+        "color": "#000",
+        "description": "A high-performance framework for building AI-powered web applications with seamless integrations and optimizations.",
 
- {
-      "category":  "",
-      "link": "https://youtu.be/ZntaiuLmyBk?si=0PpUfwTlzKe-SSUR",
-      "type": "video"
-}
-] 
-},
+        "resources": [
+          {
+            "category": "",
+            "link": "https://www.youtube.com/watch?v=ZntaiuLmyBk",
+            "type": "video"
+          }
+        ]
+      },
 
       {
         "name": "Tailwind CSS",
@@ -870,6 +906,25 @@
           {
             "category": "Beginner Friendly",
             "link": "https://www.youtube.com/playlist?list=PLMPgoZdlPumexxtvuPUB3TY7LExI1N_Xp",
+            "type": "playlist"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLSkIx8U0TMvgH2PEokYLIxofdb1L9cJjz",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Frammer Motion",
+        "image": "frammer_motion.png",
+        "color": "",
+        "description": "A powerful animation library for React that enables smooth and complex UI animations with ease.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i",
             "type": "playlist"
           }
         ]
@@ -981,6 +1036,11 @@
           {
             "category": "Recommended",
             "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLJHvhC6LQuHvv9HvIZ-gxXGWfnHwIzoT_",
             "type": "playlist"
           }
         ]
@@ -1119,7 +1179,20 @@
         "color": "#ff26be",
         "description": "Design and prototyping tool for UI/UX."
       },
+      {
+        "name": "Blender",
+        "image": "blender.png",
+        "color": "#000",
+        "description": "A free and open-source 3D creation software for modeling, animation, VFX, and game development.",
 
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/watch?v=sbCW0Cs7aI8&list=PLY_2dglfZTX8bv1Q1YTtYcDsPsbRBQf7Q&index=2",
+            "type": "video"
+          }
+        ]
+      },
       {
         "name": "Ethereum",
         "image": "ethereum.png",
@@ -1130,6 +1203,20 @@
           {
             "category": "Step by Step",
             "link": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW9FmqNqug3M5ooNuRqP-alu",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "BlockChain",
+        "image": "blockchain.png",
+        "color": "",
+        "description": "A decentralized and secure digital ledger technology used for cryptocurrencies, smart contracts, and secure transactions.",
+
+        "resources": [
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0",
             "type": "playlist"
           }
         ]
