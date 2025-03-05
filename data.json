@@ -918,7 +918,7 @@
       {
         "name": "Frammer Motion",
         "image": "frammer_motion.png",
-        "color": "",
+        "color": "#860dff",
         "description": "A powerful animation library for React that enables smooth and complex UI animations with ease.",
 
         "resources": [
@@ -1182,7 +1182,7 @@
       {
         "name": "Blender",
         "image": "blender.png",
-        "color": "#000",
+        "color": "#e87502",
         "description": "A free and open-source 3D creation software for modeling, animation, VFX, and game development.",
 
         "resources": [
@@ -1210,7 +1210,7 @@
       {
         "name": "BlockChain",
         "image": "blockchain.png",
-        "color": "",
+        "color": "#7883eb",
         "description": "A decentralized and secure digital ledger technology used for cryptocurrencies, smart contracts, and secure transactions.",
 
         "resources": [
