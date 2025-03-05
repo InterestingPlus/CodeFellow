@@ -54,9 +54,24 @@ const AllTechnologies = () => {
 
   useEffect(() => {
     let localQuery = window.localStorage.getItem("tech-query");
-    window.localStorage.setItem("last-page", "/learn");
+    const hash = window.location.hash.replace("#", "");
 
-    document.getElementById("search-box").focus();
+    if (hash) {
+      window.localStorage.setItem("last-page", `/learn#${hash}`);
+
+      setTimeout(() => {
+        let target = document.querySelector(
+          `.${hash.toLowerCase().split(".")[0]}`
+        );
+        console.log(hash, target);
+        if (target) {
+          target.focus();
+        }
+      }, 1000);
+    } else {
+      window.localStorage.setItem("last-page", "/learn");
+      document.getElementById("search-box").focus();
+    }
 
     if (localQuery) {
       setSearchQuery(localQuery);
@@ -117,11 +132,11 @@ const AllTechnologies = () => {
           <i
             className="fa-solid fa-circle-left"
             onClick={() => {
-              if (window.history.length > 2) {
-                navigate(-1);
-              } else {
-                navigate("/");
-              }
+              // if (window.history.length > 2) {
+              //   navigate(-1);
+              // } else {
+              navigate("/");
+              // }
             }}
             style={{ cursor: "pointer" }}
           ></i>

@@ -121,7 +121,7 @@ main {
 
       .language-box {
         background: rgb(255, 255, 255) !important;
-        border: 1px solid #0ee7d5;
+        border: 2px solid var(--tech-color);
         border-radius: 8px;
         padding: 2rem 1.5rem;
 
@@ -135,7 +135,8 @@ main {
 
         cursor: pointer;
 
-        &:hover {
+        &:hover,
+        &:focus {
           transform: translateY(-5px);
           box-shadow: 2px 2px 20px 5px var(--tech-color);
           background: #fff;
@@ -158,6 +159,10 @@ main {
           }
         }
 
+        &:focus {
+          outline: 2px solid rgba(11, 58, 87, 0.21);
+        }
+
         position: relative;
         overflow: hidden;
         z-index: 1;
@@ -168,8 +173,8 @@ main {
           right: -35%;
           bottom: -25%;
           background: rgba(181, 203, 255, 0.285);
-          width: 130%;
-          height: 50%;
+          width: 150%;
+          height: 30%;
           rotate: -35deg;
           z-index: -1;
 

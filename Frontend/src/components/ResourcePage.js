@@ -18,7 +18,9 @@ const ResourcePage = () => {
       .then((response) => response.json())
       .then((data) => {
         const tech = data[0].technologies.find(
-          (item) => item.name.toLowerCase() === techName.toLowerCase()
+          (item) =>
+            item.name.toLowerCase().split(" ").join("-") ===
+            techName.toLowerCase()
         );
 
         if (tech) {
@@ -39,25 +41,27 @@ const ResourcePage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Learn {techName} - Best Resources & Tutorials</title>
-        <meta
-          name="description"
-          content={`Explore the best tutorials and resources to learn ${techName}.`}
-        />
-        <meta
-          name="keywords"
-          content={`${techName}, Learn ${techName}, ${techName} Tutorials`}
-        />
-        <meta
-          property="og:title"
-          content={`Learn ${techName} - Best Resources & Tutorials`}
-        />
-        <meta
-          property="og:description"
-          content={`Find top-rated tutorials and learning paths for ${techName}.`}
-        />
-      </Helmet>
+      {name && (
+        <Helmet>
+          <title>Learn {name} - Best Resources & Tutorials</title>
+          <meta
+            name="description"
+            content={`Explore the best tutorials and resources to learn ${name}.`}
+          />
+          <meta
+            name="keywords"
+            content={`${name}, Learn ${name}, ${name} Tutorials`}
+          />
+          <meta
+            property="og:title"
+            content={`Learn ${name} - Best Resources & Tutorials`}
+          />
+          <meta
+            property="og:description"
+            content={`Find top-rated tutorials and learning paths for ${name}.`}
+          />
+        </Helmet>
+      )}
 
       <section id="resources">
         {!isLoading ? (
@@ -66,15 +70,11 @@ const ResourcePage = () => {
               <i
                 className="fa-solid fa-circle-left"
                 onClick={() => {
-                  if (window.history.length > 2) {
-                    navigate(-1);
-                  } else {
-                    navigate("/");
-                  }
+                  navigate(`/learn#${techName.toLowerCase()}`);
                 }}
               ></i>
 
-              {name ? `Resources to Learn ${name}` : `${techName} not Found!`}
+              {name ? `Resources to Learn ${name}` : `${name} not Found!`}
             </h1>
 
             {resources ? (
@@ -108,7 +108,7 @@ const ResourcePage = () => {
                 }
               }}
             ></i>
-            Loading {techName}
+            Loading {name}
           </h1>
         )}
       </section>
