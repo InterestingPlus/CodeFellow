@@ -121,8 +121,21 @@
       {
         "name": "jQuery",
         "image": "jquery.png",
-        "color": "lightblue",
-        "description": ""
+        "color": "#1365a8",
+        "description": "A fast and lightweight JavaScript library for DOM manipulation, event handling, and animations.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzSyiC0PFaqeabe1aGhfrbW",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=YFlx1C8XwR0",
+            "type": "video"
+          }
+        ]
       },
 
       {
@@ -503,8 +516,8 @@
       {
         "name": "Android Studio",
         "image": "android-studio.png",
-        "color": "lightgreen",
-        "description": "",
+        "color": "#51ed8f",
+        "description": "The official IDE for Android development, offering tools to build, test, and debug Android apps.",
 
         "resources": [
           {
@@ -980,10 +993,16 @@
       {
         "name": "Postman",
         "image": "postman.png",
-        "color": "orange",
-        "description": "",
+        "color": "#f26933",
+        "description": "A powerful API testing tool for designing, testing, and documenting RESTful and GraphQL APIs.",
 
-        "resources": []
+        "resources": [
+          {
+            "category": "for Beginners",
+            "link": "https://www.youtube.com/watch?v=_u-WgSN5ymU",
+            "type": "video"
+          }
+        ]
       },
 
       {
@@ -1103,7 +1122,7 @@
       {
         "name": "Linux",
         "image": "linux.png",
-        "color": "#ffd333",
+        "color": "#ffcd03",
         "description": "Open-source operating system known for stability, security, and flexibility.",
 
         "resources": [
