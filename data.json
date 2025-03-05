@@ -118,12 +118,12 @@
         ]
       },
 
-{
-   "name": "jQuery",
-"image": "jquery.png",
-"color": "lightblue",
-"description": ""
-},
+      {
+        "name": "jQuery",
+        "image": "jquery.png",
+        "color": "lightblue",
+        "description": ""
+      },
 
       {
         "name": "React.js",
@@ -399,15 +399,15 @@
         "name": "Numpy",
         "image": "numPy.png",
         "color": "#4caacf",
-        "description": "Python library for numerical computations."
-    ,
-
-"resources": [{
-  "category": "Advanced",
-  "link": "https://www.youtube.com/watch?si=P29vPxvyjH-YmsAk&v=x7ULDYs4X84&feature=youtu.be",
-"type": "video"
-
-}] },
+        "description": "Python library for numerical computations.",
+        "resources": [
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?si=P29vPxvyjH-YmsAk&v=x7ULDYs4X84&feature=youtu.be",
+            "type": "video"
+          }
+        ]
+      },
       {
         "name": "Langchain",
         "image": "langchain.png",
@@ -435,12 +435,11 @@
         "description": "General-purpose, Powerful, low-level programming language.",
 
         "resources": [
-
-{
- "category": "Learn by Projects",
-"link": "https://youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp&si=Xemsn--1IslOUsKQ",
-"type": "playlist"
-},
+          {
+            "category": "Learn by Projects",
+            "link": "https://youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp&si=Xemsn--1IslOUsKQ",
+            "type": "playlist"
+          },
 
           {
             "category": "Harvard University",
@@ -501,19 +500,20 @@
           }
         ]
       },
-{
+      {
+        "name": "Android Studio",
+        "image": "android-studio.png",
+        "color": "lightgreen",
+        "description": "",
 
-  "name": "Android Studio",
-   "image": "android-studio.png",
- "color": "lightgreen",
-  "description":"",
-
-"resources": [{
- "category": "Step by Step",
-   "link": "https://youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1&si=yBLmBnFXVmH5UQGZ",
-"type": "playlist"}
-]
-},
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1&si=yBLmBnFXVmH5UQGZ",
+            "type": "playlist"
+          }
+        ]
+      },
       {
         "name": "Kotlin",
         "image": "kotlin.png",
@@ -549,18 +549,19 @@
         "image": "flutter.png",
         "color": "#5ec9f7",
         "description": "UI toolkit for building cross-platform applications.",
-        "resources": [{
-"category": "",
-"link": "https://m.youtube.com/watch?v=HQ_ytw58tC4",
-"type": "video"
+        "resources": [
+          {
+            "category": "",
+            "link": "https://m.youtube.com/watch?v=HQ_ytw58tC4",
+            "type": "video"
+          },
 
-},
-
-{"category": "",
-"link": "https://m.youtube.com/watch?v=j-LOab_PzzU",
-"type": "video"
-
-}]
+          {
+            "category": "",
+            "link": "https://m.youtube.com/watch?v=j-LOab_PzzU",
+            "type": "video"
+          }
+        ]
       },
       {
         "name": "Dart",
@@ -976,15 +977,14 @@
         ]
       },
 
-{
-    "name": "Postman",
-    "image": "postman.png",
-    "color": "orange",
-    "description": "",
+      {
+        "name": "Postman",
+        "image": "postman.png",
+        "color": "orange",
+        "description": "",
 
-"resources": []
-
-},
+        "resources": []
+      },
 
       {
         "name": ".NET",
