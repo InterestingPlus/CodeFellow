@@ -779,6 +779,21 @@
           }
         ]
       },
+{
+      "name": "Arcjet",
+      "image":  "arcjet.png",
+      "color":"",
+     "description": "",
+     
+     "resources": [
+
+ {
+      "category":  "",
+      "link": "https://youtu.be/ZntaiuLmyBk?si=0PpUfwTlzKe-SSUR",
+      "type": "video"
+}
+] 
+},
 
       {
         "name": "Tailwind CSS",
