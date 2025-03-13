@@ -292,13 +292,18 @@
             "type": "playlist"
           },
           {
-            "category": "Complete Backend",
-            "link": "https://www.youtube.com/playlist?list=PL78RhpUUKSwfeSOOwfE9x6l5jTjn5LbY3",
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbx0ZTmVQgsB4T5KWXXxrZ6C",
             "type": "playlist"
           },
           {
             "category": "Step by Step",
             "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At",
+            "type": "playlist"
+          },
+          {
+            "category": "Complete Backend",
+            "link": "https://www.youtube.com/playlist?list=PL78RhpUUKSwfeSOOwfE9x6l5jTjn5LbY3",
             "type": "playlist"
           }
         ]
@@ -314,6 +319,11 @@
             "category": "Basic",
             "link": "https://www.youtube.com/watch?v=pKJ4GGyDgJo",
             "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbx0ZTmVQgsB4T5KWXXxrZ6C",
+            "type": "playlist"
           }
         ]
       },
@@ -507,6 +517,11 @@
         "description": "Object-oriented extension of C with enhanced performance.",
 
         "resources": [
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=FpfHmAkRVK4",
+            "type": "video"
+          },
           {
             "category": "in English",
             "link": "https://www.youtube.com/watch?v=1v_4dL8l8pQ",
@@ -841,7 +856,15 @@
         "name": "Bootstrap",
         "image": "bootstrap.png",
         "color": "#8c14fc",
-        "description": "Popular CSS framework for responsive and mobile-first design."
+        "description": "Popular CSS framework for responsive and mobile-first design.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbz1cgxiH5KCBsyQij1HsPtG",
+            "type": "playlist"
+          }
+        ]
       },
       {
         "name": "SASS",
@@ -1033,6 +1056,11 @@
         "description": "Version control system for tracking code changes.",
 
         "resources": [
+          {
+            "category": "Master Class",
+            "link": "https://www.youtube.com/watch?v=MuZySo5lF8E",
+            "type": "video"
+          },
           {
             "category": "Recommended",
             "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o",
