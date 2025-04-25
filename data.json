@@ -518,6 +518,11 @@
 
         "resources": [
           {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCPfgKZS8UE0MDuwiKvL8zi",
+             "type": "playlist"
+          },
+          {
             "category": "Comprehensive",
             "link": "https://www.youtube.com/watch?v=FpfHmAkRVK4",
             "type": "video"
