@@ -428,8 +428,15 @@
         "name": "Matplotlib",
         "image": "matplotlib.png",
         "color": "#ff8330",
-        "description": "Library for creating static visualizations in Python."
-      },
+        "description": "Library for creating static visualizations in Python.",
+        "resources": [
+           { 
+              "category": "Recommended",
+              "link": "https://youtu.be/kM_eVEEWfnE",
+              "type": "video"
+           }
+     ]
+    },
       {
         "name": "Pandas",
         "image": "pandas.png",
