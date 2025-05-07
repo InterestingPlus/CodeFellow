@@ -372,11 +372,11 @@
         "description": "Efficient, statically typed language for scalable backend and system programming",
 
         "resources": [
-{
-    "category": "Recommended",
-     "link": "https://youtube.com/playlist?list=PLXQpH_kZIxTWUe-Ee-DZEX5gfeoo4tHV6",
- "type": "playlist"
-},
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PLXQpH_kZIxTWUe-Ee-DZEX5gfeoo4tHV6",
+            "type": "playlist"
+          },
           {
             "category": "Beginner Friendly",
             "link": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&si=tVq6WIgnNeBKe5tI",
@@ -430,13 +430,13 @@
         "color": "#ff8330",
         "description": "Library for creating static visualizations in Python.",
         "resources": [
-           { 
-              "category": "Recommended",
-              "link": "https://m.youtube.com/watch?v=kM_eVEEWfnE&feature=youtu.be",
-              "type": "video"
-           }
-     ]
-    },
+          {
+            "category": "Recommended",
+            "link": "https://m.youtube.com/watch?v=kM_eVEEWfnE&feature=youtu.be",
+            "type": "video"
+          }
+        ]
+      },
       {
         "name": "Pandas",
         "image": "pandas.png",
@@ -448,6 +448,12 @@
         "image": "tensorflow.png",
         "color": "#e65c2e",
         "description": "Open-source library for machine learning and deep learning."
+      },
+      {
+        "name": "Scikit-learn",
+        "image": "scikit-learn.png",
+        "description": "",
+        "color": "#f7931e"
       },
       {
         "name": "PyTorch",
@@ -468,6 +474,13 @@
           }
         ]
       },
+      {
+        "name": "Keras",
+        "image": "keras.png",
+        "color": "red",
+        "description": ""
+      },
+
       {
         "name": "Langchain",
         "image": "langchain.png",
@@ -532,7 +545,7 @@
           {
             "category": "Recommended",
             "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCPfgKZS8UE0MDuwiKvL8zi",
-             "type": "playlist"
+            "type": "playlist"
           },
           {
             "category": "Comprehensive",
