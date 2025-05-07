@@ -23,6 +23,23 @@ const AllRoadmaps = () => {
   };
 
   useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash) {
+      window.localStorage.setItem("last-page", `/roadmap#${hash}`);
+
+      setTimeout(() => {
+        let target = document.querySelector(
+          `.${hash.toLowerCase().split(".")[0]}`
+        );
+        console.log(hash, target);
+        if (target) {
+          target.focus();
+        }
+      }, 1000);
+    } else {
+      window.localStorage.setItem("last-page", "/roadmap");
+    }
+
     const fetchData = async () => {
       const db = await initDB();
 
@@ -75,8 +92,6 @@ const AllRoadmaps = () => {
   useEffect(() => {
     let localQuery = window.localStorage.getItem("roadmap-query");
 
-    window.localStorage.setItem("last-page", "/roadmap");
-
     if (localQuery) {
       setSearchQuery(localQuery);
     }
@@ -95,6 +110,7 @@ const AllRoadmaps = () => {
           <i
             className="fa-solid fa-circle-left"
             onClick={() => {
+              window.localStorage.setItem("last-page", "/");
               if (window.history.length > 2) {
                 navigate(-1);
               } else {

@@ -5,45 +5,61 @@ import "./Header.scss";
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../images/Logo_Backup.png";
 
+import { motion } from "framer-motion";
+
 const Header = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    let lastPage = window.localStorage.getItem("last-page");
+    setTimeout(() => {
+      let lastPage = window.localStorage.getItem("last-page");
 
-    if (lastPage) {
-      navigate(lastPage);
-    }
-  }, []);
+      if (lastPage) {
+        navigate(lastPage);
+      }
+    }, 800);
+  });
 
   return (
-    <header>
-      <div className="logo">
-        <img
-          src={Logo}
-          alt="CodeFellow"
-          onClick={() => {
-            navigate("/");
-          }}
-        />
-        <h2
-          onClick={() => {
-            navigate("/");
-          }}
-        >
+    <motion.header
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8, x: -50, y: -30 }}
+        animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+        transition={{ duration: 0.3, type: "spring" }}
+        className="logo"
+        onClick={() => {
+          window.localStorage.setItem("last-page", "/");
+
+          navigate("/");
+        }}
+      >
+        <img src={Logo} alt="CodeFellow" />
+        <h2>
           <span>Code</span>Fellow
         </h2>
-      </div>
+      </motion.div>
 
       <ul>
-        <li>
+        <motion.li
+          initial={{ opacity: 0, scale: 0.5, y: -20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.1, type: "spring" }}
+        >
           <Link to="/learn">Technologies</Link>
-        </li>
-        <li>
+        </motion.li>
+        <motion.li
+          initial={{ opacity: 0, scale: 0.5, y: -20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.2, type: "spring" }}
+        >
           <Link to="/roadmap">Roadmaps</Link>
-        </li>
+        </motion.li>
       </ul>
-    </header>
+    </motion.header>
   );
 };
 

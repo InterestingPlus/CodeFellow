@@ -3,6 +3,8 @@ import { openDB } from "idb";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+import { motion } from "framer-motion";
+
 const Playlist = ({ url, index, category, type }) => {
   const [details, setDetails] = useState(null);
 
@@ -134,7 +136,13 @@ const Playlist = ({ url, index, category, type }) => {
   }
 
   return (
-    <li key={index}>
+    <motion.li
+      key={index}
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, delay: index * 0.04 }}
+      exit={{ opacity: 0, y: -10 }}
+    >
       <Link to={url} target="_blank" rel="noopener noreferrer">
         <h3>{category}</h3>
         <img
@@ -152,7 +160,7 @@ const Playlist = ({ url, index, category, type }) => {
           <p>by {details.channelName}</p>
         </div>
       </Link>
-    </li>
+    </motion.li>
   );
 };
 

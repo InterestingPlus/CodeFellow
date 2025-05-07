@@ -46,10 +46,15 @@ const RoadmapPage = () => {
               <i
                 className="fa-solid fa-circle-left"
                 onClick={() => {
+                  window.localStorage.setItem(
+                    "last-page",
+                    `/roadmap#${roadmapName}`
+                  );
+
                   if (window.history.length > 2) {
                     navigate(-1);
                   } else {
-                    navigate("/");
+                    navigate(`/roadmap#${roadmapName}`);
                   }
                 }}
               ></i>

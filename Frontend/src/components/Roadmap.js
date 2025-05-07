@@ -14,6 +14,11 @@ const Roadmap = () => {
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
+    window.localStorage.setItem(
+      "last-page",
+      `/roadmap/${roadmapName}/${stepIndex}`
+    );
+
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
@@ -68,7 +73,7 @@ const Roadmap = () => {
         .catch((error) => console.error("Error fetching technology:", error));
     }, [title]);
 
-    return <Boxes key={index} data={technology} />;
+    return <Boxes index={index} data={technology} />;
   };
 
   return (
@@ -80,10 +85,14 @@ const Roadmap = () => {
               <i
                 className="fa-solid fa-circle-left"
                 onClick={() => {
+                  window.localStorage.setItem(
+                    "last-page",
+                    `/roadmap/${roadmapName}`
+                  );
                   if (window.history.length > 2) {
                     navigate(-1);
                   } else {
-                    navigate("/");
+                    navigate("/roadmap");
                   }
                 }}
               ></i>

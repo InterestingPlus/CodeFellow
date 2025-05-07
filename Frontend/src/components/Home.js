@@ -5,6 +5,8 @@ import Boxes from "./Boxes";
 import "./Main.scss";
 import Roadmaps from "./Roadmaps";
 
+import { motion } from "framer-motion";
+
 const Home = () => {
   const [technologies, setTechnologies] = useState([]);
   const [roadmaps, setRoadmaps] = useState([]);
@@ -88,67 +90,133 @@ const Home = () => {
 
   return (
     <>
-      <section className="hero">
+      <motion.section
+        className="hero"
+        initial={{ backgroundSize: "50%" }}
+        animate={{ backgroundSize: "100%" }}
+        transition={{ duration: 0.8, type: "tween" }}
+      >
         <div className="container">
-          <h1>
-            Welcome to Code<span>Fellow</span>
-          </h1>
-          <p>Your ultimate destination to explore and learn technologies!</p>
+          <motion.h1
+            initial={{ opacity: 0, scale: 0.5, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.3 }}
+          >
+            Welcome to Code
+            <span>Fellow</span>
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.3, delay: 0.3 }}
+          >
+            Your ultimate destination to explore and learn technologies!
+          </motion.p>
 
           <div>
-            <a href="#technologies" className="cta-button">
+            <motion.a
+              initial={{ opacity: 0, scale: 0, y: -30, x: 90 }}
+              animate={{
+                opacity: 1,
+                scale: 1,
+                y: 0,
+                x: 0,
+              }}
+              transition={{ duration: 0.2, delay: 0.6 }}
+              href="#technologies"
+              className="cta-button"
+              onClick={() => {
+                setTimeout(() => {
+                  navigate("/learn");
+                }, 1000);
+              }}
+            >
               Get Started
-            </a>
-            <a href="#roadmaps" className="cta-button roadmap-btn">
+            </motion.a>
+            <motion.a
+              initial={{ opacity: 0, scale: 0, y: -30, x: -90 }}
+              animate={{
+                opacity: 1,
+                scale: 1,
+                y: 0,
+                x: 0,
+              }}
+              transition={{ duration: 0.2, delay: 0.8 }}
+              href="#roadmaps"
+              className="cta-button roadmap-btn"
+              onClick={() => {
+                setTimeout(() => {
+                  navigate("/roadmap");
+                }, 1200);
+              }}
+            >
               Roadmaps
-            </a>
+            </motion.a>
           </div>
 
           <div className="social">
             <span>
-              <a
+              <motion.a
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.8 }}
                 href="https://github.com/InterestingPlus"
                 target="_blank"
                 rel="noreferrer"
                 id="github"
               >
                 <i class="fa-brands fa-github"></i>
-              </a>
-              <a
+              </motion.a>
+
+              <motion.a
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.85 }}
                 href="https://www.linkedin.com/in/Jatin-Poriya"
                 target="_blank"
                 rel="noreferrer"
                 id="linkedin"
               >
                 <i class="fa-brands fa-linkedin"></i>
-              </a>
-              <a
+              </motion.a>
+
+              <motion.a
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.9 }}
                 href="https://wa.me/917201840095"
                 target="_blank"
                 rel="noreferrer"
                 id="whatsapp"
               >
                 <i class="fa-brands fa-whatsapp"></i>
-              </a>
-              <a
+              </motion.a>
+
+              <motion.a
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 1 }}
                 href="https://instagram.com/Jatin_Poriya_123"
                 target="_blank"
                 rel="noreferrer"
                 id="instagram"
               >
                 <i class="fa-brands fa-instagram"></i>
-              </a>
+              </motion.a>
             </span>
-            <a
+            <motion.a
+              initial={{ opacity: 0, scale: 0.7, y: 200 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 1.2 }}
               href="https://JatinPoriya.epizy.com"
               target="_blank"
               rel="noreferrer"
             >
               <h2>Jatin Poriya</h2>
-            </a>
+            </motion.a>
           </div>
         </div>
-      </section>
+      </motion.section>
 
       <section id="technologies">
         <div className="effect">
@@ -158,9 +226,9 @@ const Home = () => {
         <h1 className="heading">Technologies :</h1>
 
         <div className="tech home">
-          {technologies?.slice(0, 10).map((technology, index) => (
-            <Boxes key={index} data={technology} />
-          ))}
+          {technologies?.slice(0, 10).map((technology, index) => {
+            return <Boxes index={index} data={technology} />;
+          })}
         </div>
 
         <button

@@ -132,11 +132,12 @@ const AllTechnologies = () => {
           <i
             className="fa-solid fa-circle-left"
             onClick={() => {
-              // if (window.history.length > 2) {
-              //   navigate(-1);
-              // } else {
-              navigate("/");
-              // }
+              window.localStorage.setItem("last-page", "/");
+              if (window.history.length > 2) {
+                navigate(-1);
+              } else {
+                navigate("/");
+              }
             }}
             style={{ cursor: "pointer" }}
           ></i>
@@ -212,7 +213,7 @@ const AllTechnologies = () => {
                 .includes(searchQuery.toLowerCase().trim())
           )
           ?.map((technology, index) => (
-            <Boxes key={index} data={technology} />
+            <Boxes index={index} data={technology} />
           ))}
       </div>
     </section>

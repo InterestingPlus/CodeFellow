@@ -477,7 +477,7 @@ section.hero {
   z-index: 9;
   text-align: center;
 
-  background: radial-gradient(#2575fc, #7b00ff);
+  // background: radial-gradient(#2575fc, #7b00ff);
   // background: url("https://tse2.mm.bing.net/th?id=OIG4.gZw6M0.leGwHGq29pKo_&pid=ImgGn");
   // background: url("https://tse2.mm.bing.net/th?id=OIG1.EapVr78nRZhw2dovtg9L&pid=ImgGn");
   background: url("./../images/background.jpg");
@@ -492,19 +492,6 @@ section.hero {
   height: 100dvh;
   max-height: 100dvh;
   z-index: 1;
-
-  animation: backgroundScale 0.5s linear alternate;
-
-  @keyframes backgroundScale {
-    from {
-      background-size: 100%;
-    }
-
-    to {
-      background-size: 150%;
-      background-position: center;
-    }
-  }
 
   .container {
     display: flex;
@@ -578,7 +565,7 @@ section.hero {
       // position: relative;
 
       position: absolute;
-      bottom: 55px;
+      bottom: 9vh;
       z-index: 99;
 
       span {
@@ -766,6 +753,10 @@ li.loading {
 
   .effect {
     transform: translate(-1rem, -44%) !important;
+    height: 15dvh;
+  }
+  .social {
+    bottom: 7vh;
   }
 
   section#technologies {

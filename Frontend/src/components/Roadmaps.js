@@ -9,7 +9,10 @@ const Roadmaps = ({ roadmaps }) => {
       {roadmaps?.map((roadmap, index) => (
         <Link
           index={index}
-          className="language-box"
+          className={`language-box ${
+            roadmap?.name.toLowerCase().split(" ").join("-").split(".")[0] || ""
+          }
+      `}
           style={{ background: `${roadmap?.color || "#fff"}` }}
           to={`/roadmap/${
             roadmap?.name.toLowerCase().split(" ").join("-") || ""

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Playlist from "./FetchThumbnail";
 import { Helmet } from "react-helmet-async";
+import ShareButton from "./ShareButton";
 
 const ResourcePage = () => {
   const { techName } = useParams();
@@ -71,11 +72,19 @@ const ResourcePage = () => {
                 className="fa-solid fa-circle-left"
                 onClick={() => {
                   navigate(`/learn#${techName.toLowerCase()}`);
+                  window.localStorage.setItem(
+                    "last-page",
+                    `/learn#${techName.toLowerCase()}`
+                  );
                 }}
               ></i>
-
               {name ? `Resources to Learn ${name}` : `${name} not Found!`}
+              <br />
             </h1>
+
+            <div>
+              <ShareButton techName={name} linkText={techName} />
+            </div>
 
             {resources ? (
               resources?.length > 0 ? (
