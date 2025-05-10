@@ -1560,9 +1560,59 @@
         "description": "Roadmap to becoming a data analyst, focusing on data visualization, SQL, Excel, Python, and tools like Tableau and Power BI."
       },
       {
-        "name": "AI",
+        "name": "AI-ML",
         "image": "ai.png",
-        "description": "Comprehensive roadmap for exploring artificial intelligence, covering machine learning, neural networks, NLP, and tools like TensorFlow and PyTorch."
+        "description": "Comprehensive roadmap for mastering Artificial Intelligence and Machine Learning, from math fundamentals and Python to deep learning, NLP, and MLOps.",
+        "steps": [
+          {
+            "title": "1. Programming & Math Foundations",
+            "content": "Master Python programming and essential mathematics like linear algebra, calculus, and statistics for ML."
+          },
+          {
+            "title": "2. Core Machine Learning Concepts",
+            "content": "Understand supervised vs unsupervised learning, key ML algorithms, model evaluation, and overfitting/underfitting."
+          },
+          {
+            "title": "3. Model Development & Engineering",
+            "content": "Work with libraries like Scikit-learn, perform feature engineering, cross-validation, and hyperparameter tuning."
+          },
+          {
+            "title": "4. Deep Learning Fundamentals",
+            "content": "Dive into neural networks, activation/loss functions, optimization techniques, and core frameworks like TensorFlow and PyTorch."
+          },
+          {
+            "title": "5. Advanced Deep Learning",
+            "content": "Learn CNNs, RNNs, LSTM, GANs, and Transformers with practical use cases in vision and NLP."
+          },
+          {
+            "title": "6. Natural Language Processing (NLP)",
+            "content": "Build systems for text classification, embeddings, BERT, and HuggingFace Transformers."
+          },
+          {
+            "title": "7. Computer Vision",
+            "content": "Implement object detection, classification, and segmentation using OpenCV and deep learning."
+          },
+          {
+            "title": "8. Projects & Use Cases",
+            "content": "Apply your skills to build real-world projects like chatbots, recommendation systems, and image classifiers."
+          },
+          {
+            "title": "9. AI Tools & Ecosystem",
+            "content": "Explore tools like Jupyter, Colab, MLFlow, WandB, LangChain, and OpenAI API."
+          },
+          {
+            "title": "10. MLOps & Deployment",
+            "content": "Learn model packaging, deployment with Flask/FastAPI, Docker, Streamlit, CI/CD, and AWS Sagemaker."
+          },
+          {
+            "title": "11. Modern AI Paradigms",
+            "content": "Understand Generative AI, Agentic AI, Explainable AI, and Edge AI, and their real-world applications."
+          },
+          {
+            "title": "12. Specialization Paths",
+            "content": "Explore career tracks such as Data Science, NLP Engineer, Computer Vision Engineer, ML Engineer, or AI Researcher."
+          }
+        ]
       },
       {
         "name": "MLOps",
