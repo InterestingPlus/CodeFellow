@@ -1,0 +1,48 @@
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.share-btn,
+.copy-btn {
+  background: #00d9ff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.share-btn:hover,
+.copy-btn:hover {
+  background: #008bb5;
+}
+
+.share-buttons a {
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.share-buttons a:nth-child(3) {
+  background: #1da1f2;
+} /* Twitter */
+.share-buttons a:nth-child(4) {
+  background: #25d366;
+} /* WhatsApp */
+.share-buttons a:nth-child(5) {
+  background: #0088cc;
+} /* Telegram */
+.share-buttons a:nth-child(6) {
+  background: #0077b5;
+} /* LinkedIn */
+
+.share-buttons a:hover {
+  opacity: 0.8;
+}

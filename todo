@@ -1,0 +1,77 @@
+Lodash, Alpine.js, Zepto.js, Cash.js
+
+Xcode 
+
+Swagger (OpenAPI)
+
+
+
+
+{
+  "technologies": [
+    // 1️⃣ Web Development Basics
+    "HTML", "CSS", "JavaScript", "TypeScript",
+
+    // 2️⃣ Frontend Frameworks & Libraries
+    "React.js", "Redux", "Next.js", "Vue", "Angular", "Solid.js", "Svelte", "Qwik",
+
+    // 3️⃣ Backend Development
+    "Node.js", "Express.js", "PHP", "Laravel", "Golang", "Python",
+    "Django", "Flask", "Spring Boot", ".NET", "Ruby", "Ruby on Rails",
+    "FastAPI", "NestJS", "Hapi.js", "Koa.js", "ASP.NET Core",
+
+    // 4️⃣ Database & Query Languages
+    "MongoDB", "SQL", "PostgreSQL", "MySQL", "Firebase", "Supabase", "CockroachDB", "Cassandra", "GraphQL",
+
+    // 5️⃣ DevOps & Cloud
+    "Docker", "Kubernetes", "AWS", "CI/CD", "Terraform", "Google Cloud", "Azure", "Jenkins", "Ansible", "Prometheus", "Grafana",
+
+    // 6️⃣ Data Science & AI
+    "Matplotlib", "Pandas", "TensorFlow", "PyTorch", "Numpy", "LangChain",
+    "SciPy", "OpenCV", "Hugging Face", "DVC (Data Version Control)", "Ray",
+
+    // 7️⃣ Programming Languages
+    "Rust", "C", "C++", "Java", "Kotlin", "Swift", "Dart",
+    "Perl", "R", "Haskell", "Elixir", "Lua", "Scala",
+
+    // 8️⃣ Mobile Development
+    "Flutter", "React Native", "Electron.js", "SwiftUI", "Jetpack Compose",
+
+    // 9️⃣ Computer Science Fundamentals
+    "DSA", "GraphQL", "Socket.io", "REST API", "WebSockets", "WebRTC",
+
+    // 🔟 UI Frameworks & Styling
+    "Tailwind CSS", "BootStrap", "Sass", "Chakra UI", "Material UI",
+    "Multor", "Shadcn", "Gsap", "Three.js", "Ant Design", "Framer Motion",
+
+    // 1️⃣1️⃣ Tools & Version Control
+    "Git", "GitHub", "GitLab", "Bitbucket", "ESLint", "Prettier",
+    "Webpack", "Babel", "Jest", "Cypress", "Playwright", "Vitest",
+
+    // 1️⃣2️⃣ UI/UX & Design Tools
+    "Figma", "Adobe XD", "Sketch", "Canva", "Lottie",
+
+    // 1️⃣3️⃣ Blockchain & Security
+    "Ethereum", "Solana", "Hyperledger", "Smart Contracts", "Metamask",
+    "Linux", "Kali Linux", "Nmap", "Burp Suite", "OWASP", "SIEM (Security Information & Event Management)",
+
+    // 1️⃣4️⃣ Miscellaneous & Emerging Tech
+    "WebAssembly", "Tauri", "Bun.js", "Deno", "Remix", "Astro",
+    "OpenAI API", "Whisper AI", "Stable Diffusion", "Blockchain Oracles"
+  ]
+}
+
+
+
+
+
+A high-performance framework for building AI-powered web applications with seamless integrations and optimizations."
+
+🔹 Related Technologies:
+
+LangChain (AI application framework)
+FastAPI (High-performance backend framework)
+Next.js (Optimized React framework)
+Hugging Face Transformers (Pre-trained AI models)
+OpenAI API (LLM-powered AI applications)
+Vector Databases (Pinecone, Weaviate) (For AI search and retrieval)

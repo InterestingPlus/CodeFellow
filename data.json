@@ -1142,7 +1142,11 @@
         "name": ".NET",
         "image": "dotnet.png",
         "color": "#0079ba",
+<<<<<<< HEAD
         "description": "Microsoft framework for building web, desktop, and mobile applications.",
+=======
+        "description": "Microsoft framework for building web, desktop, and mobile applications using C#.",
+>>>>>>> 5a31b07a (Initial commit)
 
         "resources": [
           {

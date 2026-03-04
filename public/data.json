@@ -1,0 +1,1639 @@
+[
+  {
+    "technologies": [
+      {
+        "name": "HTML",
+        "image": "html.png",
+        "color": "#e34f27",
+        "description": "Markup language for creating structured web pages.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&si=KUvOsLiLehKIDwkP",
+            "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=rklidcZ-aLU&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=2",
+            "type": "video"
+          },
+          {
+            "category": "Most Popular",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&si=1fgRM253IcADoHIU",
+            "type": "playlist"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb6KogQMHqAfXk_y0tgJSzI3",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://youtube.com/playlist?list=PL3-GABDDV5RTSuhlJWa7xVBMFXkNraqtF&si=4qKx9DF8WF1Hkj0Y",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "CSS",
+        "image": "css.png",
+        "color": "#0278bd",
+        "description": "Style sheet language for designing visually engaging web pages.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw",
+            "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=OpWjt_wbV4E&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=3",
+            "type": "video"
+          },
+          {
+            "category": "One by One",
+            "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb4OtAt8aDKqklEJDqZHYXBm",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/playlist?list=PL3-GABDDV5RR4Xxp-mk1DcafU_UJE3lHf",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "image": "javascript.png",
+        "color": "#d4b831",
+        "description": "Programming language for web development and interactive experiences.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37",
+            "type": "playlist"
+          },
+          {
+            "category": "One by One",
+            "link": "https://www.youtube.com/playlist?list=PLw9zMOoodWb5YB2TqrboVoSBkCKaOsvE_",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbx-BZTaWu_AF7hsKo_Fvsnf&si=3B0Op1_IsnbVD1-v",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
+            "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI&si=1p89fTdyqLCk-5Rw",
+            "type": "playlist"
+          },
+          {
+            "category": "Learn by Projects",
+            "link": "https://www.youtube.com/watch?v=cpoXLj24BDY&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=4",
+            "type": "video"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "image": "typescript.png",
+        "color": "#007acc",
+        "description": "Typed superset of JavaScript for scalable and maintainable applications.",
+
+        "resources": [
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWRPSfKzwZsIm-Axxq-LxqhW",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV44eT51JPju4LsTQlce6DPtx",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "jQuery",
+        "image": "jquery.png",
+        "color": "#1365a8",
+        "description": "A fast and lightweight JavaScript library for DOM manipulation, event handling, and animations.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzSyiC0PFaqeabe1aGhfrbW",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=YFlx1C8XwR0",
+            "type": "video"
+          }
+        ]
+      },
+
+      {
+        "name": "React.js",
+        "image": "react.png",
+        "color": "#61d9fa",
+        "description": "JavaScript library for building modern, interactive UI components.",
+
+        "resources": [
+          {
+            "category": "Learn by Projects",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47BCAjiCtuV_liN9IwAl8pM",
+            "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=eILUmCJhl64&list=PL78RhpUUKSwfYr_bKHq7SWfTCBGad_xxP&index=5",
+            "type": "video"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46469T9uxQ2ORe4AOzsqLb9",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Redux",
+        "image": "redux.png",
+        "color": "#764eba",
+        "description": "State management library for managing application state efficiently.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=fxT54eRIsc4",
+            "type": "video"
+          },
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?v=1i04-A7kfFI&t=204s",
+            "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47TDYUq8RmFzeI9CgOoVgpJ",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Next.js",
+        "image": "nextjs.png",
+        "color": "#000000",
+        "description": "React framework for server-side rendering and static site generation.",
+
+        "resources": [
+          {
+            "category": "for Beginners",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDWGIwaEwhTUR40AbH8qsTo&si=Z3W4Ev61a7Ux2cFW",
+            "type": "playlist"
+          },
+          {
+            "category": "Next Auth",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCXO80Z4miZHTL5GxfFbz7A&si=zoy9o0d-o_jO7U5m",
+            "type": "playlist"
+          },
+          {
+            "category": "Advance Auth",
+            "link": "https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE&si=PavKFh9Ay8JQJ1r_",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBAaWGtn9GA2PTw0HO0tXzq",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Vue",
+        "image": "vue.png",
+        "color": "#40b882",
+        "description": "Progressive framework for building user interfaces and SPAs.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV45e7L_qC_mntM7FhSIV8pqa",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=VeNfHj6MhgA",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Angular",
+        "image": "angular.png",
+        "color": "#c2002d",
+        "description": "Framework for building scalable and enterprise-grade web applications.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=T_Fe4IaG0KU&t=44s",
+            "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV45--5t7_N4lveUI6Y31vQ6C",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Solid.js",
+        "image": "solid-js.png",
+        "color": "#4f86c4",
+        "description": "A high-performance reactive UI framework with fine-grained reactivity, similar to React but without a Virtual DOM."
+      },
+      {
+        "name": "Node.js",
+        "image": "nodejs.png",
+        "color": "#82bd02",
+        "description": "JavaScript runtime for server-side development and APIs.",
+
+        "resources": [
+          {
+            "category": "Complete Backend",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbx0ZTmVQgsB4T5KWXXxrZ6C",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At",
+            "type": "playlist"
+          },
+          {
+            "category": "Complete Backend",
+            "link": "https://www.youtube.com/playlist?list=PL78RhpUUKSwfeSOOwfE9x6l5jTjn5LbY3",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Express.js",
+        "image": "express-js.png",
+        "color": "#363636",
+        "description": "Minimal web framework for building Node.js applications.",
+
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/watch?v=pKJ4GGyDgJo",
+            "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbx0ZTmVQgsB4T5KWXXxrZ6C",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "PHP",
+        "image": "php.png",
+        "color": "#8a94bf",
+        "description": "Server-side scripting language for dynamic web applications.",
+
+        "resources": [
+          {
+            "category": "Comprehensive",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&si=IUGe02___fUjJ9ZV",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Laravel",
+        "image": "laravel.png",
+        "color": "#ff2919",
+        "description": "Elegant PHP framework for modern web applications.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PL8p2I9GklV45Q9ofPyixWAdb1-WLiBvNl&si=xSB7_vGclebUHloh",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PL0b6OzIxLPbz7JK_YYrRJ1KxlGG4diZHJ&si=I8l0Iiq7e_LQcw_S",
+            "type": "playlist"
+          },
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?si=vWzlFlCbScS4qq72&v=Ea1gVO53lDY&feature=youtu.be",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Golang",
+        "image": "go.png",
+        "color": "#6ad7e6",
+        "description": "Efficient, statically typed language for scalable backend and system programming",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PLXQpH_kZIxTWUe-Ee-DZEX5gfeoo4tHV6",
+            "type": "playlist"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&si=tVq6WIgnNeBKe5tI",
+            "type": "playlist"
+          }
+        ]
+      },
+
+      {
+        "name": "Python",
+        "image": "python.png",
+        "color": "#ffd24a",
+        "description": "General-purpose programming language for web, AI, and data science.",
+
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
+            "type": "playlist"
+          },
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Django",
+        "image": "django.png",
+        "color": "#092e20",
+        "description": "High-level Python web framework for rapid development.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoDOf-6vAcKmazT92uLnWAgy&si=94Gd4xYx6mdx7cOy",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Flask",
+        "image": "flask.png",
+        "color": "#454545",
+        "description": "Lightweight Python framework for web applications."
+      },
+      {
+        "name": "Matplotlib",
+        "image": "matplotlib.png",
+        "color": "#ff8330",
+        "description": "Library for creating static visualizations in Python.",
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://m.youtube.com/watch?v=kM_eVEEWfnE&feature=youtu.be",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Pandas",
+        "image": "pandas.png",
+        "color": "#130654",
+        "description": "Python library for data analysis and manipulation."
+      },
+      {
+        "name": "TensorFlow",
+        "image": "tensorflow.png",
+        "color": "#e65c2e",
+        "description": "Open-source library for machine learning and deep learning."
+      },
+      {
+        "name": "Scikit-learn",
+        "image": "scikit-learn.png",
+        "description": "",
+        "color": "#f7931e"
+      },
+      {
+        "name": "PyTorch",
+        "image": "pytorch.png",
+        "color": "#f05832",
+        "description": "Deep learning python framework for building AI models."
+      },
+      {
+        "name": "Numpy",
+        "image": "numPy.png",
+        "color": "#4caacf",
+        "description": "Python library for numerical computations.",
+        "resources": [
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?si=P29vPxvyjH-YmsAk&v=x7ULDYs4X84&feature=youtu.be",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Keras",
+        "image": "keras.png",
+        "color": "red",
+        "description": ""
+      },
+
+      {
+        "name": "Langchain",
+        "image": "langchain.png",
+        "color": "#02ab45",
+        "description": "A powerful framework for building applications using Large Language Models (LLMs) with ease and flexibility.",
+
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/watch?v=DcNxg61kSFc",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Rust",
+        "image": "rust.png",
+        "color": "#000",
+        "description": "Memory-safe, high-performance language for systems and concurrent programming."
+      },
+      {
+        "name": "C",
+        "image": "c.png",
+        "color": "#3848ab",
+        "description": "General-purpose, Powerful, low-level programming language.",
+
+        "resources": [
+          {
+            "category": "Learn by Projects",
+            "link": "https://youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp&si=Xemsn--1IslOUsKQ",
+            "type": "playlist"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp",
+            "type": "playlist"
+          },
+          {
+            "category": "Harvard University",
+            "link": "https://www.youtube.com/watch?v=cwtpLIWylAw",
+            "type": "video"
+          },
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?v=irqbmMNs2Bo&t=1429s",
+            "type": "video"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt&si=9W5D4Nzj-E5F97tP",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "C++",
+        "image": "cpp.png",
+        "color": "#007ecc",
+        "description": "Object-oriented extension of C with enhanced performance.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://youtube.com/playlist?list=PLu71SKxNbfoCPfgKZS8UE0MDuwiKvL8zi",
+            "type": "playlist"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=FpfHmAkRVK4",
+            "type": "video"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=1v_4dL8l8pQ",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Java",
+        "image": "java.png",
+        "color": "#0275bd",
+        "description": "Platform-independent programming language for applications.",
+
+        "resources": [
+          {
+            "category": "with DSA",
+            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Spring Boot",
+        "image": "spring-boot.png",
+        "color": "#6db33e",
+        "description": "Framework for Java-based microservices and enterprise applications.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Android Studio",
+        "image": "android-studio.png",
+        "color": "#51ed8f",
+        "description": "The official IDE for Android development, offering tools to build, test, and debug Android apps.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1&si=yBLmBnFXVmH5UQGZ",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Kotlin",
+        "image": "kotlin.png",
+        "color": "#f58720",
+        "description": "Modern programming language for Android development."
+      },
+      {
+        "name": "Swift",
+        "image": "swift.png",
+        "color": "#f05037",
+        "description": "Programming language for iOS and macOS development.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLb5R4QC2DtFv3MvfG42Cd5La34Hwj4pY6",
+            "type": "playlist"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=oAPWduCv_xc",
+            "type": "video"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=8Xg7E9shq0U",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Flutter",
+        "image": "flutter.png",
+        "color": "#5ec9f7",
+        "description": "UI toolkit for building cross-platform applications.",
+        "resources": [
+          {
+            "category": "",
+            "link": "https://m.youtube.com/watch?v=HQ_ytw58tC4",
+            "type": "video"
+          },
+
+          {
+            "category": "",
+            "link": "https://m.youtube.com/watch?v=j-LOab_PzzU",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Dart",
+        "image": "dart.png",
+        "color": "#00b5ac",
+        "description": "Programming language optimized for fast mobile development."
+      },
+      {
+        "name": "React Native",
+        "image": "react.png",
+        "color": "#61d9fa",
+        "description": "Framework for building mobile applications using React and JavaScript.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSjBBJ-egNNOd4mdblt1P4c",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46Fv-UqCwj0zk_D87cQtVEZ",
+            "type": "playlist"
+          },
+          {
+            "category": "Project",
+            "link": "https://www.youtube.com/playlist?list=PLuHGmgpyHfRx3ICsWZRjc2oEKxX6gky6U",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Electron.js",
+        "image": "electron.png",
+        "color": "#46858f",
+        "description": "A framework for building cross-platform desktop applications using web technologies",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV46sT0RXw6PlMRVxJzEDUWuD",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PLkZU2rKh1mT8cML-VNcUHF3vB8qzzgxuA",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "image": "mondodb.png",
+        "color": "#00ed63",
+        "description": "NoSQL database for storing JSON-like documents.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbysebQ-yBd7ZHYGPMuFvvyD",
+            "type": "playlist"
+          },
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?v=vx1C8EyTa7Y",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "SQL",
+        "image": "sql.png",
+        "color": "#2585cf",
+        "description": "Language for managing and querying databases",
+
+        "resources": [
+          {
+            "category": "Basic",
+            "link": "https://www.youtube.com/watch?v=hlGoQC332VM&t=8586s",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "image": "postgresql.png",
+        "color": "#336791",
+        "description": "Powerful, open-source relational database."
+      },
+      {
+        "name": "MySQL",
+        "image": "mysql.png",
+        "color": "#e68e00",
+        "description": "Widely used open-source relational database."
+      },
+      {
+        "name": "DSA",
+        "image": "dsa.png",
+        "color": "#7dc0ff",
+        "description": "Foundation of programming that focuses on data organization and problem-solving techniques.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7",
+            "type": "playlist"
+          },
+          {
+            "category": "C++",
+            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt",
+            "type": "playlist"
+          },
+          {
+            "category": "Java",
+            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+            "type": "playlist"
+          },
+          {
+            "category": "C",
+            "link": "https://www.youtube.com/playlist?list=PLHuIqV4DwPieAKJ5zTd8bGwrJPHmj4Ggd",
+            "type": "playlist"
+          },
+          {
+            "category": "JavaScript",
+            "link": "https://www.youtube.com/playlist?list=PL_HlKez9XCSOi5thYDzipbJ2pEdzop7vx",
+            "type": "playlist"
+          },
+          {
+            "category": "JavaScript",
+            "link": "https://www.youtube.com/watch?v=h86FQ7vrnds",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "GraphQL",
+        "image": "graphql.png",
+        "color": "#e635ab",
+        "description": "Query language for building efficient and flexible APIs.",
+
+        "resources": [
+          {
+            "category": "Guide",
+            "link": "https://www.youtube.com/watch?v=RlQnzaN-arU&t=162s",
+            "type": "video"
+          },
+          {
+            "category": "Introduction",
+            "link": "https://www.youtube.com/watch?v=X3QM6Ap6u-4",
+            "type": "video"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=WtkKwO1viI8",
+            "type": "video"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=_Zss2Mbz4Bs",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Socket.io",
+        "image": "socket-io.png",
+        "color": "#000",
+        "description": "JavaScript library for real-time WebSocket communication.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=favi7avxIag",
+            "type": "video"
+          }
+        ]
+      },
+
+      {
+        "name": "REST API",
+        "image": "rest-api.png",
+        "color": "#000",
+        "description": "Standardized way to build scalable APIs."
+      },
+      {
+        "name": "Firebase",
+        "image": "firebase.png",
+        "color": "#fcca3f",
+        "description": "Platform for building and hosting web and mobile apps.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLinedj3B30sCw8Qjrct1DRglx4hWQx83C",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "AWS",
+        "image": "aws.png",
+        "color": "#ff9900",
+        "description": "Cloud computing platform offering scalable infrastructure, storage, and machine learning services.",
+
+        "resources": [
+          {
+            "category": "Advanced",
+            "link": "https://youtube.com/playlist?list=PLinedj3B30sDZ17Fpe3xGUDRBkutaGyUp&si=fIBtHad4inw5UbxX",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Arcjet",
+        "image": "arcjet.png",
+        "color": "#000",
+        "description": "A high-performance framework for building AI-powered web applications with seamless integrations and optimizations.",
+
+        "resources": [
+          {
+            "category": "",
+            "link": "https://www.youtube.com/watch?v=ZntaiuLmyBk",
+            "type": "video"
+          }
+        ]
+      },
+
+      {
+        "name": "Tailwind CSS",
+        "image": "tailwind-css.png",
+        "color": "#37bcfa",
+        "description": "Utility-first CSS framework for modern web design."
+      },
+      {
+        "name": "Bootstrap",
+        "image": "bootstrap.png",
+        "color": "#8c14fc",
+        "description": "Popular CSS framework for responsive and mobile-first design.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbz1cgxiH5KCBsyQij1HsPtG",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "SASS",
+        "image": "sass.png",
+        "color": "#cc6699",
+        "description": "CSS preprocessor for writing maintainable and scalable styles.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbwX4_pV5V2E8q0_RAZqOOMv",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/watch?v=jfMHA8SqUL4",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Chakra UI",
+        "image": "chakra-ui.png",
+        "color": "#4cb5ab",
+        "description": "A modern, accessible, and customizable component library for building React applications with ease.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLx2Y9Sna27Xt3deeeOLqW59-mdWpUWQ0T",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Material UI",
+        "image": "material-ui.png",
+        "color": "#00adfc",
+        "description": "A popular React component library that follows Google’s Material Design principles for building elegant UIs."
+      },
+      {
+        "name": "ShadCN",
+        "image": "shadcn.png",
+        "color": "#a8a7a7",
+        "description": "A modern component library for React, built on top of Radix UI, offering beautiful and accessible design solutions.",
+
+        "resources": [
+          {
+            "category": "Advanced",
+            "link": "https://www.youtube.com/watch?v=O4AjymzpIEg",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Gsap",
+        "image": "gsap.png",
+        "color": "#8ac740",
+        "description": "GreenSock Animation Platform - A powerful JavaScript animation library for creating smooth, high-performance animations on the web.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLMPgoZdlPumexxtvuPUB3TY7LExI1N_Xp",
+            "type": "playlist"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLSkIx8U0TMvgH2PEokYLIxofdb1L9cJjz",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Frammer Motion",
+        "image": "frammer_motion.png",
+        "color": "#860dff",
+        "description": "A powerful animation library for React that enables smooth and complex UI animations with ease.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Three.js",
+        "image": "threejs.png",
+        "color": "#000",
+        "description": "JavaScript library for creating 3D graphics on the web.",
+
+        "resources": [
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLjcjAqAnHd1EIxV4FSZIiJZvsdrBc1Xho",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLTJ_bWjv6i7zjdyy3kQWY_1dADz-3n7iI",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLbu98QxRH81KkLTN00OXhD8Y-pRVgTCnM",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLWP0narTpO8n9YwsTLVO7-vbIzLELrwwS",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLpepLKamtPjiUF6PvVUbIFhx9HaS0qJs_",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLZWRFaJKWRVSgSq_yb3AQSe_KrHb2h5Eq",
+            "type": "playlist"
+          },
+          {
+            "category": "New",
+            "link": "https://www.youtube.com/playlist?list=PLjXsIhZZY9KJP9cFq9NqxTucfFCnVzRUn",
+            "type": "playlist"
+          },
+          {
+            "category": "",
+            "link": "https://www.youtube.com/playlist?list=PLTJ_bWjv6i7zjdyy3kQWY_1dADz-3n7iI",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Docker",
+        "image": "docker.png",
+        "color": "#006eb8",
+        "description": "Containerization platform for efficient application deployment.",
+
+        "resources": [
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=H8Lyj2D_cWo",
+            "type": "video"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWTJLvDP4Veld5F05rJAmOcp",
+            "type": "playlist"
+          },
+          {
+            "category": "Learn by Projects",
+            "link": "https://www.youtube.com/watch?v=rr9cI4u1_88&t=423s",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "image": "kubernetes.png",
+        "color": "#4769b3",
+        "description": "Container orchestration system for scalable applications.",
+
+        "resources": [
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=hJw8Sy13Vp8",
+            "type": "video"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/watch?v=a-nWPre5QYI",
+            "type": "video"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/watch?v=7XDeI5fyj3w",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Git",
+        "image": "git.png",
+        "color": "#de4c35",
+        "description": "Version control system for tracking code changes.",
+
+        "resources": [
+          {
+            "category": "Master Class",
+            "link": "https://www.youtube.com/watch?v=MuZySo5lF8E",
+            "type": "video"
+          },
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/playlist?list=PLRAV69dS1uWT4v4iK1h6qejyhGObFH9_o",
+            "type": "playlist"
+          },
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLJHvhC6LQuHvv9HvIZ-gxXGWfnHwIzoT_",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "GitHub",
+        "image": "github.png",
+        "color": "#292929",
+        "description": "Platform for hosting and sharing code repositories.",
+
+        "resources": [
+          {
+            "category": "Recommended",
+            "link": "https://www.youtube.com/watch?v=q8EevlEpQ2A&t=4326s",
+            "type": "video"
+          },
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=Ez8F0nW6S-w",
+            "type": "video"
+          }
+        ]
+      },
+
+      {
+        "name": "Postman",
+        "image": "postman.png",
+        "color": "#f26933",
+        "description": "A powerful API testing tool for designing, testing, and documenting RESTful and GraphQL APIs.",
+
+        "resources": [
+          {
+            "category": "for Beginners",
+            "link": "https://www.youtube.com/watch?v=_u-WgSN5ymU",
+            "type": "video"
+          }
+        ]
+      },
+
+      {
+        "name": ".NET",
+        "image": "dotnet.png",
+        "color": "#0079ba",
+        "description": "Microsoft framework for building web, desktop, and mobile applications using C#.",
+
+        "resources": [
+          {
+            "category": "C#",
+            "link": "https://youtube.com/playlist?list=PLDSXZnDE8NYWFIZWIZ1H_qZLoSfDiNRxE&si=KSaQL97zH6l5-hFh",
+            "type": "playlist"
+          },
+          {
+            "category": "ASP.NET - Web Development",
+            "link": "https://youtube.com/playlist?list=PLIY8eNdw5tW_ZQawyxK0Dd1cZXwcNFWn8&si=HoHNWvopcPHBzD-k",
+            "type": "playlist"
+          },
+          {
+            "category": "Frontend - Blazor",
+            "link": "https://youtube.com/playlist?list=PLdo4fOcmZ0oXNZX1Q8rB-5xgTSKR8qA5k&si=-gn6tqI0v3z6O4jp",
+            "type": "playlist"
+          },
+          {
+            "category": "Backend - API",
+            "link": "https://youtube.com/playlist?list=PLdo4fOcmZ0oWunQnm3WnZxJrseIw2zSAk&si=j9pnDjLVhPC4TCh5",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Ruby",
+        "image": "ruby.png",
+        "color": "#ed1520",
+        "description": "Dynamic programming language for web development."
+      },
+      {
+        "name": "Ruby on Rails",
+        "image": "ruby.png",
+        "color": "#ed1520",
+        "description": "Framework for building web applications in Ruby."
+      },
+
+      {
+        "name": "Webpack",
+        "image": "webpack.png",
+        "color": "#8ed6fa",
+        "description": "Module bundler for JavaScript applications."
+      },
+      {
+        "name": "Babel",
+        "image": "babel.png",
+        "color": "#f7db4d",
+        "description": "JavaScript compiler for next-generation JavaScript."
+      },
+      {
+        "name": "Jest",
+        "image": "jest.png",
+        "color": "#99435c",
+        "description": "Testing framework for JavaScript applications.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PL8p2I9GklV47ZpFC9sNHTXwJRgwwzdkNG",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Cypress",
+        "image": "cypress.png",
+        "color": "#59cf9d",
+        "description": "End-to-end testing framework for web applications."
+      },
+      {
+        "name": "Figma",
+        "image": "figma.png",
+        "color": "#a159ff",
+        "description": "Collaborative UI/UX design tool.",
+
+        "resources": [
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/playlist?list=PLuou2gyfaGEud03tcppC1ofbYIcIEwKfm",
+            "type": "playlist"
+          },
+          {
+            "category": "Quick",
+            "link": "https://www.youtube.com/watch?v=uQsyobT2Rv8",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Adobe XD",
+        "image": "adobexd.png",
+        "color": "#ff26be",
+        "description": "Design and prototyping tool for UI/UX."
+      },
+      {
+        "name": "Blender",
+        "image": "blender.png",
+        "color": "#e87502",
+        "description": "A free and open-source 3D creation software for modeling, animation, VFX, and game development.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/watch?v=sbCW0Cs7aI8&list=PLY_2dglfZTX8bv1Q1YTtYcDsPsbRBQf7Q&index=2",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Ethereum",
+        "image": "ethereum.png",
+        "color": "#6d7bc9",
+        "description": "Decentralized blockchain platform for smart contracts.",
+
+        "resources": [
+          {
+            "category": "Step by Step",
+            "link": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW9FmqNqug3M5ooNuRqP-alu",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "BlockChain",
+        "image": "blockchain.png",
+        "color": "#7883eb",
+        "description": "A decentralized and secure digital ledger technology used for cryptocurrencies, smart contracts, and secure transactions.",
+
+        "resources": [
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Linux",
+        "image": "linux.png",
+        "color": "#ffcd03",
+        "description": "Open-source operating system known for stability, security, and flexibility.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=J8odohybOIM",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "name": "Kali Linux",
+        "image": "kali-linux.png",
+        "color": "#2676ff",
+        "description": "Security-focused Linux distribution for penetration testing and Ethical Hacking.",
+
+        "resources": [
+          {
+            "category": "Beginner Friendly",
+            "link": "https://www.youtube.com/watch?v=B9fGYDM_TU4",
+            "type": "video"
+          },
+          {
+            "category": "Comprehensive",
+            "link": "https://www.youtube.com/playlist?list=PLwO5-rumi8A4J7h4Fm92TEC00gfZUk7ls",
+            "type": "playlist"
+          },
+          {
+            "category": "in English",
+            "link": "https://www.youtube.com/playlist?list=PLhfrWIlLOoKMe1Ue0IdeULQvEgCgQ3a1B",
+            "type": "playlist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "roadmaps": [
+      {
+        "name": "Frontend",
+        "image": "frontend.png",
+        "description": "Step-by-step guide to mastering frontend development, covering HTML, CSS, JavaScript, and modern frameworks like React, Angular, and Vue.",
+        "steps": [
+          {
+            "title": "1. Basics of Web Development",
+            "content": "Understand how websites work, client-server architecture, and the difference between frontend and backend."
+          },
+          {
+            "title": "2. Learn HTML",
+            "content": "Learn the structure of web pages, semantic HTML, and accessibility best practices.",
+
+            "roadmap": [
+              [
+                "HTML",
+                {
+                  "title": "HTML"
+                }
+              ],
+              [
+                "Advance HTML",
+                {
+                  "about": "Semantic HTML",
+                  "link": "https://www.youtube.com/watch?v=DSRMCZwM3YE",
+                  "type": "video"
+                },
+                {
+                  "about": "META Tags",
+                  "link": "https://www.youtube.com/watch?v=9F3DYxcxa4k",
+                  "type": "video"
+                },
+                {
+                  "about": "SEO Friedly HTML Guide",
+                  "link": "https://www.youtube.com/watch?v=ORazAn-Iigg",
+                  "type": "video"
+                }
+              ]
+            ]
+          },
+          {
+            "title": "3. Learn CSS",
+            "content": "Master styling web pages using CSS, including Flexbox, Grid, and responsive design."
+          },
+          {
+            "title": "4. Learn JavaScript",
+            "content": "Understand the fundamentals of JavaScript, including DOM manipulation, ES6+ features, and asynchronous programming."
+          },
+          {
+            "title": "5. Version Control (Git & GitHub)",
+            "content": "Learn Git commands, repositories, branching, and how to use GitHub for collaboration."
+          },
+          {
+            "title": "6. CSS Preprocessors & Frameworks",
+            "content": "Explore Sass, Bootstrap, and Tailwind CSS for enhanced styling capabilities."
+          },
+          {
+            "title": "7. JavaScript Advanced Concepts",
+            "content": "Learn higher-order functions, closures, event loop, and modern ES features."
+          },
+          {
+            "title": "8. JavaScript Build Tools",
+            "content": "Understand NPM, Webpack, Babel, and other tools for optimizing and managing projects."
+          },
+          {
+            "title": "9. Learn a Frontend Framework",
+            "content": "Pick a popular framework such as React, Angular, or Vue and master component-based development."
+          },
+          {
+            "title": "10. State Management",
+            "content": "Understand state management solutions like Redux, Context API, and Recoil for handling complex application states."
+          },
+          {
+            "title": "11. API Handling & AJAX",
+            "content": "Learn to fetch data using Fetch API, Axios, and work with RESTful and GraphQL APIs."
+          },
+          {
+            "title": "12. Progressive Web Apps (PWAs)",
+            "content": "Understand how to make web applications installable with service workers and offline capabilities."
+          },
+          {
+            "title": "13. Testing in Frontend",
+            "content": "Explore Jest, Cypress, and React Testing Library for writing unit and integration tests."
+          },
+          {
+            "title": "14. Performance Optimization",
+            "content": "Learn lazy loading, code splitting, and Lighthouse audits for improving website speed."
+          },
+          {
+            "title": "15. Deployment & Hosting",
+            "content": "Learn how to deploy frontend applications using Netlify, Vercel, Firebase, and GitHub Pages."
+          },
+          {
+            "title": "16. Advanced Topics",
+            "content": "Explore WebAssembly, WebRTC, Three.js for 3D graphics, and WebSockets for real-time communication."
+          },
+          {
+            "title": "17. Build Real-World Projects",
+            "content": "Create portfolio projects like a to-do app, weather app, blog, e-commerce site, and an admin dashboard."
+          },
+          {
+            "title": "18. Stay Updated",
+            "content": "Follow industry trends, read blogs, and contribute to open-source projects."
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "image": "backend.png",
+        "description": "Comprehensive roadmap for building server-side applications, focusing on databases, server frameworks, and APIs with technologies like Node.js, Python, Java, and PHP. Step-by-step guide to mastering backend development, covering programming languages, databases, authentication, and cloud deployment.",
+        "steps": [
+          {
+            "title": "1. Basics of Web Development",
+            "content": "Understand how websites work, client-server architecture, and how backend handles requests and responses."
+          },
+          {
+            "title": "2. Learn a Backend Programming Language",
+            "content": "Choose a language such as JavaScript (Node.js), Python, Java, PHP, or Go for backend development."
+          },
+          {
+            "title": "3. Learn Version Control (Git & GitHub)",
+            "content": "Master Git commands, repositories, branching, and collaborating on GitHub."
+          },
+          {
+            "title": "4. Learn HTTP & APIs",
+            "content": "Understand HTTP methods, RESTful APIs, status codes, and request-response cycles."
+          },
+          {
+            "title": "5. Learn a Backend Framework",
+            "content": "Choose a framework like Express.js (Node.js), Django/Flask (Python), Spring Boot (Java), or Laravel (PHP) to speed up development."
+          },
+          {
+            "title": "6. Learn Database Management",
+            "content": "Understand SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Firebase) databases, including CRUD operations."
+          },
+          {
+            "title": "7. Learn Authentication & Authorization",
+            "content": "Implement authentication using JWT, OAuth, and sessions to secure your applications."
+          },
+          {
+            "title": "8. Learn ORM & Database Querying",
+            "content": "Use Object-Relational Mappers (ORMs) like Sequelize (Node.js), Hibernate (Java), and Prisma (TypeScript) to interact with databases."
+          },
+          {
+            "title": "9. Caching & Performance Optimization",
+            "content": "Learn how caching works using Redis, Memcached, and optimizing database queries for faster responses."
+          },
+          {
+            "title": "10. Learn WebSockets & Real-Time Communication",
+            "content": "Implement real-time features using WebSockets, Socket.io, and SignalR for chat apps and live updates."
+          },
+          {
+            "title": "11. Message Queues & Event-Driven Architecture",
+            "content": "Understand RabbitMQ, Kafka, and AWS SQS for handling asynchronous tasks efficiently."
+          },
+          {
+            "title": "12. Learn Security Best Practices",
+            "content": "Implement security measures like data validation, input sanitization, rate limiting, and secure headers."
+          },
+          {
+            "title": "13. Testing & Debugging",
+            "content": "Write unit and integration tests using Jest, Mocha, or PyTest and debug efficiently using logs and monitoring tools."
+          },
+          {
+            "title": "14. Learn Containerization & Docker",
+            "content": "Understand how to containerize applications using Docker and manage environments efficiently."
+          },
+          {
+            "title": "15. Learn Cloud & Deployment",
+            "content": "Deploy applications on AWS, Google Cloud, or DigitalOcean, and use CI/CD pipelines with GitHub Actions or Jenkins."
+          },
+          {
+            "title": "16. Microservices & Serverless Architecture",
+            "content": "Learn microservices design, API gateways, and serverless computing with AWS Lambda or Firebase Functions."
+          },
+          {
+            "title": "17. Build Real-World Projects",
+            "content": "Create portfolio projects like an authentication system, blog API, e-commerce backend, or chat application.",
+
+            "roadmap": [
+              [
+                "Projects",
+                {
+                  "about": "Backend Project Ideas",
+                  "link": "https://www.youtube.com/watch?v=3-sV2z_rouY",
+                  "type": "video"
+                }
+              ]
+            ]
+          },
+          {
+            "title": "18. Stay Updated",
+            "content": "Follow industry blogs, contribute to open-source, and learn new backend technologies."
+          }
+        ],
+        "resources": [
+          {
+            "category": "Complete Backend",
+            "link": "https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW",
+            "type": "playlist"
+          }
+        ]
+      },
+      {
+        "name": "Full Stack",
+        "image": "full-stack.png",
+        "description": "A complete guide to mastering both frontend and backend development, including deployment, testing, and project management."
+      },
+      {
+        "name": "UX Design",
+        "image": "ui-ux.png",
+        "description": "Roadmap to understanding user experience design, including research, wireframing, prototyping, and tools like Figma and Adobe XD."
+      },
+      {
+        "name": "App Development",
+        "image": "appdev.png",
+        "description": "Roadmap for creating mobile applications using native technologies like Kotlin and Swift, as well as cross-platform tools like Flutter and React Native."
+      },
+      {
+        "name": "Android",
+        "image": "android.png",
+        "description": "Learn to build Android applications using Java, Kotlin, and Android Studio, covering everything from UI design to app deployment."
+      },
+      {
+        "name": "iOS",
+        "image": "ios.png",
+        "description": "Step-by-step guide to developing iOS applications using Swift, Xcode, and Apple's guidelines for app design and deployment."
+      },
+      {
+        "name": "Game Development",
+        "image": "gamedev.png",
+        "description": "Learn to create games using popular engines like Unity and Unreal Engine, covering game design, mechanics, and monetization."
+      },
+      {
+        "name": "Data Analyst",
+        "image": "data-analyst.png",
+        "description": "Roadmap to becoming a data analyst, focusing on data visualization, SQL, Excel, Python, and tools like Tableau and Power BI."
+      },
+      {
+        "name": "AI-ML",
+        "image": "ai.png",
+        "description": "Comprehensive roadmap for mastering Artificial Intelligence and Machine Learning, from math fundamentals and Python to deep learning, NLP, and MLOps.",
+        "steps": [
+          {
+            "title": "1. Programming & Math Foundations",
+            "content": "Master Python programming and essential mathematics like linear algebra, calculus, and statistics for ML."
+          },
+          {
+            "title": "2. Core Machine Learning Concepts",
+            "content": "Understand supervised vs unsupervised learning, key ML algorithms, model evaluation, and overfitting/underfitting."
+          },
+          {
+            "title": "3. Model Development & Engineering",
+            "content": "Work with libraries like Scikit-learn, perform feature engineering, cross-validation, and hyperparameter tuning."
+          },
+          {
+            "title": "4. Deep Learning Fundamentals",
+            "content": "Dive into neural networks, activation/loss functions, optimization techniques, and core frameworks like TensorFlow and PyTorch."
+          },
+          {
+            "title": "5. Advanced Deep Learning",
+            "content": "Learn CNNs, RNNs, LSTM, GANs, and Transformers with practical use cases in vision and NLP."
+          },
+          {
+            "title": "6. Natural Language Processing (NLP)",
+            "content": "Build systems for text classification, embeddings, BERT, and HuggingFace Transformers."
+          },
+          {
+            "title": "7. Computer Vision",
+            "content": "Implement object detection, classification, and segmentation using OpenCV and deep learning."
+          },
+          {
+            "title": "8. Projects & Use Cases",
+            "content": "Apply your skills to build real-world projects like chatbots, recommendation systems, and image classifiers."
+          },
+          {
+            "title": "9. AI Tools & Ecosystem",
+            "content": "Explore tools like Jupyter, Colab, MLFlow, WandB, LangChain, and OpenAI API."
+          },
+          {
+            "title": "10. MLOps & Deployment",
+            "content": "Learn model packaging, deployment with Flask/FastAPI, Docker, Streamlit, CI/CD, and AWS Sagemaker."
+          },
+          {
+            "title": "11. Modern AI Paradigms",
+            "content": "Understand Generative AI, Agentic AI, Explainable AI, and Edge AI, and their real-world applications."
+          },
+          {
+            "title": "12. Specialization Paths",
+            "content": "Explore career tracks such as Data Science, NLP Engineer, Computer Vision Engineer, ML Engineer, or AI Researcher."
+          }
+        ]
+      },
+      {
+        "name": "MLOps",
+        "image": "ml-ops.png",
+        "description": "Learn to streamline machine learning operations, including model deployment, monitoring, and scaling with tools like Kubernetes and Docker."
+      },
+      {
+        "name": "CyberSecurity",
+        "image": "cybersecurity.png",
+        "description": "Roadmap to mastering cybersecurity concepts like network security, ethical hacking, and tools like Kali Linux and Wireshark."
+      },
+      {
+        "name": "DevOps",
+        "image": "dev-ops.png",
+        "description": "Comprehensive guide to automating and improving software development workflows with tools like Jenkins, Docker, Kubernetes, and AWS."
+      },
+      {
+        "name": "BlockChain",
+        "image": "blockchain.png",
+        "description": "Step-by-step guide to understanding blockchain technology, including smart contracts, cryptocurrencies, and platforms like Ethereum and Hyperledger."
+      }
+    ]
+  }
+]
